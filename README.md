@@ -4,7 +4,9 @@ Cesium 地图接入京山 CIM 的影像、建筑白模、道路面、行政区�
 
 ## 多人和 AI 协作
 
-首次获取项目运行 `git clone https://github.com/duanmuyeye/tennis_jingshan.git`，进入 `tennis_jingshan` 后按下方步骤启动。私有仓库需要使用已获授权的 GitHub 账号。
+本仓库是一个项目组，同一套后端下承载三个端：**一张图**（`apps/one-map`）、**管理后台**（`apps/admin-console`）、**公众端**（`apps/public-portal`）。目录职责、共享层约束与新增端的步骤见 [项目组结构](ARCHITECTURE.md)。
+
+首次获取项目运行 `git clone https://github.com/xiaob22838-dev/jingshan-digital-twin.git`，进入 `jingshan-digital-twin` 后按下方步骤启动。
 
 每项任务从最新的 `origin/main` 建立单独分支。同一台电脑并行编辑时可以使用独立克隆或 `git worktree`。下面的命令创建一个调整企业名录的分支。
 
@@ -23,7 +25,7 @@ git switch -c feature/enterprise-directory origin/main
 
 源码包首次安装时，使用 Node.js 24 和 PostgreSQL for Windows。将 PostgreSQL 的 `bin` 目录加入 PATH，或设置 `PG_BIN` 指向该目录。在项目目录运行 `npm.cmd ci` 安装依赖。
 
-双击 `Start-Dev.cmd`，或运行 `npm.cmd run dev`，然后打开 [京山一张图](http://127.0.0.1:5173/)。此前的 [湖北产业链大屏](http://127.0.0.1:5173/hubei.html) 仍可单独打开。
+双击 `Start-Dev.cmd`，或运行 `npm.cmd run dev`，然后打开 [京山一张图](http://127.0.0.1:5173/apps/one-map/)。此前的 [湖北产业链大屏](http://127.0.0.1:5173/apps/one-map/hubei.html) 仍可单独打开。旧地址 `/` 与 `/hubei.html` 会自动跳转到新地址。
 
 前端端口为 5173，API 端口为 3001。项目会初始化本机 PostgreSQL 实例（端口 55432，数据库 `web_screen_dev`）。业务数据和发布历史存放在 `.local/pgdata`。Ctrl+C 可停止前端和 API，运行 `npm.cmd run db:stop` 可停止项目数据库。
 
@@ -40,7 +42,7 @@ git switch -c feature/enterprise-directory origin/main
 
 ## 时空大数据管理平台
 
-驾驶舱右上角菜单可打开独立后台。开发入口为 [时空大数据管理平台](http://127.0.0.1:5173/admin/)。后台与驾驶舱共用 PostgreSQL。
+驾驶舱右上角菜单可打开独立后台。开发入口为 [时空大数据管理平台](http://127.0.0.1:5173/apps/admin-console/)，[工作区版后台](http://127.0.0.1:5173/apps/admin-console/workspace/) 与之并存。后台与驾驶舱共用 PostgreSQL。公众端骨架位于 [公众端](http://127.0.0.1:5173/apps/public-portal/)，模块待开发。
 
 - **资源目录**可检索空间数据、业务表单和地图服务，切换卡片或列表，按目录和协议筛选。可以创建多级专题，将同一资源纳入多个专题，并设置访客目录可见性。收藏保存在当前浏览器。资源卡片封面用于识别类型，进入地图预览可读取图层的实际内容。
 - **空间数据与地图服务**支持编辑记录、导入预检、检查位置和字段、接入及检测服务。内部托管的空间数据随版本发布，可通过 `GET /api/jingshan/layers/{数据集ID}/features.geojson` 访问。服务实例的状态和地址在「服务管理」维护，停用或移除前可查看已发布版和草稿的场景引用。接入外部 GeoJSON 或 ArcGIS FeatureServer 时，在 `CIM_FEATURE_ORIGINS` 中登记可信来源。FeatureServer 使用支持 Query、数字对象编号和 WGS84 GeoJSON 输出的单个图层地址。
