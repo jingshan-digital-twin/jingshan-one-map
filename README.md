@@ -6,7 +6,7 @@ Cesium 地图接入京山 CIM 的影像、建筑白模、道路面、行政区�
 
 本仓库是一张图端，同时承担整个项目组的**唯一后端**：`server/` 提供全部 HTTP 接口，`src/jingshan/*.ts` 是与后端共用的领域逻辑。公众端与管理后台是独立的仓库，放在同一个 GitHub 组织下，各自克隆、各自部署，通过 `/api` 访问本仓库的后端。仓库间关系见 [项目组结构](ARCHITECTURE.md)。
 
-首次获取项目运行 `git clone https://github.com/xiaob22838-dev/jingshan-digital-twin.git`，进入目录后按下方步骤启动。
+首次获取项目运行 `git clone https://github.com/jingshan-digital-twin/jingshan-one-map.git`，进入目录后按下方步骤启动。
 
 每项任务从最新的 `origin/main` 建立单独分支。同一台电脑并行编辑时可以使用独立克隆或 `git worktree`。下面的命令创建一个调整企业名录的分支。
 
