@@ -114,23 +114,6 @@ app.post('/api/projects/:id/publish', async (req, res) => {
 
 if (serveDist) {
   app.use('/api', (_req, res) => { res.status(404).json({ error: '接口不存在。' }); });
-  // 各端入口已迁入 apps/<app>/，旧地址保持可达。
-  const legacyEntries: Record<string, string> = {
-    '/': '/apps/one-map/',
-    '/index.html': '/apps/one-map/',
-    '/hubei.html': '/apps/one-map/hubei.html',
-    '/admin': '/apps/admin-console/',
-    '/admin/': '/apps/admin-console/',
-    '/admin/index.html': '/apps/admin-console/',
-    '/workspace': '/apps/admin-console/workspace/',
-    '/workspace/': '/apps/admin-console/workspace/',
-    '/workspace/index.html': '/apps/admin-console/workspace/',
-  };
-  app.use((req, res, next) => {
-    const target = legacyEntries[req.path];
-    if (!target) { next(); return; }
-    res.redirect(302, target);
-  });
   app.use(express.static(fileURLToPath(new URL('../dist/', import.meta.url)), {
     setHeaders(res, path) {
       if (path.endsWith('.html')) res.set('Cache-Control', 'no-cache');

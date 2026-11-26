@@ -1,49 +1,31 @@
 # 项目组结构
 
-`jingshan-digital-twin` 是一个项目组仓库，同一套后端与共享领域代码下承载多个端。
+整个项目由三个独立仓库组成，放在同一个 GitHub 组织下，各自克隆、各自部署。
 
-```
-apps/                  各端的入口与界面代码
-  one-map/             一张图（京山网球产业一张图 + 湖北产业链演示页）
-    index.html         入口，访问 /apps/one-map/
-    hubei.html         湖北产业链演示页，访问 /apps/one-map/hubei.html
-  admin-console/       管理后台
-    index.html         平台后台，访问 /apps/admin-console/
-    workspace/         工作区版后台，访问 /apps/admin-console/workspace/
-  public-portal/       公众端（骨架就绪，模块待开发）
-    index.html         访问 /apps/public-portal/
-    src/               入口与页面代码
-src/                   共享层
-  jingshan/*.ts        领域模型、校验、分析、CIM 类型等，前后端共用
-  jingshan/*.vue       现阶段各端界面组件（历史沉淀，按需下沉到 apps/<app>/src）
-server/                统一后端 Express + PostgreSQL，所有端共用
-public/                静态资源与地图数据，所有端共用
-scripts/               数据库初始化、种子与发布脚本
-```
-
-## 关键约束
-
-1. **`src/jingshan/*.ts` 是前后端共享层，不是一张图专属。** `server/` 与 `scripts/` 有 100+ 处直接 import，Dockerfile 运行阶段也单独 COPY 这批文件。不要把它整体搬进 `apps/`，也不要在其中写只有某个端才需要的界面逻辑。
-2. **新端的界面代码放 `apps/<app>/src/`**，通过相对路径引用 `src/jingshan/*.ts` 的领域函数，不要复制一份。
-3. **后端只保留一套** `server/`，各端通过 `/api` 访问；新增接口按业务模块拆文件，不要按端拆。
-4. 各端共用一套 Vite 构建与 `public/`，因此地图资源、Cesium 只加载一份。
-
-## 新增一个端
-
-1. 建目录 `apps/<app>/`，放 `index.html`，脚本用 `<script type="module" src="./src/main.ts">`。
-2. 写 `apps/<app>/src/main.ts` 与根组件。
-3. 在 `vite.config.ts` 的 `build.rolldownOptions.input` 里加一条入口。
-4. 若需保留可读路径，在 `vite.config.ts` 的 `legacyEntryRedirects` 与 `server/index.ts` 的 `legacyEntries` 里加映射。
-5. 在 `Dockerfile` 的 build 阶段确认 `COPY apps ./apps`（已覆盖，无需改动）。
-
-## 访问地址
-
-| 端 | 开发地址 | 构建产物 |
+| 仓库 | 职责 | 状态 |
 |---|---|---|
-| 一张图 | http://127.0.0.1:5173/apps/one-map/ | `dist/apps/one-map/index.html` |
-| 湖北产业链 | http://127.0.0.1:5173/apps/one-map/hubei.html | `dist/apps/one-map/hubei.html` |
-| 管理后台 | http://127.0.0.1:5173/apps/admin-console/ | `dist/apps/admin-console/index.html` |
-| 工作区后台 | http://127.0.0.1:5173/apps/admin-console/workspace/ | `dist/apps/admin-console/workspace/index.html` |
-| 公众端 | http://127.0.0.1:5173/apps/public-portal/ | `dist/apps/public-portal/index.html` |
+| `one-map` | 一张图大屏 + **全组唯一后端** | 本仓库 |
+| `public-portal` | 公众端：场馆预约、赛事资讯、产业招商 | 待创建 |
+| `admin-console` | 管理后台：数据中台、发布与运营 | 待创建 |
 
-旧地址 `/`、`/admin/`、`/workspace/`、`/hubei.html` 会 302 跳转到对应新地址，开发与生产环境均已处理。
+## 为什么后端留在本仓库
+
+`server/` 与 `src/jingshan/*.ts` 是一套完整的前后端共用领域层：后端 107 个文件直接引用领域逻辑，Dockerfile 运行阶段也单独拷贝这批文件。拆成独立仓库会立刻产生两份需要同步的代码，所以后端只保留一份，放在本仓库。
+
+另外两个端通过 HTTP 访问本仓库的后端，只依赖 `/api` 契约，不引用本仓库源码：
+
+- 前端基址通过环境变量配置，开发时用 Vite 代理转发 `/api` 到后端端口（默认 `3001`）。
+- 生产环境由本仓库的后端统一提供服务，或在各自仓库的静态托管上做 `/api` 反向代理。
+- 接口或数据结构有变化时，先在本仓库改并提交，再通知另外两个端跟进。
+
+## 本仓库内仍需注意
+
+- `src/jingshan/*.ts` 是共享领域层，不是一张图专属。改这里等于改全组契约，务必跑 `npm run build` 并在 PR 描述里写明影响面。
+- `admin/` 与 `workspace/` 是**旧管理后台**，暂时留在本仓库与驾驶舱共用组件。新管理后台仓库建好后，这两块再逐步迁出；迁出完成前不要在两处各写一份相同逻辑。
+- 一张图的入口是根目录 `index.html`，湖北产业链演示页是 `hubei.html`，两者共用 `src/`。
+
+## 协作规则
+
+1. 任务按仓库拆分支：`feat/xxx`、`fix/xxx`，从各自仓库最新的 `main` 切出。
+2. 涉及接口变更的任务，需要两个仓库各一个 PR，先合本仓库。
+3. 三个仓库的 `main` 保持可构建：提交前跑 `npm run build`。

@@ -51,37 +51,8 @@ function localNetworkAccess(): Plugin {
   };
 }
 
-// 三个端各有独立入口目录，旧地址（/、/admin/、/workspace/、/hubei.html）仍需可达。
-const legacyEntryRedirects: Record<string, string> = {
-  '/': '/apps/one-map/',
-  '/index.html': '/apps/one-map/',
-  '/hubei.html': '/apps/one-map/hubei.html',
-  '/admin': '/apps/admin-console/',
-  '/admin/': '/apps/admin-console/',
-  '/admin/index.html': '/apps/admin-console/',
-  '/workspace': '/apps/admin-console/workspace/',
-  '/workspace/': '/apps/admin-console/workspace/',
-  '/workspace/index.html': '/apps/admin-console/workspace/',
-};
-
-function entryRedirects(): Plugin {
-  return {
-    name: 'jingshan-entry-redirects',
-    apply: 'serve',
-    configureServer(server) {
-      server.middlewares.use((request, response, next) => {
-        const path = (request.url ?? '').split('?')[0];
-        const target = legacyEntryRedirects[path];
-        if (!target) return next();
-        response.writeHead(302, { Location: target + (request.url ?? '').slice(path.length) });
-        response.end();
-      });
-    },
-  };
-}
-
 export default defineConfig({
-  plugins: [vue(), localNetworkAccess(), entryRedirects()],
+  plugins: [vue(), localNetworkAccess()],
   optimizeDeps: { include: [
     'ol/Map.js','ol/View.js','ol/format/GeoJSON.js','ol/Feature.js','ol/geom/Point.js','ol/source/Vector.js','ol/layer/Vector.js',
     'ol/geom/LineString.js','ol/geom/Polygon.js',
@@ -91,14 +62,10 @@ export default defineConfig({
   build: {
     rolldownOptions: {
       input: {
-        // 一张图
-        oneMap: fileURLToPath(new URL('./apps/one-map/index.html', import.meta.url)),
-        hubei: fileURLToPath(new URL('./apps/one-map/hubei.html', import.meta.url)),
-        // 管理后台（admin 为平台后台，workspace 为工作区版）
-        admin: fileURLToPath(new URL('./apps/admin-console/index.html', import.meta.url)),
-        workspace: fileURLToPath(new URL('./apps/admin-console/workspace/index.html', import.meta.url)),
-        // 公众端
-        publicPortal: fileURLToPath(new URL('./apps/public-portal/index.html', import.meta.url)),
+        jingshan: fileURLToPath(new URL('./index.html', import.meta.url)),
+        admin: fileURLToPath(new URL('./admin/index.html', import.meta.url)),
+        workspace: fileURLToPath(new URL('./workspace/index.html', import.meta.url)),
+        hubei: fileURLToPath(new URL('./hubei.html', import.meta.url)),
       },
     },
   },

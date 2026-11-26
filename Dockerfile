@@ -4,8 +4,9 @@ COPY package.json package-lock.json ./
 RUN npm ci --no-audit --no-fund
 
 FROM dependencies AS build
-COPY vite.config.ts tsconfig.json ./
-COPY apps ./apps
+COPY index.html hubei.html vite.config.ts tsconfig.json ./
+COPY admin/index.html ./admin/index.html
+COPY workspace/index.html ./workspace/index.html
 COPY src ./src
 COPY server ./server
 COPY scripts/cesium-assets.mjs ./scripts/cesium-assets.mjs
