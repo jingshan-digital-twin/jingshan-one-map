@@ -1,0 +1,3671 @@
+[
+  {
+    "id": "charging",
+    "name": "京源充电站",
+    "department": "京山京源资产经营管理有限公司",
+    "category": "交通配套",
+    "description": "京山京源充电站信息，按站点编号建点。沿用原表经纬度，坐标系未注明。充电枪数量为登记数。",
+    "features": [
+      {
+        "type": "Feature",
+        "id": "jy-station-202611120021",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.069465,
+            31.108747
+          ]
+        },
+        "properties": {
+          "name": "小花苑村充电站",
+          "region": "孙桥镇",
+          "kind": "charging",
+          "sample": false,
+          "stationCode": "202611120021",
+          "siteType": "居民区",
+          "chargeType": "直流充电站",
+          "completedOn": "2026-11-12",
+          "commissionedOn": "2026-11-16",
+          "gunCount": 2,
+          "gunPowerKw": "60",
+          "totalPowerKw": 120,
+          "assetOwner": "京山京源资产经营管理有限公司",
+          "address": "湖北省荆门市京山市小花苑村",
+          "sourceCoordinates": "113.069465,31.108747",
+          "locationSource": "原表经纬度（坐标系未注明）",
+          "recordSource": "京山京源充电站信息 · 站点信息",
+          "sourceRow": 2,
+          "tariffGroup": "京源充电"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "jy-station-202611110073",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            112.976793,
+            30.824009
+          ]
+        },
+        "properties": {
+          "name": "京山南站充电站",
+          "region": "雁门口镇",
+          "kind": "charging",
+          "sample": false,
+          "stationCode": "202611110073",
+          "siteType": "交通枢纽",
+          "chargeType": "直流充电站",
+          "completedOn": "2026-11-11",
+          "gunCount": 16,
+          "gunPowerKw": "60",
+          "totalPowerKw": 960,
+          "assetOwner": "京山京源资产经营管理有限公司",
+          "address": "湖北省荆门市京山市雁门口镇鸿雁大道与雁西路交叉口",
+          "sourceCoordinates": "112.976793,30.824009",
+          "locationSource": "原表经纬度（坐标系未注明）",
+          "recordSource": "京山京源充电站信息 · 站点信息",
+          "sourceRow": 3,
+          "tariffGroup": "京源充电"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "jy-station-202610310032",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.007487,
+            31.090479
+          ]
+        },
+        "properties": {
+          "name": "对节白蜡旅游区慢充站",
+          "region": "孙桥镇",
+          "kind": "charging",
+          "sample": false,
+          "stationCode": "202610310032",
+          "siteType": "公共机构",
+          "chargeType": "交流充电站",
+          "completedOn": "2026-10-31",
+          "commissionedOn": "2026-11-10",
+          "gunCount": 4,
+          "gunPowerKw": "7",
+          "totalPowerKw": 28,
+          "assetOwner": "京山京源资产经营管理有限公司",
+          "address": "湖北省荆门市京山市孙桥镇青树岭村",
+          "sourceCoordinates": "113.007487,31.090479",
+          "locationSource": "原表经纬度（坐标系未注明）",
+          "recordSource": "京山京源充电站信息 · 站点信息",
+          "sourceRow": 4,
+          "tariffGroup": "京源充电"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "jy-station-202610300069",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.130114,
+            30.993613
+          ]
+        },
+        "properties": {
+          "name": "京山市人民医院(新院区)超充站",
+          "region": "温泉街道",
+          "kind": "charging",
+          "sample": false,
+          "stationCode": "202610300069",
+          "siteType": "公共机构",
+          "chargeType": "直流充电站",
+          "completedOn": "2026-10-30",
+          "commissionedOn": "2026-11-11",
+          "gunCount": 12,
+          "gunPowerKw": "60",
+          "totalPowerKw": 720,
+          "assetOwner": "京山京源资产经营管理有限公司",
+          "address": "湖北省荆门市京山市惠山大道166号",
+          "sourceCoordinates": "113.130114,30.993613",
+          "locationSource": "原表经纬度（坐标系未注明）",
+          "recordSource": "京山京源充电站信息 · 站点信息",
+          "sourceRow": 5,
+          "tariffGroup": "京源充电"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "jy-station-202607290020",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.23786,
+            30.955293
+          ]
+        },
+        "properties": {
+          "name": "京山永兴重卡充电站",
+          "region": "永兴街道",
+          "kind": "charging",
+          "sample": false,
+          "stationCode": "202607290020",
+          "siteType": "大型建筑配建停车场",
+          "chargeType": "直流充电站",
+          "completedOn": "2026-07-29",
+          "commissionedOn": "2026-08-06",
+          "gunCount": 8,
+          "gunPowerKw": "150",
+          "totalPowerKw": 1200,
+          "assetOwner": "京山京源资产经营管理有限公司",
+          "address": "湖北省荆门市京山市永兴街道永兴村",
+          "sourceCoordinates": "113.237860,30.955293",
+          "locationSource": "原表经纬度（坐标系未注明）",
+          "recordSource": "京山京源充电站信息 · 站点信息",
+          "sourceRow": 6,
+          "tariffGroup": "京源充电"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "jy-station-202607200032",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.145815,
+            30.992353
+          ]
+        },
+        "properties": {
+          "name": "网球学校充电站",
+          "region": "温泉街道",
+          "kind": "charging",
+          "sample": false,
+          "stationCode": "202607200032",
+          "siteType": "大型文体设施",
+          "chargeType": "直流充电站",
+          "completedOn": "2026-07-20",
+          "commissionedOn": "2026-08-21",
+          "gunCount": 8,
+          "gunPowerKw": "60",
+          "totalPowerKw": 480,
+          "assetOwner": "京山京源资产经营管理有限公司",
+          "address": "湖北省荆门市京山市湖北省京山市网球学校停车场",
+          "sourceCoordinates": "113.145815,30.992353",
+          "locationSource": "原表经纬度（坐标系未注明）",
+          "recordSource": "京山京源充电站信息 · 站点信息",
+          "sourceRow": 7,
+          "tariffGroup": "京源充电"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "jy-station-202607200031",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.130798,
+            31.032696
+          ]
+        },
+        "properties": {
+          "name": "丹桂花卉城充电站",
+          "region": "永兴街道",
+          "kind": "charging",
+          "sample": false,
+          "stationCode": "202607200031",
+          "siteType": "大型文体设施",
+          "chargeType": "直流充电站",
+          "completedOn": "2026-07-20",
+          "commissionedOn": "2026-08-19",
+          "gunCount": 8,
+          "gunPowerKw": "60",
+          "totalPowerKw": 480,
+          "assetOwner": "京山京源资产经营管理有限公司",
+          "address": "湖北省荆门市京山市丹桂花卉城停车场",
+          "sourceCoordinates": "113.130798,31.032696",
+          "locationSource": "原表经纬度（坐标系未注明）",
+          "recordSource": "京山京源充电站信息 · 站点信息",
+          "sourceRow": 8,
+          "tariffGroup": "京源充电"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "jy-station-202607200030",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.121639,
+            31.037667
+          ]
+        },
+        "properties": {
+          "name": "绀弩公园充电站",
+          "region": "新市街道",
+          "kind": "charging",
+          "sample": false,
+          "stationCode": "202607200030",
+          "siteType": "大型文体设施",
+          "chargeType": "直流充电站",
+          "completedOn": "2026-07-20",
+          "commissionedOn": "2026-08-20",
+          "gunCount": 8,
+          "gunPowerKw": "60",
+          "totalPowerKw": 480,
+          "assetOwner": "京山京源资产经营管理有限公司",
+          "address": "湖北省荆门市京山市绀弩公园停车场",
+          "sourceCoordinates": "113.121639,31.037667",
+          "locationSource": "原表经纬度（坐标系未注明）",
+          "recordSource": "京山京源充电站信息 · 站点信息",
+          "sourceRow": 9,
+          "tariffGroup": "京源充电"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "jy-station-202607200029",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.122251,
+            31.013178
+          ]
+        },
+        "properties": {
+          "name": "文峰公园充电站",
+          "region": "温泉街道",
+          "kind": "charging",
+          "sample": false,
+          "stationCode": "202607200029",
+          "siteType": "大型文体设施",
+          "chargeType": "直流充电站",
+          "completedOn": "2026-07-20",
+          "commissionedOn": "2026-08-20",
+          "gunCount": 8,
+          "gunPowerKw": "60",
+          "totalPowerKw": 480,
+          "assetOwner": "京山京源资产经营管理有限公司",
+          "address": "湖北省荆门市京山市文峰公园停车场",
+          "sourceCoordinates": "113.122251,31.013178",
+          "locationSource": "原表经纬度（坐标系未注明）",
+          "recordSource": "京山京源充电站信息 · 站点信息",
+          "sourceRow": 10,
+          "tariffGroup": "京源充电"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "jy-station-202607200028",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.116822,
+            30.993341
+          ]
+        },
+        "properties": {
+          "name": "自然生态公园充电站",
+          "region": "温泉街道",
+          "kind": "charging",
+          "sample": false,
+          "stationCode": "202607200028",
+          "siteType": "大型文体设施",
+          "chargeType": "直流充电站",
+          "completedOn": "2026-07-20",
+          "commissionedOn": "2026-08-20",
+          "gunCount": 8,
+          "gunPowerKw": "60",
+          "totalPowerKw": 480,
+          "assetOwner": "京山京源资产经营管理有限公司",
+          "address": "湖北省荆门市京山市自然生态公园停车场",
+          "sourceCoordinates": "113.116822,30.993341",
+          "locationSource": "原表经纬度（坐标系未注明）",
+          "recordSource": "京山京源充电站信息 · 站点信息",
+          "sourceRow": 11,
+          "tariffGroup": "京源充电"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "jy-station-202607200026",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.194045,
+            30.983414
+          ]
+        },
+        "properties": {
+          "name": "京山市民之家充电站",
+          "region": "永兴街道",
+          "kind": "charging",
+          "sample": false,
+          "stationCode": "202607200026",
+          "siteType": "企事业单位",
+          "chargeType": "直流充电站",
+          "completedOn": "2026-07-20",
+          "commissionedOn": "2026-08-21",
+          "gunCount": 8,
+          "gunPowerKw": "60",
+          "totalPowerKw": 480,
+          "assetOwner": "京山京源资产经营管理有限公司",
+          "address": "湖北省荆门市京山市京山市市民之家停车场",
+          "sourceCoordinates": "113.194045,30.983414",
+          "locationSource": "原表经纬度（坐标系未注明）",
+          "recordSource": "京山京源充电站信息 · 站点信息",
+          "sourceRow": 12,
+          "tariffGroup": "京源充电"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "jy-station-202607200025",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.104845,
+            30.909203
+          ]
+        },
+        "properties": {
+          "name": "京山南高速口充电站",
+          "region": "钱场镇",
+          "kind": "charging",
+          "sample": false,
+          "stationCode": "202607200025",
+          "siteType": "交通枢纽",
+          "chargeType": "直流充电站",
+          "completedOn": "2026-07-20",
+          "commissionedOn": "2026-08-20",
+          "gunCount": 8,
+          "gunPowerKw": "60",
+          "totalPowerKw": 480,
+          "assetOwner": "京山京源资产经营管理有限公司",
+          "address": "湖北省荆门市京山市京山南高速口停车场",
+          "sourceCoordinates": "113.104845,30.909203",
+          "locationSource": "原表经纬度（坐标系未注明）",
+          "recordSource": "京山京源充电站信息 · 站点信息",
+          "sourceRow": 13,
+          "tariffGroup": "京源充电"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "jy-station-202605220028",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.098317,
+            30.873482
+          ]
+        },
+        "properties": {
+          "name": "钱场镇吴堰岭村慢充站",
+          "region": "钱场镇",
+          "kind": "charging",
+          "sample": false,
+          "stationCode": "202605220028",
+          "siteType": "居民区",
+          "chargeType": "交流充电站",
+          "completedOn": "2026-05-22",
+          "commissionedOn": "2026-06-01",
+          "gunCount": 3,
+          "gunPowerKw": "7",
+          "totalPowerKw": 21,
+          "assetOwner": "京山京源资产经营管理有限公司",
+          "address": "湖北省荆门市京山市钱场镇吴堰岭村",
+          "sourceCoordinates": "113.098317,30.873482",
+          "locationSource": "原表经纬度（坐标系未注明）",
+          "recordSource": "京山京源充电站信息 · 站点信息",
+          "sourceRow": 14,
+          "tariffGroup": "京源充电"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "jy-station-202604010004",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.125041,
+            30.986033
+          ]
+        },
+        "properties": {
+          "name": "京源实验学校充电站",
+          "region": "温泉街道",
+          "kind": "charging",
+          "sample": false,
+          "stationCode": "202604010004",
+          "siteType": "大型建筑配建停车场",
+          "chargeType": "直流充电站",
+          "completedOn": "2026-04-01",
+          "commissionedOn": "2026-04-01",
+          "gunCount": 8,
+          "gunPowerKw": "60",
+          "totalPowerKw": 480,
+          "assetOwner": "京山京源资产经营管理有限公司",
+          "address": "京山市南环线京山京源实验学校",
+          "sourceCoordinates": "113.125041,30.986033",
+          "locationSource": "原表经纬度（坐标系未注明）",
+          "recordSource": "京山京源充电站信息 · 站点信息",
+          "sourceRow": 15,
+          "tariffGroup": "京源充电"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "jy-station-202602060032",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.145502,
+            30.972223
+          ]
+        },
+        "properties": {
+          "name": "天沐温泉酒店停车场慢充站",
+          "region": "温泉街道",
+          "kind": "charging",
+          "sample": false,
+          "stationCode": "202602060032",
+          "siteType": "大型文体设施",
+          "chargeType": "交流充电站",
+          "completedOn": "2026-02-06",
+          "commissionedOn": "2026-02-09",
+          "gunCount": 4,
+          "gunPowerKw": "7",
+          "totalPowerKw": 28,
+          "assetOwner": "京山京源资产经营管理有限公司",
+          "address": "荆门市京山市温泉路32号（天沐温泉酒店）",
+          "sourceCoordinates": "113.145502,30.972223",
+          "locationSource": "原表经纬度（坐标系未注明）",
+          "recordSource": "京山京源充电站信息 · 站点信息",
+          "sourceRow": 16,
+          "tariffGroup": "京源充电"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "jy-station-202602020045",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.121145,
+            31.01044
+          ]
+        },
+        "properties": {
+          "name": "数码广场停车场充电站",
+          "region": "温泉街道",
+          "kind": "charging",
+          "sample": false,
+          "stationCode": "202602020045",
+          "siteType": "公共机构",
+          "chargeType": "直流充电站",
+          "completedOn": "2026-02-02",
+          "commissionedOn": "2026-02-11",
+          "gunCount": 8,
+          "gunPowerKw": "60",
+          "totalPowerKw": 480,
+          "assetOwner": "京山京源资产经营管理有限公司",
+          "address": "湖北省荆门市京山市新市大道京山数码传媒广场",
+          "sourceCoordinates": "113.121145,31.010440",
+          "locationSource": "原表经纬度（坐标系未注明）",
+          "recordSource": "京山京源充电站信息 · 站点信息",
+          "sourceRow": 17,
+          "tariffGroup": "京源充电"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "jy-station-202602020043",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.115694,
+            31.038217
+          ]
+        },
+        "properties": {
+          "name": "钰源城门前停车场充电站",
+          "region": "新市街道",
+          "kind": "charging",
+          "sample": false,
+          "stationCode": "202602020043",
+          "siteType": "公共机构",
+          "chargeType": "直流充电站",
+          "completedOn": "2026-02-02",
+          "commissionedOn": "2026-02-12",
+          "gunCount": 8,
+          "gunPowerKw": "60",
+          "totalPowerKw": 480,
+          "assetOwner": "京山京源资产经营管理有限公司",
+          "address": "湖北省荆门市京山市绿林路钰源城小区正南方向",
+          "sourceCoordinates": "113.115694,31.038217",
+          "locationSource": "原表经纬度（坐标系未注明）",
+          "recordSource": "京山京源充电站信息 · 站点信息",
+          "sourceRow": 18,
+          "tariffGroup": "京源充电"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "jy-station-202602020042",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.132285,
+            31.031565
+          ]
+        },
+        "properties": {
+          "name": "九州大酒店停车场充电站",
+          "region": "永兴街道",
+          "kind": "charging",
+          "sample": false,
+          "stationCode": "202602020042",
+          "siteType": "公共机构",
+          "chargeType": "直流充电站",
+          "completedOn": "2026-02-02",
+          "commissionedOn": "2026-02-12",
+          "gunCount": 8,
+          "gunPowerKw": "60",
+          "totalPowerKw": 480,
+          "assetOwner": "京山京源资产经营管理有限公司",
+          "address": "湖北省荆门市京山市新阳大道与胜利路交叉口（九州大酒店）",
+          "sourceCoordinates": "113.132285,31.031565",
+          "locationSource": "原表经纬度（坐标系未注明）",
+          "recordSource": "京山京源充电站信息 · 站点信息",
+          "sourceRow": 19,
+          "tariffGroup": "京源充电"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "jy-station-202602020041",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.145502,
+            30.972223
+          ]
+        },
+        "properties": {
+          "name": "天沐温泉酒店停车场快充站",
+          "region": "温泉街道",
+          "kind": "charging",
+          "sample": false,
+          "stationCode": "202602020041",
+          "siteType": "公共机构",
+          "chargeType": "直流充电站",
+          "completedOn": "2026-02-02",
+          "commissionedOn": "2026-02-06",
+          "gunCount": 4,
+          "gunPowerKw": "60/30",
+          "totalPowerKw": 180,
+          "assetOwner": "京山京源资产经营管理有限公司",
+          "address": "湖北省荆门市京山市温泉路32号（天沐温泉酒店）",
+          "sourceCoordinates": "113.145502,30.972223",
+          "locationSource": "原表经纬度（坐标系未注明）",
+          "recordSource": "京山京源充电站信息 · 站点信息",
+          "sourceRow": 20,
+          "tariffGroup": "京源充电"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "jy-station-202602020040",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.126581,
+            31.010688
+          ]
+        },
+        "properties": {
+          "name": "老温泉路停车场充电站",
+          "region": "温泉街道",
+          "kind": "charging",
+          "sample": false,
+          "stationCode": "202602020040",
+          "siteType": "公共机构",
+          "chargeType": "直流充电站",
+          "completedOn": "2026-02-02",
+          "commissionedOn": "2026-02-11",
+          "gunCount": 8,
+          "gunPowerKw": "60",
+          "totalPowerKw": 480,
+          "assetOwner": "京山京源资产经营管理有限公司",
+          "address": "湖北省荆门市京山市温泉路停车场（恒万•江南名府旁）",
+          "sourceCoordinates": "113.126581,31.010688",
+          "locationSource": "原表经纬度（坐标系未注明）",
+          "recordSource": "京山京源充电站信息 · 站点信息",
+          "sourceRow": 21,
+          "tariffGroup": "京源充电"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "jy-station-202602020039",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            112.94272,
+            31.281533
+          ]
+        },
+        "properties": {
+          "name": "京山农场停车场充电站",
+          "region": "杨集镇",
+          "kind": "charging",
+          "sample": false,
+          "stationCode": "202602020039",
+          "siteType": "居民区",
+          "chargeType": "直流充电站",
+          "completedOn": "2026-02-02",
+          "commissionedOn": "2026-02-12",
+          "gunCount": 8,
+          "gunPowerKw": "60",
+          "totalPowerKw": 480,
+          "assetOwner": "京山京源资产经营管理有限公司",
+          "address": "湖北省荆门市京山市杨集镇京山农场停车场",
+          "sourceCoordinates": "112.942720,31.281533",
+          "locationSource": "原表经纬度（坐标系未注明）",
+          "recordSource": "京山京源充电站信息 · 站点信息",
+          "sourceRow": 22,
+          "tariffGroup": "京源充电"
+        }
+      }
+    ]
+  },
+  {
+    "id": "commerce_hotels",
+    "name": "限上住宿单位",
+    "department": "京山市商务局",
+    "category": "商贸配套",
+    "description": "2026 年 11 月 19 日限上商贸填报。原表逐条保留客房、床位及平均房价，部分单位关联既有酒店点位。",
+    "features": [
+      {
+        "type": "Feature",
+        "id": "commerce-hotel-1",
+        "geometry": {
+          "type": "GeometryCollection",
+          "geometries": []
+        },
+        "properties": {
+          "name": "京山市艳阳客栈",
+          "region": "新市街道",
+          "kind": "hotel",
+          "sample": false,
+          "type": "宾馆",
+          "address": "京山市新市街道京源大道113号",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 宾馆酒店",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 4,
+          "rooms": 10,
+          "beds": 13,
+          "price": 50,
+          "locationReview": {
+            "checkedOn": "2026-11-21",
+            "note": "京源大道113号检索到餐饮门店，近名宾馆在东门路，未查到该客栈。",
+            "queries": [
+              "艳阳客栈",
+              "京源大道113号 酒店",
+              "艳阳宾馆 京源大道"
+            ],
+            "chainLocation": {
+              "coordinates": [
+                113.104041,
+                31.027436
+              ],
+              "label": "京源大道113号临街门面",
+              "precision": "填报门址",
+              "reference": {
+                "uid": "df0918b1bb45f1e5ab059dda",
+                "name": "饭小鲜",
+                "address": "京源大道113号",
+                "crs": "BD09MC",
+                "coordinates": [
+                  12592235.61,
+                  3614556.61
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-hotel-2",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.12166,
+            31.025779
+          ]
+        },
+        "properties": {
+          "name": "京山玉丰国际大酒店有限公司",
+          "region": "新市街道",
+          "kind": "hotel",
+          "sample": false,
+          "type": "酒店",
+          "address": "新市大道特一号",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 宾馆酒店",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 5,
+          "enterpriseId": "business-js-9d6bdf50a0a5cba2ca5e",
+          "locationSource": "既有企业名录 · 携程酒店公开地图（近似位置）",
+          "locationRef": "business-js-9d6bdf50a0a5cba2ca5e",
+          "rooms": 262,
+          "beds": 360,
+          "price": 180
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-hotel-3",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.121956,
+            31.026706
+          ]
+        },
+        "properties": {
+          "name": "湖北铂莉雅未来酒店有限公司",
+          "region": "新市街道",
+          "kind": "hotel",
+          "sample": false,
+          "type": "宾馆",
+          "address": "京山市新市镇新市大道128号",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 宾馆酒店",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 6,
+          "rooms": 42,
+          "beds": 56,
+          "price": 120,
+          "locationRef": "baidu:8cd8ee1ebbb0263ed42ce2ed",
+          "locationSource": "百度地图 · 门店",
+          "locationReview": {
+            "checkedOn": "2026-11-20",
+            "note": "店名和新市大道128号一致。",
+            "queries": [
+              "铂莉雅未来酒店"
+            ],
+            "poi": {
+              "uid": "8cd8ee1ebbb0263ed42ce2ed",
+              "name": "京山铂莉雅未来酒店",
+              "address": "新市大道128号",
+              "crs": "BD09MC",
+              "coordinates": [
+                12594221.19,
+                3614494.13
+              ]
+            },
+            "supportingUrl": "https://m.ctrip.com/html5/hotel/hoteldetail/79593479.html"
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-hotel-4",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.11071,
+            31.026268
+          ]
+        },
+        "properties": {
+          "name": "京山市新萤火虫酒店",
+          "region": "新市街道",
+          "kind": "hotel",
+          "sample": false,
+          "type": "酒店",
+          "address": "交通路128号中央广场",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 宾馆酒店",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 7,
+          "rooms": 16,
+          "beds": 30,
+          "price": 150,
+          "locationRef": "baidu:1c56dd2264a24e353586f48b",
+          "locationSource": "百度地图 · 门店",
+          "locationReview": {
+            "checkedOn": "2026-11-20",
+            "note": "酒店名称和中央广场一致。原表按交通路填报，地图按综合体的京源大道一侧标址。",
+            "queries": [
+              "萤火虫酒店",
+              "交通路128号 中央广场",
+              "萤火虫 交通路"
+            ],
+            "poi": {
+              "uid": "1c56dd2264a24e353586f48b",
+              "name": "萤火虫酒店(京山中央广场店)",
+              "address": "新市街道云杜社区京源大道167号中央广场商业综合体幢2层124号",
+              "crs": "BD09MC",
+              "coordinates": [
+                12592975.63,
+                3614415.03
+              ]
+            }
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-hotel-5",
+        "geometry": {
+          "type": "GeometryCollection",
+          "geometries": []
+        },
+        "properties": {
+          "name": "荆门市怡家酒店有限公司",
+          "region": "新市街道",
+          "kind": "hotel",
+          "sample": false,
+          "type": "酒店",
+          "address": "湖北省荆门市京山市新市大道15号",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 宾馆酒店",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 8,
+          "rooms": 45,
+          "beds": 65,
+          "price": 138,
+          "locationReview": {
+            "checkedOn": "2026-11-21",
+            "note": "填报新市大道15号，同名酒店分别在新阳大道和钟鼓楼路。15号另标有眼科医院，住宿门店待核实。",
+            "queries": [
+              "怡家酒店",
+              "新市大道15号 酒店"
+            ],
+            "chainLocation": {
+              "coordinates": [
+                113.125856,
+                31.035239
+              ],
+              "label": "新市大道15号附近",
+              "precision": "门牌附近",
+              "reference": {
+                "uid": "defd892ebd3373e45fd4fe4e",
+                "name": "零食很忙(湖北荆门京山客运站店)",
+                "address": "湖北省荆门市京山市新市街道胜利社区新市大道15号京山汽车客运站一楼7-11号",
+                "crs": "BD09MC",
+                "coordinates": [
+                  12594652,
+                  3615606
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-hotel-6",
+        "geometry": {
+          "type": "GeometryCollection",
+          "geometries": []
+        },
+        "properties": {
+          "name": "京山市京呈酒店有限公司",
+          "region": "新市街道",
+          "kind": "hotel",
+          "sample": false,
+          "type": "酒店",
+          "address": "新市大道与新阳大道交汇处聚才门面",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 宾馆酒店",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 9,
+          "rooms": 76,
+          "beds": 96,
+          "price": 156,
+          "locationReview": {
+            "checkedOn": "2026-11-21",
+            "note": "两条大道交会处的聚才华庭有多家酒店，未查到京呈与其中一家门店的对应资料。",
+            "queries": [
+              "京呈酒店",
+              "聚才华庭 酒店 新市大道",
+              "京山市京呈酒店有限公司"
+            ],
+            "chainLocation": {
+              "coordinates": [
+                113.127218,
+                31.035445
+              ],
+              "label": "新市大道与新阳大道交汇处 · 聚才华庭",
+              "precision": "小区范围",
+              "reference": {
+                "uid": "5229e1dad522b0bf4e5547d9",
+                "name": "聚才华庭",
+                "address": "新市大道客运站旁西南方向142米",
+                "crs": "BD09MC",
+                "coordinates": [
+                  12594802.77,
+                  3615635.4
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-hotel-7",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.126963,
+            31.033178
+          ]
+        },
+        "properties": {
+          "name": "京山市明珠九洲大酒店",
+          "region": "新市街道",
+          "kind": "hotel",
+          "sample": false,
+          "type": "酒店",
+          "address": "青年路社区明珠华庭门面",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 宾馆酒店",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 10,
+          "rooms": 72,
+          "beds": 102,
+          "price": 128,
+          "reviewNote": "与本表另一条住宿记录名称相近，保留原报数据，待核对经营主体。",
+          "locationRef": "baidu:c0be0ea70eb2fc12a4c7561f",
+          "locationSource": "百度地图 · 门店",
+          "locationReview": {
+            "checkedOn": "2026-11-20",
+            "note": "明珠华庭临街商户的地图地址注明毗邻九洲大酒店。与新阳大道290号那条登记共用同一酒店，两条均填报102张床。",
+            "queries": [
+              "明珠九洲大酒店",
+              "明珠华庭 九洲大酒店",
+              "新阳大道290号 酒店"
+            ],
+            "poi": {
+              "uid": "c0be0ea70eb2fc12a4c7561f",
+              "name": "京山九洲大酒店",
+              "address": "新阳大道南侧",
+              "crs": "BD09MC",
+              "coordinates": [
+                12594774.7,
+                3615341.84
+              ]
+            },
+            "supportingUrl": "https://api.map.baidu.com/place/detail?uid=94badd6e1b202df12102206c&output=html&src=webapp.jingshan.tennis"
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-hotel-8",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.122298,
+            31.025371
+          ]
+        },
+        "properties": {
+          "name": "京山市金山国际大酒店有限公司",
+          "region": "新市街道",
+          "kind": "hotel",
+          "sample": false,
+          "type": "酒店",
+          "address": "青年路社区新市大道58号",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 宾馆酒店",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 11,
+          "enterpriseId": "business-js-16bd1c430ed1c73919ac",
+          "locationSource": "既有企业名录 · 携程酒店公开地图（近似位置）",
+          "locationRef": "business-js-16bd1c430ed1c73919ac",
+          "rooms": 156,
+          "beds": 230,
+          "price": 150
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-hotel-9",
+        "geometry": {
+          "type": "GeometryCollection",
+          "geometries": []
+        },
+        "properties": {
+          "name": "京山市福程管理有限公司",
+          "region": "新市街道",
+          "kind": "hotel",
+          "sample": false,
+          "type": "酒店",
+          "address": "青年路社区人民大道80号",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 宾馆酒店",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 12,
+          "rooms": 226,
+          "beds": 324,
+          "price": 175,
+          "reviewNote": "与本表另一条住宿记录名称相近，保留原报数据，待核对经营主体。",
+          "locationReview": {
+            "checkedOn": "2026-11-21",
+            "note": "人民大道80号未查到福程的门店点位。原表另有相近企业名称，尚缺两条登记对应的门店和楼栋依据。",
+            "queries": [
+              "福程酒店",
+              "人民大道80号 酒店",
+              "人民大道 申公路 酒店"
+            ],
+            "chainLocation": {
+              "coordinates": [
+                113.127664,
+                31.026268
+              ],
+              "label": "青年路社区人民大道80号 · 绿林世纪广场",
+              "precision": "小区范围",
+              "reference": {
+                "uid": "9d44d0fa4d44ec3fca09f028",
+                "name": "源鸿设备租赁部",
+                "address": "湖北省荆门市京山市新市街道青年路社区人民大道80号绿林世纪广场7幢1单元9层0903号商铺",
+                "crs": "BD09MC",
+                "coordinates": [
+                  12594852.89,
+                  3614449.72
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-hotel-10",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.119855,
+            31.022208
+          ]
+        },
+        "properties": {
+          "name": "京山市吉呈酒店管理有限公司",
+          "region": "新市街道",
+          "kind": "hotel",
+          "sample": false,
+          "type": "酒店",
+          "address": "新市大道199号",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 宾馆酒店",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 13,
+          "rooms": 68,
+          "beds": 88,
+          "price": 168,
+          "locationRef": "baidu:d47cd1e7c027deb7adcb6629",
+          "locationSource": "百度地图 · 经营地址",
+          "locationReview": {
+            "checkedOn": "2026-11-20",
+            "note": "按经营地址定位。门店在新市大道199-1号，携程登记68间客房，与原表68间一致。",
+            "queries": [
+              "吉呈酒店",
+              "新市大道199号 酒店",
+              "城市便捷酒店 新市大道199号"
+            ],
+            "poi": {
+              "uid": "d47cd1e7c027deb7adcb6629",
+              "name": "城市便捷酒店(京山新市大道人民政府店)",
+              "address": "新市大道199-1",
+              "crs": "BD09MC",
+              "coordinates": [
+                12593989,
+                3613908
+              ]
+            },
+            "supportingUrl": "https://hotels.ctrip.com/hotels/2307369.html"
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-hotel-11",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.115074,
+            31.033609
+          ]
+        },
+        "properties": {
+          "name": "京山君赞酒店管理有限公司",
+          "region": "新市街道",
+          "kind": "hotel",
+          "sample": false,
+          "type": "酒店",
+          "address": "新市街道人民大道北未来城81号",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 宾馆酒店",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 14,
+          "rooms": 81,
+          "beds": 116,
+          "price": 398,
+          "locationRef": "baidu:03b286feda3adafeb220a895",
+          "locationSource": "百度地图 · 门店",
+          "locationReview": {
+            "checkedOn": "2026-11-20",
+            "note": "君赞酒店与同名管理公司均标在人民大道未来城B1幢。原表楼号写作“81”，保留原文。",
+            "queries": [
+              "君赞酒店"
+            ],
+            "poi": {
+              "uid": "03b286feda3adafeb220a895",
+              "name": "王府·君赞酒店",
+              "address": "新市街道人民大道以北未来城B1幢",
+              "crs": "BD09MC",
+              "coordinates": [
+                12593458.49,
+                3615372.43
+              ]
+            },
+            "supportingUrl": "https://api.map.baidu.com/place/detail?uid=d7d9570440c9af694151c08b&output=html&src=webapp.jingshan.tennis"
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-hotel-12",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.123472,
+            31.035242
+          ]
+        },
+        "properties": {
+          "name": "湖北宏盛酒店管理有限公司",
+          "region": "新市街道",
+          "kind": "hotel",
+          "sample": false,
+          "type": "酒店",
+          "address": "京山市新阳大道丹桂花卉城7号楼",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 宾馆酒店",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 15,
+          "rooms": 60,
+          "beds": 77,
+          "price": 226,
+          "locationRef": "baidu:158303c7cfd2682233621200",
+          "locationSource": "百度地图 · 门店",
+          "locationReview": {
+            "checkedOn": "2026-11-20",
+            "note": "丹桂花卉城7号楼的酒店与湖北宏盛酒店管理有限公司的地图坐标重合。",
+            "queries": [
+              "宏盛酒店",
+              "丹桂花卉城7号楼 丽枫"
+            ],
+            "poi": {
+              "uid": "158303c7cfd2682233621200",
+              "name": "麗枫酒店(京山汽车中心客运站店)",
+              "address": "丹桂国际花卉城7号楼",
+              "crs": "BD09MC",
+              "coordinates": [
+                12594388.2,
+                3615601.23
+              ]
+            },
+            "supportingUrl": "https://api.map.baidu.com/place/detail?uid=2f92898d8fcdcbcdf60e771d&output=html&src=webapp.jingshan.tennis"
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-hotel-13",
+        "geometry": {
+          "type": "GeometryCollection",
+          "geometries": []
+        },
+        "properties": {
+          "name": "京山市福程酒店管理有限公司",
+          "region": "新市街道",
+          "kind": "hotel",
+          "sample": false,
+          "type": "酒店",
+          "address": "人民大道与申公路交汇处",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 宾馆酒店",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 16,
+          "rooms": 220,
+          "beds": 320,
+          "price": 170,
+          "reviewNote": "与本表另一条住宿记录名称相近，保留原报数据，待核对经营主体。",
+          "locationReview": {
+            "checkedOn": "2026-11-21",
+            "note": "人民大道与申公路交会处有豪威柏悦等酒店，公开门店资料未能对应到福程，也未确认与人民大道80号的关系。",
+            "queries": [
+              "福程酒店管理有限公司"
+            ],
+            "chainLocation": {
+              "coordinates": [
+                113.129569,
+                31.02614
+              ],
+              "label": "人民大道与申公路交汇处",
+              "precision": "填报路口",
+              "reference": {
+                "uid": "baa69f71fb963f540f0e6b8f",
+                "name": "人民大道/申公路(路口)",
+                "address": "荆门市京山市申公路",
+                "crs": "BD09MC",
+                "coordinates": [
+                  12595063.75,
+                  3614437.05
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-hotel-14",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.126963,
+            31.033178
+          ]
+        },
+        "properties": {
+          "name": "京山明珠九洲大酒店",
+          "region": "京山市",
+          "kind": "hotel",
+          "sample": false,
+          "type": "酒店",
+          "address": "新阳大道290号",
+          "reportedStreet": "新阳大道",
+          "recordSource": "京山市商务局 · 限上商贸 · 宾馆酒店",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 17,
+          "rooms": 73,
+          "beds": 102,
+          "price": 158.8,
+          "reviewNote": "原表所属街道为“新阳大道”，镇街归属待核实。与本表另一条住宿记录名称相近，保留原报数据，待核对经营主体。",
+          "locationRef": "baidu:c0be0ea70eb2fc12a4c7561f",
+          "locationSource": "百度地图 · 门店",
+          "locationReview": {
+            "checkedOn": "2026-11-20",
+            "note": "一楼餐厅的地图地址明确写有“新阳大道290号九洲大酒店1楼”。与明珠华庭那条登记共用同一酒店。",
+            "queries": [
+              "明珠九洲大酒店"
+            ],
+            "poi": {
+              "uid": "c0be0ea70eb2fc12a4c7561f",
+              "name": "京山九洲大酒店",
+              "address": "新阳大道南侧",
+              "crs": "BD09MC",
+              "coordinates": [
+                12594774.7,
+                3615341.84
+              ]
+            },
+            "supportingUrl": "https://api.map.baidu.com/place/detail?uid=1e852df3670d7be09222e056&output=html&src=webapp.jingshan.tennis"
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-hotel-15",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.141119,
+            30.99639
+          ]
+        },
+        "properties": {
+          "name": "京山市京源美华酒店管理有限公司",
+          "region": "温泉街道",
+          "kind": "hotel",
+          "sample": false,
+          "type": "酒店",
+          "address": "京山市网球路1号",
+          "reportedStreet": "温泉街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 宾馆酒店",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 18,
+          "enterpriseId": "business-js-001aecff982e7b0fa50f",
+          "rooms": 148,
+          "beds": 208,
+          "price": 300,
+          "locationRef": "baidu:fcd96c5d4c1dcd00a3acc47b",
+          "locationSource": "百度地图 · 门店",
+          "locationReview": {
+            "checkedOn": "2026-11-20",
+            "note": "赛事报名公告给出酒店名和网球路1号，订房平台上的148间客房也与原表相符。地图采用温泉路门址。",
+            "queries": [
+              "京源美华酒店",
+              "网球路1号 酒店",
+              "京山市京源美华酒店管理有限公司"
+            ],
+            "poi": {
+              "uid": "fcd96c5d4c1dcd00a3acc47b",
+              "name": "京山网球训练基地万达美华酒店",
+              "address": "温泉路68号",
+              "crs": "BD09MC",
+              "coordinates": [
+                12596344.97,
+                3610610.24
+              ]
+            },
+            "supportingUrl": "https://www.sohu.com/a/1001555318_710684"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "commerce_food",
+    "name": "限上餐饮单位",
+    "department": "京山市商务局",
+    "category": "商贸配套",
+    "description": "2026 年 11 月 19 日限上商贸填报。记录营业执照名称、所属街道与经营地址，补录坐标后可在地图查看。",
+    "features": [
+      {
+        "type": "Feature",
+        "id": "commerce-food-1",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.122173,
+            31.024552
+          ]
+        },
+        "properties": {
+          "name": "湖北五谷味餐饮服务有限公司",
+          "region": "新市街道",
+          "kind": "food",
+          "sample": false,
+          "type": "餐饮服务",
+          "address": "湖北省荆门市京山市新市镇京源大道203号(一照多址企业)经营场所1:京山市新市镇钟鼓楼路56号,经营场所2:湖北省荆门市京山市新市镇轻机大道与新市大道特1号。",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 餐饮服务",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 4,
+          "locationRef": "baidu:28db8f4502c4ecaad22dd636",
+          "locationSource": "百度地图 · 分店",
+          "locationReview": {
+            "checkedOn": "2026-11-20",
+            "note": "一照多址。本点对应原表第二处经营场所，即轻机大道与新市大道交会处的中商门店，其他门店地址保留在档案中。",
+            "queries": [
+              "五谷味",
+              "京源大道203号 五谷味",
+              "钟鼓楼路56号 五谷味",
+              "五谷味大食堂 轻机大道 新市大道 中商"
+            ],
+            "poi": {
+              "uid": "28db8f4502c4ecaad22dd636",
+              "name": "五谷味大食堂(中商店)",
+              "address": "荆门市京山市轻机大道金山国际大酒店西南侧约50米",
+              "crs": "BD09MC",
+              "coordinates": [
+                12594245.44,
+                3614216.12
+              ]
+            }
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-food-2",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.115742,
+            31.033758
+          ]
+        },
+        "properties": {
+          "name": "京山玺悦礼宴餐饮管理有限公司",
+          "region": "新市街道",
+          "kind": "food",
+          "sample": false,
+          "type": "餐饮服务",
+          "address": "湖北省-荆门市-京山市-湖北省荆门市京山市新市镇未来城美食城B19幢",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 餐饮服务",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 5,
+          "locationRef": "baidu:be1dc525ea164cabb020a82f",
+          "locationSource": "百度地图 · 门店",
+          "locationReview": {
+            "checkedOn": "2026-11-20",
+            "note": "店名和未来城美食城B19幢一致。",
+            "queries": [
+              "玺悦礼宴"
+            ],
+            "poi": {
+              "uid": "be1dc525ea164cabb020a82f",
+              "name": "玺悦礼宴宴会艺术中心(未来城店)",
+              "address": "湖北省荆门市京山市新市镇未来城美食城商业街B19栋",
+              "crs": "BD09MC",
+              "coordinates": [
+                12593532.5,
+                3615392.92
+              ]
+            }
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-food-3",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.11825,
+            31.020478
+          ]
+        },
+        "properties": {
+          "name": "京山县新市镇天天有鱼酒楼海鲜厨房店",
+          "region": "新市街道",
+          "kind": "food",
+          "sample": false,
+          "type": "餐饮服务",
+          "address": "京山县新市镇京源大道305号",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 餐饮服务",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 6,
+          "locationRef": "baidu:15f4f5e3ac72afe19322e02f",
+          "locationSource": "百度地图 · 门店",
+          "locationReview": {
+            "checkedOn": "2026-11-20",
+            "note": "携程将天天有鱼海鲜厨房对应到京源大道文化宫门店，地图也标在文化宫、京源邮局对面。",
+            "queries": [
+              "天天有鱼文化宫",
+              "京源大道305号 天天有鱼"
+            ],
+            "poi": {
+              "uid": "15f4f5e3ac72afe19322e02f",
+              "name": "天天有鱼(京山文化宫店)",
+              "address": "新市街道京源大道文化宫（京源邮局对面）",
+              "crs": "BD09MC",
+              "coordinates": [
+                12593811.57,
+                3613680.97
+              ]
+            },
+            "supportingUrl": "https://tw.trip.com/restaurant/china/jingshan/detail/restaurant-32727468/"
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-food-4",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.116116,
+            31.028396
+          ]
+        },
+        "properties": {
+          "name": "京山市天天有鱼富水花园酒楼",
+          "region": "新市街道",
+          "kind": "food",
+          "sample": false,
+          "type": "餐饮服务",
+          "address": "湖北省-荆门市-京山市-京山市新市镇轻机大道富水花园二期31栋2楼3楼",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 餐饮服务",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 7,
+          "locationRef": "baidu:7b3dfe9ad937af996c3e1b8d",
+          "locationSource": "百度地图 · 门店",
+          "locationReview": {
+            "checkedOn": "2026-11-20",
+            "note": "店名、轻机大道和富水花园二期一致，已区分同品牌的文化宫、钟鼓楼门店。",
+            "queries": [
+              "天天有鱼富水花园"
+            ],
+            "poi": {
+              "uid": "7b3dfe9ad937af996c3e1b8d",
+              "name": "天天有鱼(富水花园店)",
+              "address": "轻机大道335号富水花园小区二期西侧门面",
+              "crs": "BD09MC",
+              "coordinates": [
+                12593574.45,
+                3614700.39
+              ]
+            }
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-food-5",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.113013,
+            31.022387
+          ]
+        },
+        "properties": {
+          "name": "京山市梁记粥铺",
+          "region": "新市街道",
+          "kind": "food",
+          "sample": false,
+          "type": "餐饮服务",
+          "address": "湖北省-荆门市-京山市-京山市新市镇京源大道520号京源国际城3幢1单元1层103号",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 餐饮服务",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 8,
+          "locationRef": "baidu:a2cf3d6558802949c7f0259f",
+          "locationSource": "百度地图 · 门店",
+          "locationReview": {
+            "checkedOn": "2026-11-20",
+            "note": "梁记粥铺门店和原表均为京源大道520号。",
+            "queries": [
+              "梁记粥铺"
+            ],
+            "poi": {
+              "uid": "a2cf3d6558802949c7f0259f",
+              "name": "梁记粥铺(京山店)",
+              "address": "京源大道520号（东方百货旁）",
+              "crs": "BD09MC",
+              "coordinates": [
+                12593231.31,
+                3613917.29
+              ]
+            }
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-food-6",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.112162,
+            31.023103
+          ]
+        },
+        "properties": {
+          "name": "京山市吉司利西餐厅",
+          "region": "新市街道",
+          "kind": "food",
+          "sample": false,
+          "type": "餐饮服务",
+          "address": "湖北省-荆门市-京山市-京山市新市镇京源大道520号（东方百货）",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 餐饮服务",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 9,
+          "locationRef": "baidu:29491a7cbf958784f02d838d",
+          "locationSource": "百度地图 · 门店",
+          "locationReview": {
+            "checkedOn": "2026-11-20",
+            "note": "京源大道520号和东方百货均相符，已区分三角洲分店。",
+            "queries": [
+              "吉司利东方百货"
+            ],
+            "poi": {
+              "uid": "29491a7cbf958784f02d838d",
+              "name": "吉司利(钻石店)",
+              "address": "京山市京源大道520号（东方百货）",
+              "crs": "BD09MC",
+              "coordinates": [
+                12593136.91,
+                3614008.41
+              ]
+            }
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-food-7",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.115442,
+            31.01968
+          ]
+        },
+        "properties": {
+          "name": "京山市汉龙一号美食餐饮店（个体工商户）",
+          "region": "新市街道",
+          "kind": "food",
+          "sample": false,
+          "type": "餐饮服务",
+          "address": "湖北省荆门市京山市新市镇汉龙一号2-101、102号",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 餐饮服务",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 10,
+          "locationRef": "baidu:66d5f288b0decb49a8175a49",
+          "locationSource": "百度地图 · 门店",
+          "locationReview": {
+            "checkedOn": "2026-11-20",
+            "note": "地图店招为汉龙食府，汉龙一号2栋101、102两个铺号均与填报一致。",
+            "queries": [
+              "汉龙一号美食"
+            ],
+            "poi": {
+              "uid": "66d5f288b0decb49a8175a49",
+              "name": "汉龙食府(汉龙1号店)",
+              "address": "湖北省荆门市京山市新市镇汉龙一号2-101-102",
+              "crs": "BD09MC",
+              "coordinates": [
+                12593500.65,
+                3613572.07
+              ]
+            }
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-food-8",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.123712,
+            31.028358
+          ]
+        },
+        "properties": {
+          "name": "京山半秋山餐饮管理有限公司",
+          "region": "新市街道",
+          "kind": "food",
+          "sample": false,
+          "type": "餐饮服务",
+          "address": "联合广场",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 餐饮服务",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 11,
+          "locationRef": "baidu:407048f4675e993988f15d66",
+          "locationSource": "百度地图 · 门店",
+          "locationReview": {
+            "checkedOn": "2026-11-20",
+            "note": "半秋山门店位于大龙联合广场2栋，名称与商业体一致。",
+            "queries": [
+              "半秋山"
+            ],
+            "poi": {
+              "uid": "407048f4675e993988f15d66",
+              "name": "半秋山西餐厅(京山联合广场店)",
+              "address": "新市大道与人民大道交叉口大龙联合广场内2栋3层",
+              "crs": "BD09MC",
+              "coordinates": [
+                12594415.39,
+                3614711.47
+              ]
+            }
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-food-9",
+        "geometry": {
+          "type": "GeometryCollection",
+          "geometries": []
+        },
+        "properties": {
+          "name": "京山五鼎福餐饮服务有限公司",
+          "region": "新市街道",
+          "kind": "food",
+          "sample": false,
+          "type": "餐饮服务",
+          "address": "人民大道",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 餐饮服务",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 12,
+          "enterpriseId": "business-js-6c1d9eb2415650d37eb1",
+          "locationReview": {
+            "checkedOn": "2026-11-21",
+            "note": "人民大道上的同名公司点位在御景天城37栋603室。已查到的机关食堂和运动员餐厅均在其他道路，餐饮服务门店仍待确认。",
+            "queries": [
+              "五鼎福",
+              "五鼎福 人民大道 餐厅"
+            ],
+            "chainLocation": {
+              "coordinates": [
+                113.128977,
+                31.029466
+              ],
+              "label": "人民大道御景天城37栋",
+              "precision": "企业办公地址",
+              "reference": {
+                "uid": "5508d2b2e72aa54e46e274c3",
+                "name": "京山五鼎福餐饮服务有限公司",
+                "address": "湖北省荆门市京山市新市镇人民大道御景天城37栋1单元603室",
+                "crs": "BD09MC",
+                "coordinates": [
+                  12594997.91,
+                  3614865.96
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-food-10",
+        "geometry": {
+          "type": "GeometryCollection",
+          "geometries": []
+        },
+        "properties": {
+          "name": "京山市张洁鸭子店",
+          "region": "新市街道",
+          "kind": "food",
+          "sample": false,
+          "type": "餐饮服务",
+          "address": "京源大道",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 餐饮服务",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 13,
+          "locationReview": {
+            "checkedOn": "2026-11-21",
+            "note": "京源大道上有特色鸭子店，公开店招未能对应“张洁”。原表只有道路，缺少门牌或分店名。",
+            "queries": [
+              "张洁鸭子店",
+              "京山市张洁鸭子店 京源大道",
+              "张洁 特色鸭子"
+            ],
+            "chainLocation": {
+              "coordinates": [
+                113.112447,
+                31.023364
+              ],
+              "label": "新市街道京源大道",
+              "precision": "道路估位",
+              "reference": {
+                "uid": "ab0531ee92e17dabc61b75e1",
+                "name": "京源大道",
+                "address": "湖北省荆门市京山市",
+                "crs": "BD09MC",
+                "coordinates": [
+                  12593168.44,
+                  3614042.73
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-food-11",
+        "geometry": {
+          "type": "GeometryCollection",
+          "geometries": []
+        },
+        "properties": {
+          "name": "京山市春莲酒家",
+          "region": "新市街道",
+          "kind": "food",
+          "sample": false,
+          "type": "餐饮服务",
+          "address": "新阳大道",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 餐饮服务",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 14,
+          "locationReview": {
+            "checkedOn": "2026-11-21",
+            "note": "新阳大道未查到与春莲酒家对应的餐馆。搜索到的春莲超市在另一条道路。",
+            "queries": [
+              "春莲酒家",
+              "春莲 新阳大道 餐饮"
+            ],
+            "chainLocation": {
+              "coordinates": [
+                113.139687,
+                31.025856
+              ],
+              "label": "新阳大道",
+              "precision": "道路估位",
+              "reference": {
+                "uid": "9641a0c935fbae831c580061",
+                "name": "新阳大道",
+                "address": "湖北省荆门市京山市",
+                "crs": "BD09MC",
+                "coordinates": [
+                  12596184.04,
+                  3614417.9
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-food-12",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.128401,
+            31.037926
+          ]
+        },
+        "properties": {
+          "name": "京山市新市镇老村庄农家菜馆",
+          "region": "新市街道",
+          "kind": "food",
+          "sample": false,
+          "type": "餐饮服务",
+          "address": "金色家园",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 餐饮服务",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 15,
+          "locationRef": "baidu:ff95569179eeb487ce04eff7",
+          "locationSource": "百度地图 · 门店",
+          "locationReview": {
+            "checkedOn": "2026-11-20",
+            "note": "老村庄门店标在金色家园北门附近，与原表店名、商圈相符。",
+            "queries": [
+              "老村庄农家菜馆"
+            ],
+            "poi": {
+              "uid": "ff95569179eeb487ce04eff7",
+              "name": "老村庄(金色家园店)",
+              "address": "湖北省荆门市京山市开发区新市街道火车站对面（金色家园北门西110米）",
+              "crs": "BD09MC",
+              "coordinates": [
+                12594933.43,
+                3615958.88
+              ]
+            }
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-food-13",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.105218,
+            31.024377
+          ]
+        },
+        "properties": {
+          "name": "京山鑫吉司利茶餐厅",
+          "region": "新市街道",
+          "kind": "food",
+          "sample": false,
+          "type": "餐饮服务",
+          "address": "三角洲",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 餐饮服务",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 16,
+          "locationRef": "baidu:6c4d684ee1ed71bf130daa90",
+          "locationSource": "百度地图 · 门店",
+          "locationReview": {
+            "checkedOn": "2026-11-20",
+            "note": "地图标注为三角洲大礼堂前的吉司利至尊店。",
+            "queries": [
+              "吉司利三角洲"
+            ],
+            "poi": {
+              "uid": "6c4d684ee1ed71bf130daa90",
+              "name": "吉司利中西餐厅至尊店",
+              "address": "三角洲大礼堂前(近毓秀商业街)银河宾馆旁",
+              "crs": "BD09MC",
+              "coordinates": [
+                12592366.58,
+                3614162.37
+              ]
+            }
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-food-14",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.116841,
+            31.031157
+          ]
+        },
+        "properties": {
+          "name": "京山市牛肉拐子饭餐饮店",
+          "region": "京山市",
+          "kind": "food",
+          "sample": false,
+          "type": "餐饮服务",
+          "address": "金源明珠",
+          "reportedStreet": "新阳街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 餐饮服务",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 17,
+          "reviewNote": "原表所属街道为“新阳街道”，镇街归属待核实。",
+          "locationRef": "baidu:261f6460d82191fac03644ee",
+          "locationSource": "百度地图 · 门店",
+          "locationReview": {
+            "checkedOn": "2026-11-20",
+            "note": "原表指定金源明珠，对应云杜路金源明珠店，已区分新阳店。",
+            "queries": [
+              "牛肉拐子饭 金源明珠"
+            ],
+            "poi": {
+              "uid": "261f6460d82191fac03644ee",
+              "name": "牛肉拐子饭(金源明珠店)",
+              "address": "新市街道金源明珠(云杜路)",
+              "crs": "BD09MC",
+              "coordinates": [
+                12593654.47,
+                3615058.89
+              ]
+            }
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-food-15",
+        "geometry": {
+          "type": "GeometryCollection",
+          "geometries": []
+        },
+        "properties": {
+          "name": "京山市胖喜爷餐饮店",
+          "region": "新市街道",
+          "kind": "food",
+          "sample": false,
+          "type": "餐饮服务",
+          "address": "汉龙一号",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 餐饮服务",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 18,
+          "locationReview": {
+            "checkedOn": "2026-11-21",
+            "note": "汉龙一号内有多家餐馆，未查到胖喜爷对应的门面或店招。",
+            "queries": [
+              "胖喜爷",
+              "汉龙一号 胖喜爷",
+              "胖喜爷市井火锅"
+            ],
+            "chainLocation": {
+              "coordinates": [
+                113.11578,
+                31.020039
+              ],
+              "label": "京源大道汉龙一号",
+              "precision": "小区范围",
+              "reference": {
+                "uid": "8508e06de7117c1838e4a676",
+                "name": "汉龙1号",
+                "address": "荆门市京山市京源大道与八一路交叉路口往南约100米(邮电新村西北侧约100米)",
+                "crs": "BD09MC",
+                "coordinates": [
+                  12593538.03,
+                  3613619.15
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-food-16",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.107626,
+            31.032514
+          ]
+        },
+        "properties": {
+          "name": "京山市悦格餐饮店",
+          "region": "新市街道",
+          "kind": "food",
+          "sample": false,
+          "type": "餐饮服务",
+          "address": "湖北省荆门市京山市新市街道杨集路城市之光5号门面",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 餐饮服务",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 19,
+          "locationRef": "baidu:4a43c5c46abf13bb354aae9e",
+          "locationSource": "百度地图 · 门店",
+          "locationReview": {
+            "checkedOn": "2026-11-20",
+            "note": "店招为悦格主题宴会厅，杨集路城市之光5号与原表一致。",
+            "queries": [
+              "悦格餐饮"
+            ],
+            "poi": {
+              "uid": "4a43c5c46abf13bb354aae9e",
+              "name": "悦格主题宴会厅",
+              "address": "杨集路城市之光5号",
+              "crs": "BD09MC",
+              "coordinates": [
+                12592633.03,
+                3615217.88
+              ]
+            }
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-food-17",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.116454,
+            31.033733
+          ]
+        },
+        "properties": {
+          "name": "京山市荟楚鲜餐饮管理有限公司",
+          "region": "新市街道",
+          "kind": "food",
+          "sample": false,
+          "type": "餐饮服务",
+          "address": "湖北省荆门市京山市新市街道办事处人民大道以北(未来城)B3幢201/202号",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 餐饮服务",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 20,
+          "locationRef": "baidu:d8e4b8bc6c7e508b9fec2bc5",
+          "locationSource": "百度地图 · 门店",
+          "locationReview": {
+            "checkedOn": "2026-11-20",
+            "note": "荟楚鲜活鱼馆标在未来城美食城B3栋，其他荟楚鲜门店在城中路和申公路。",
+            "queries": [
+              "荟楚鲜"
+            ],
+            "poi": {
+              "uid": "d8e4b8bc6c7e508b9fec2bc5",
+              "name": "荟楚鲜活鱼馆",
+              "address": "未来城美食城B3栋",
+              "crs": "BD09MC",
+              "coordinates": [
+                12593611.41,
+                3615391.19
+              ]
+            }
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-food-18",
+        "geometry": {
+          "type": "GeometryCollection",
+          "geometries": []
+        },
+        "properties": {
+          "name": "京山众粟达餐饮服务有限公司",
+          "region": "新市街道",
+          "kind": "food",
+          "sample": false,
+          "type": "餐饮服务",
+          "address": "湖北省荆门市京山市新市镇绿林路1幢1层109号1幢1层110号",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 餐饮服务",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 21,
+          "locationReview": {
+            "checkedOn": "2026-11-21",
+            "note": "绿林路上未查到众粟达对应的店招，原表的1幢109、110号未注明商住区名称。",
+            "queries": [
+              "众粟达",
+              "绿林路109号 餐饮",
+              "京山众粟达餐饮服务有限公司"
+            ],
+            "chainLocation": {
+              "coordinates": [
+                113.108811,
+                31.039226
+              ],
+              "label": "新市街道绿林路",
+              "precision": "道路估位",
+              "reference": {
+                "uid": "8fb130f09501fab8583ac8c6",
+                "name": "绿林路",
+                "address": "湖北省荆门市京山市",
+                "crs": "BD09MC",
+                "coordinates": [
+                  12592763.96,
+                  3616087.79
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-food-19",
+        "geometry": {
+          "type": "GeometryCollection",
+          "geometries": []
+        },
+        "properties": {
+          "name": "京山市斗米乐餐饮管理有限公司",
+          "region": "新市街道",
+          "kind": "food",
+          "sample": false,
+          "type": "餐饮服务",
+          "address": "湖北省荆门市京山市新市镇人民大道128号",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 餐饮服务",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 22,
+          "locationReview": {
+            "checkedOn": "2026-11-21",
+            "note": "人民大道128号的餐饮点标为方国庆美食城，未查到其与斗米乐的经营关系。",
+            "queries": [
+              "斗米乐",
+              "人民大道128号 斗米乐",
+              "斗米乐快餐"
+            ],
+            "chainLocation": {
+              "coordinates": [
+                113.122085,
+                31.029343
+              ],
+              "label": "人民大道128号",
+              "precision": "填报门址",
+              "reference": {
+                "uid": "5f9348193431d3cc4c6d4643",
+                "name": "方国庆美食城(人民大道店)",
+                "address": "新市镇人民大道128号",
+                "crs": "BD09MC",
+                "coordinates": [
+                  12594235.18,
+                  3614835.43
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-food-20",
+        "geometry": {
+          "type": "GeometryCollection",
+          "geometries": []
+        },
+        "properties": {
+          "name": "京山红袍餐饮馆",
+          "region": "新市街道",
+          "kind": "food",
+          "sample": false,
+          "type": "餐饮服务",
+          "address": "新市街道新阳社区",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 餐饮服务",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 23,
+          "locationReview": {
+            "checkedOn": "2026-11-21",
+            "note": "填报地址只到新阳社区，名称相近的大红袍美食城标在金茂蓝山，尚无资料对应到同一门店。",
+            "queries": [
+              "红袍餐饮",
+              "新阳社区 大红袍"
+            ],
+            "chainLocation": {
+              "coordinates": [
+                113.115001,
+                31.025233
+              ],
+              "label": "新市街道新阳社区",
+              "precision": "社区估位",
+              "reference": {
+                "uid": "ceb66ff5a5737dab2806ce94",
+                "name": "新阳社区",
+                "address": "荆门市京山市五中巷",
+                "crs": "BD09MC",
+                "coordinates": [
+                  12593451.19,
+                  3614289.24
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-food-21",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.11342,
+            31.023126
+          ]
+        },
+        "properties": {
+          "name": "京山市刘一手火锅餐饮店",
+          "region": "新市街道",
+          "kind": "food",
+          "sample": false,
+          "type": "餐饮服务",
+          "address": "京山市新市镇雅斯广场",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 餐饮服务",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 24,
+          "locationRef": "baidu:348305c2e5e3706c25e0a0e9",
+          "locationSource": "百度地图 · 门店",
+          "locationReview": {
+            "checkedOn": "2026-11-20",
+            "note": "品牌和雅斯广场分店一致，地图标在商场三楼。",
+            "queries": [
+              "刘一手火锅"
+            ],
+            "poi": {
+              "uid": "348305c2e5e3706c25e0a0e9",
+              "name": "刘一手重庆火锅(雅斯广场店)",
+              "address": "京源大道雅斯广场三楼",
+              "crs": "BD09MC",
+              "coordinates": [
+                12593276.24,
+                3614013.68
+              ]
+            }
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-food-22",
+        "geometry": {
+          "type": "GeometryCollection",
+          "geometries": []
+        },
+        "properties": {
+          "name": "京山市麻晓度火锅餐饮店",
+          "region": "新市街道",
+          "kind": "food",
+          "sample": false,
+          "type": "餐饮服务",
+          "address": "京山市新市镇新市大道191-11号",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 餐饮服务",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 25,
+          "locationReview": {
+            "checkedOn": "2026-11-21",
+            "note": "原表为麻晓度、新市大道191-11号，地图为麻小度青花椒鱼、191-10号。尚未核实是否为连通的商铺。",
+            "queries": [
+              "麻晓度",
+              "新市大道191-11号 麻小度"
+            ],
+            "chainLocation": {
+              "coordinates": [
+                113.119438,
+                31.023015
+              ],
+              "label": "新市大道191-11号附近",
+              "precision": "门牌附近",
+              "reference": {
+                "uid": "8e6a9b179d6f9d5c96ca0714",
+                "name": "天天平价(馨和园西)",
+                "address": "湖北省荆门市京山市新市大道191-13号",
+                "crs": "BD09MC",
+                "coordinates": [
+                  12593942.75,
+                  3614011.5
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-food-23",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.117805,
+            31.038907
+          ]
+        },
+        "properties": {
+          "name": "京山市和祥农庄",
+          "region": "新市街道",
+          "kind": "food",
+          "sample": false,
+          "type": "餐饮服务",
+          "address": "京山市新市镇新阳大道丹桂花卉城2幢101、102、103、105",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 餐饮服务",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 26,
+          "locationRef": "baidu:e1b0c2ffbac800fec71b7501",
+          "locationSource": "百度地图 · 门店",
+          "locationReview": {
+            "checkedOn": "2026-11-20",
+            "note": "和祥农庄店名、新阳大道和丹桂花卉城2号楼一致。",
+            "queries": [
+              "和祥农庄"
+            ],
+            "poi": {
+              "uid": "e1b0c2ffbac800fec71b7501",
+              "name": "和祥农庄",
+              "address": "新阳大道丹桂花卉城一组2号楼",
+              "crs": "BD09MC",
+              "coordinates": [
+                12593760.58,
+                3616063.03
+              ]
+            }
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-food-24",
+        "geometry": {
+          "type": "GeometryCollection",
+          "geometries": []
+        },
+        "properties": {
+          "name": "京山市渔豆哥餐饮店",
+          "region": "新市街道",
+          "kind": "food",
+          "sample": false,
+          "type": "餐饮服务",
+          "address": "京山市新市街道京源大道汉龙一号8栋112A",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 餐饮服务",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 27,
+          "locationReview": {
+            "checkedOn": "2026-11-21",
+            "note": "汉龙一号8栋112A的餐饮点标为姥姥家的印象。尚无资料证实与渔豆哥为同一家门店。",
+            "queries": [
+              "渔豆哥",
+              "汉龙一号8栋112A 渔豆哥",
+              "鱼豆哥 汉龙一号"
+            ],
+            "chainLocation": {
+              "coordinates": [
+                113.116013,
+                31.020916
+              ],
+              "label": "京源大道汉龙一号8栋",
+              "precision": "填报楼栋",
+              "reference": {
+                "uid": "5483e5bc398846e9077ce871",
+                "name": "汉龙1号-8栋",
+                "address": "荆门市京山市京源四巷京山市人民政府东侧约160米",
+                "crs": "BD09MC",
+                "coordinates": [
+                  12593563.72,
+                  3613733.07
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-food-25",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.117103,
+            31.020498
+          ]
+        },
+        "properties": {
+          "name": "京山市张憨憨炉边餐饮店",
+          "region": "新市街道",
+          "kind": "food",
+          "sample": false,
+          "type": "餐饮服务",
+          "address": "京山市新市街道汉龙一号6-105商铺",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 餐饮服务",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 28,
+          "locationRef": "baidu:ce060fb278903a3e4afc8d22",
+          "locationSource": "百度地图 · 门店",
+          "locationReview": {
+            "checkedOn": "2026-11-20",
+            "note": "店招与填报名称相符，汉龙一号6-105商铺一致。",
+            "queries": [
+              "张憨憨炉边"
+            ],
+            "poi": {
+              "uid": "ce060fb278903a3e4afc8d22",
+              "name": "张憨憨炉边菜",
+              "address": "京源大道汉龙一号6-105号商铺",
+              "crs": "BD09MC",
+              "coordinates": [
+                12593684.52,
+                3613681.16
+              ]
+            }
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-food-26",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.10402,
+            31.027434
+          ]
+        },
+        "properties": {
+          "name": "京山市亲回家吃饭餐饮店",
+          "region": "新市街道",
+          "kind": "food",
+          "sample": false,
+          "type": "餐饮服务",
+          "address": "京山市新市街道京源大道水利局门面",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 餐饮服务",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 29,
+          "locationRef": "baidu:fa79320d0ba93a8f5bf6bec7",
+          "locationSource": "百度地图 · 门店",
+          "locationReview": {
+            "checkedOn": "2026-11-20",
+            "note": "京源大道的同名店与水利和湖泊局地图点相距约20米，符合“水利局门面”的描述。另有人民大道店。",
+            "queries": [
+              "亲回家吃饭",
+              "京源大道水利局 回家吃饭",
+              "亲 回家吃饭"
+            ],
+            "poi": {
+              "uid": "fa79320d0ba93a8f5bf6bec7",
+              "name": "亲回家吃饭(京山店)",
+              "address": "京源大道25号翰林华府对面",
+              "crs": "BD09MC",
+              "coordinates": [
+                12592233.23,
+                3614556.22
+              ]
+            }
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-food-27",
+        "geometry": {
+          "type": "GeometryCollection",
+          "geometries": []
+        },
+        "properties": {
+          "name": "京山市主考官餐饮店",
+          "region": "新市街道",
+          "kind": "food",
+          "sample": false,
+          "type": "餐饮服务",
+          "address": "湖北省荆门市京山市新市街道人民大道未来城3栋1-3号",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 餐饮服务",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 30,
+          "locationReview": {
+            "checkedOn": "2026-11-21",
+            "note": "未来城3栋1至3号的门店标为泥巴藕。未查到主考官或同音店招对应这个铺位。",
+            "queries": [
+              "主考官",
+              "未来城 主烤官",
+              "未来城 三栋 烧烤"
+            ],
+            "chainLocation": {
+              "coordinates": [
+                113.117419,
+                31.035087
+              ],
+              "label": "人民大道未来城3栋1至3号",
+              "precision": "填报门址",
+              "reference": {
+                "uid": "f2f1c7f4bd568cc7cf04efa7",
+                "name": "泥巴藕湘鄂小炒大王",
+                "address": "人民大道未来城3栋1-3号(自主申报)",
+                "crs": "BD09MC",
+                "coordinates": [
+                  12593718.16,
+                  3615568.34
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-food-28",
+        "geometry": {
+          "type": "GeometryCollection",
+          "geometries": []
+        },
+        "properties": {
+          "name": "京山市旺旺鸭脑壳餐厅",
+          "region": "新市街道",
+          "kind": "food",
+          "sample": false,
+          "type": "餐饮服务",
+          "address": "京山市新市街道京源大道与幸福路交汇处",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 餐饮服务",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 31,
+          "locationReview": {
+            "checkedOn": "2026-11-21",
+            "note": "地图和订餐平台均把同名店标在八里途客运站对面九洲大酒店旁，距填报的京源大道与幸福路交会处约2.7公里。",
+            "queries": [
+              "旺旺鸭脑壳",
+              "京源大道幸福路 鸭脑壳",
+              "让鸭脑壳飞"
+            ],
+            "chainLocation": {
+              "coordinates": [
+                113.100328,
+                31.02759
+              ],
+              "label": "京源大道与幸福路交汇处",
+              "precision": "填报路口",
+              "reference": {
+                "uid": "8fa14fc37249566ff7eafc4d",
+                "name": "京源大道/幸福路(路口)",
+                "address": "荆门市京山市京源大道",
+                "crs": "BD09MC",
+                "coordinates": [
+                  12591823.06,
+                  3614573.04
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-food-29",
+        "geometry": {
+          "type": "GeometryCollection",
+          "geometries": []
+        },
+        "properties": {
+          "name": "湖北泥巴藕餐饮合伙企业",
+          "region": "新市街道",
+          "kind": "food",
+          "sample": false,
+          "type": "餐饮服务",
+          "address": "京山市人民大道未来城B6栋101-103号商铺",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 餐饮服务",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 32,
+          "locationReview": {
+            "checkedOn": "2026-11-21",
+            "note": "地图上的泥巴藕在未来城3栋1至3号，填报的B6栋101至103号另标有幸福味道。两处经营关系待核。",
+            "queries": [
+              "泥巴藕",
+              "未来城B6栋 泥巴藕"
+            ],
+            "chainLocation": {
+              "coordinates": [
+                113.116344,
+                31.035066
+              ],
+              "label": "人民大道未来城B6栋101至103号",
+              "precision": "填报门址",
+              "reference": {
+                "uid": "d6d07ff09971d313d42ce26e",
+                "name": "幸福味道餐饮店(未来城店)",
+                "address": "人民大道未来城b6栋101-103商铺",
+                "crs": "BD09MC",
+                "coordinates": [
+                  12593599.04,
+                  3615563.39
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-food-30",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.122983,
+            31.026968
+          ]
+        },
+        "properties": {
+          "name": "京山市串门餐饮店",
+          "region": "新市街道",
+          "kind": "food",
+          "sample": false,
+          "type": "餐饮服务",
+          "address": "湖北省荆门市京山市新市街道新市大道缘汇小区门前8-9号门面",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 餐饮服务",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 33,
+          "locationRef": "baidu:daa32f62e2b40433d4851fee",
+          "locationSource": "百度地图 · 门店",
+          "locationReview": {
+            "checkedOn": "2026-11-20",
+            "note": "新市大道门店紧邻缘汇小区西门，符合小区门前商铺的描述。另两处相近名称的候选在联投澜岸。",
+            "queries": [
+              "串门",
+              "缘汇小区 串门"
+            ],
+            "poi": {
+              "uid": "daa32f62e2b40433d4851fee",
+              "name": "串门(新市大道店)",
+              "address": "新市大道50号",
+              "crs": "BD09MC",
+              "coordinates": [
+                12594334.81,
+                3614530.23
+              ]
+            }
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-food-31",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.115985,
+            31.010459
+          ]
+        },
+        "properties": {
+          "name": "京山柴火人家老饭铺",
+          "region": "新市街道",
+          "kind": "food",
+          "sample": false,
+          "type": "餐饮服务",
+          "address": "京山市温泉新区新市大道京城公园豪庭商业1层101号",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 餐饮服务",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 34,
+          "locationRef": "baidu:dc9b7fc20f885804e01103fa",
+          "locationSource": "百度地图 · 门店",
+          "locationReview": {
+            "checkedOn": "2026-11-20",
+            "note": "同名餐馆位于新市大道与牛皇山路交会处东北角，与公园豪庭临街商业位置相符。",
+            "queries": [
+              "柴火人家老饭铺",
+              "京城公园豪庭 柴火人家"
+            ],
+            "poi": {
+              "uid": "dc9b7fc20f885804e01103fa",
+              "name": "柴火人家老饭铺(京山店)",
+              "address": "新市大道与牛皇山路交叉口东北角",
+              "crs": "BD09MC",
+              "coordinates": [
+                12593561.63,
+                3612380.87
+              ]
+            }
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-food-32",
+        "geometry": {
+          "type": "GeometryCollection",
+          "geometries": []
+        },
+        "properties": {
+          "name": "京山市惠亭山餐饮有限公司",
+          "region": "新市街道",
+          "kind": "food",
+          "sample": false,
+          "type": "餐饮服务",
+          "address": "湖北省荆门市京山市新市镇鸭山路18号",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 餐饮服务",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 35,
+          "locationReview": {
+            "checkedOn": "2026-11-21",
+            "note": "鸭山路18号的地图店招为京山印象。尚无公开资料证实惠亭山餐饮在该处经营这家门店。",
+            "queries": [
+              "惠亭山餐饮",
+              "鸭山路18号 餐饮"
+            ],
+            "chainLocation": {
+              "coordinates": [
+                113.10362,
+                31.007036
+              ],
+              "label": "鸭山路18号",
+              "precision": "填报门址",
+              "reference": {
+                "uid": "3d9b8bae75e7071900ff2d05",
+                "name": "京山印象(鸭山路店)",
+                "address": "湖北省荆门市京山市鸭山路18号",
+                "crs": "BD09MC",
+                "coordinates": [
+                  12592190.71,
+                  3611918.6
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-food-33",
+        "geometry": {
+          "type": "GeometryCollection",
+          "geometries": []
+        },
+        "properties": {
+          "name": "京山市南河景轩主题餐饮酒店",
+          "region": "温泉街道",
+          "kind": "food",
+          "sample": false,
+          "type": "餐饮服务",
+          "address": "湖北省荆门市京山市温泉新区沿河南路43号",
+          "reportedStreet": "温泉新区",
+          "recordSource": "京山市商务局 · 限上商贸 · 餐饮服务",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 36,
+          "locationReview": {
+            "checkedOn": "2026-11-21",
+            "note": "沿河南路同名南河景轩门店标在42号，原表为43号。尚无同址或门牌变更依据。",
+            "queries": [
+              "南河景轩",
+              "沿河南路43号 南河景轩"
+            ],
+            "chainLocation": {
+              "coordinates": [
+                113.106395,
+                31.017085
+              ],
+              "label": "沿河南路43号附近",
+              "precision": "门牌附近",
+              "reference": {
+                "uid": "459f7a55b3f4204b88db7323",
+                "name": "南河景轩鮰渔馆",
+                "address": "湖北省荆门市京山市沿河南路42号",
+                "crs": "BD09MC",
+                "coordinates": [
+                  12592497.93,
+                  3613221.25
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-food-34",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.083151,
+            31.021684
+          ]
+        },
+        "properties": {
+          "name": "京山市九龙鱼庄",
+          "region": "温泉街道",
+          "kind": "food",
+          "sample": false,
+          "type": "餐饮服务",
+          "address": "京山县温泉新区惠水路00号",
+          "reportedStreet": "温泉新区",
+          "recordSource": "京山市商务局 · 限上商贸 · 餐饮服务",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 37,
+          "locationRef": "baidu:b3200dabec8eaa51eee4a51a",
+          "locationSource": "百度地图 · 门店",
+          "locationReview": {
+            "checkedOn": "2026-11-20",
+            "note": "同名鱼庄位于惠亭湖惠水路，地图标为18号。原表门牌为“00号”，保留原文。",
+            "queries": [
+              "九龙鱼庄"
+            ],
+            "poi": {
+              "uid": "b3200dabec8eaa51eee4a51a",
+              "name": "九龙鱼庄·京山土菜研发基地",
+              "address": "楚望大道惠亭湖国家湿地公园惠水路18号",
+              "crs": "BD09MC",
+              "coordinates": [
+                12589909.32,
+                3613812.86
+              ]
+            }
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-food-35",
+        "geometry": {
+          "type": "GeometryCollection",
+          "geometries": []
+        },
+        "properties": {
+          "name": "京山市炉海炙造餐饮店（个体工商户）",
+          "region": "京山市",
+          "kind": "food",
+          "sample": false,
+          "type": "餐饮服务",
+          "address": "湖北省荆门市京山市永隆镇杨丰利民路150号（自主申报）",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 餐饮服务",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 38,
+          "reviewNote": "原表所属街道与经营地址不一致，镇街归属待核实。",
+          "locationReview": {
+            "checkedOn": "2026-11-21",
+            "note": "地图上的炉海炙造在城区新市大道，原表经营地址为永隆镇杨丰利民路150号，尚未查到该镇门店。",
+            "queries": [
+              "炉海炙造",
+              "杨丰利民路150号 炉海炙造"
+            ],
+            "chainLocation": {
+              "coordinates": [
+                112.801685,
+                30.830862
+              ],
+              "label": "永漋镇杨丰街利民路",
+              "precision": "道路估位",
+              "reference": {
+                "uid": "e291cd49bcf7eaeceb12e473",
+                "name": "利民酒店(杨浲路店)",
+                "address": "湖北省荆门市京山市杨峰街利民路",
+                "crs": "BD09MC",
+                "coordinates": [
+                  12558515.49,
+                  3589205.57
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-food-36",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.116486,
+            31.034998
+          ]
+        },
+        "properties": {
+          "name": "京山市董记火腿鸡",
+          "region": "新市街道",
+          "kind": "food",
+          "sample": false,
+          "type": "餐饮服务",
+          "address": "京山市新市镇人民大道未来城美食城6-105、106",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 餐饮服务",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 39,
+          "locationRef": "baidu:6fb8771c63fe445be8e582c7",
+          "locationSource": "百度地图 · 门店",
+          "locationReview": {
+            "checkedOn": "2026-11-20",
+            "note": "火腿鸡门店在未来城美食城6栋105、106，两个铺号均与原表一致。",
+            "queries": [
+              "董记火腿鸡"
+            ],
+            "poi": {
+              "uid": "6fb8771c63fe445be8e582c7",
+              "name": "天麻火腿鸡(人民大道店)",
+              "address": "人民大道未来城美食城6-105、106",
+              "crs": "BD09MC",
+              "coordinates": [
+                12593614.78,
+                3615554.82
+              ]
+            }
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-food-37",
+        "geometry": {
+          "type": "GeometryCollection",
+          "geometries": []
+        },
+        "properties": {
+          "name": "京山市幸福味道餐饮店",
+          "region": "新市街道",
+          "kind": "food",
+          "sample": false,
+          "type": "餐饮服务",
+          "address": "湖北省荆门市京山市新市街道新市大道103号",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 餐饮服务",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 40,
+          "locationReview": {
+            "checkedOn": "2026-11-21",
+            "note": "地图上的幸福味道在人民大道未来城B6栋，原表填报新市大道103号，尚无该址分店或迁址依据。",
+            "queries": [
+              "幸福味道",
+              "新市大道103号 幸福味道"
+            ],
+            "chainLocation": {
+              "coordinates": [
+                113.121462,
+                31.027972
+              ],
+              "label": "新市大道103号 · 新阳小区",
+              "precision": "小区范围",
+              "reference": {
+                "uid": "f60a15ed92235decbb17e7f7",
+                "name": "新阳小区",
+                "address": "荆门市京山市新市大道103号",
+                "crs": "BD09MC",
+                "coordinates": [
+                  12594166.35,
+                  3614656.8
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-food-38",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.123529,
+            31.027001
+          ]
+        },
+        "properties": {
+          "name": "京山市红树林餐馆",
+          "region": "新市街道",
+          "kind": "food",
+          "sample": false,
+          "type": "餐饮服务",
+          "address": "湖北省荆门市京山市新市街道新市大道缘汇小区1-103号",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 餐饮服务",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 41,
+          "locationRef": "baidu:a840f411d65589bec4f50dc4",
+          "locationSource": "百度地图 · 填报楼栋",
+          "locationReview": {
+            "checkedOn": "2026-11-20",
+            "note": "按原表定位到缘汇小区1栋。103号门面尚待核实，红树林新阳店另标在新阳大厦。",
+            "queries": [
+              "红树林",
+              "缘汇小区 红树林烧烤",
+              "新市大道 缘汇小区1栋"
+            ],
+            "poi": {
+              "uid": "a840f411d65589bec4f50dc4",
+              "name": "缘汇小区-1栋",
+              "address": "湖北省荆门市京山市新市大道56号",
+              "crs": "BD09MC",
+              "coordinates": [
+                12594395.18,
+                3614535.68
+              ]
+            }
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-food-39",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.11674,
+            31.030987
+          ]
+        },
+        "properties": {
+          "name": "京山市稻香鸭子铺餐饮店",
+          "region": "新市街道",
+          "kind": "food",
+          "sample": false,
+          "type": "餐饮服务",
+          "address": "京山市云杜路金源明珠7栋31号-37号商铺一楼过道及二楼",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 餐饮服务",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 42,
+          "locationRef": "baidu:1798536fa60cf083ce04ef00",
+          "locationSource": "百度地图 · 门店",
+          "locationReview": {
+            "checkedOn": "2026-11-20",
+            "note": "地图上的稻香鸭和鸭子铺均在云杜路金源明珠7栋旁，店名、商业区和楼栋相符。",
+            "queries": [
+              "稻香鸭子铺",
+              "云杜路金源明珠 鸭子铺"
+            ],
+            "poi": {
+              "uid": "1798536fa60cf083ce04ef00",
+              "name": "稻香鸭(金源明珠店)",
+              "address": "云杜路金源明珠",
+              "crs": "BD09MC",
+              "coordinates": [
+                12593643.26,
+                3615036.64
+              ]
+            }
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-food-40",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.107262,
+            31.020377
+          ]
+        },
+        "properties": {
+          "name": "京山市才鱼大王餐饮店",
+          "region": "新市街道",
+          "kind": "food",
+          "sample": false,
+          "type": "餐饮服务",
+          "address": "湖北省荆门市京山市新市街道三角洲社区小中路29-5号（自主申报）",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 餐饮服务",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 43,
+          "locationRef": "baidu:230323fb924a47a6f90cad6a",
+          "locationSource": "百度地图 · 门店",
+          "locationReview": {
+            "checkedOn": "2026-11-20",
+            "note": "店名与小中路29-5号门牌一致。",
+            "queries": [
+              "才鱼大王",
+              "小中路29-5号 才鱼大王"
+            ],
+            "poi": {
+              "uid": "230323fb924a47a6f90cad6a",
+              "name": "松滋鸡才鱼大王(小中路店)",
+              "address": "小中路29一5号",
+              "crs": "BD09MC",
+              "coordinates": [
+                12592593.78,
+                3613647.97
+              ]
+            }
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-food-41",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.11473,
+            31.019859
+          ]
+        },
+        "properties": {
+          "name": "京山市朱锅汤馆餐饮店",
+          "region": "新市街道",
+          "kind": "food",
+          "sample": false,
+          "type": "餐饮服务",
+          "address": "湖北省荆门市京山市新市镇城中路汉龙一号15栋102/103/104",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 餐饮服务",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 44,
+          "locationRef": "baidu:8a5add7c0fafc5f42a06ce0a",
+          "locationSource": "百度地图 · 门店",
+          "locationReview": {
+            "checkedOn": "2026-11-20",
+            "note": "地图店招为朱锅卤虾，城中路汉龙一号15栋102为填报的三个铺号之一。",
+            "queries": [
+              "朱锅汤馆",
+              "汉龙一号15栋 朱锅汤馆"
+            ],
+            "poi": {
+              "uid": "8a5add7c0fafc5f42a06ce0a",
+              "name": "朱锅卤虾(城中路店)",
+              "address": "新市镇城中路汉龙一号15栋102",
+              "crs": "BD09MC",
+              "coordinates": [
+                12593421.71,
+                3613593.74
+              ]
+            }
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-food-42",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.122881,
+            31.017684
+          ]
+        },
+        "properties": {
+          "name": "京山市董记牛肉馆",
+          "region": "新市街道",
+          "kind": "food",
+          "sample": false,
+          "type": "餐饮服务",
+          "address": "京山市新市街道京源大道东端京汇华苑A幢1-2号",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 餐饮服务",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 45,
+          "locationRef": "baidu:61235e05dca2f034acee7ace",
+          "locationSource": "百度地图 · 填报楼栋",
+          "locationReview": {
+            "checkedOn": "2026-11-20",
+            "note": "按原表定位到京汇华苑A栋。1至2号门面及具体店招尚待核实。",
+            "queries": [
+              "董记牛肉馆",
+              "京汇华苑 董记牛肉馆",
+              "董记牛肉 京汇华苑 A幢"
+            ],
+            "poi": {
+              "uid": "61235e05dca2f034acee7ace",
+              "name": "京汇华苑-A栋",
+              "address": "荆门市京山市申公路京汇华苑",
+              "crs": "BD09MC",
+              "coordinates": [
+                12594324.43,
+                3613329.57
+              ]
+            }
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "commerce-food-43",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.1044,
+            31.026973
+          ]
+        },
+        "properties": {
+          "name": "京山牛恋鹅的故事餐饮店",
+          "region": "新市街道",
+          "kind": "food",
+          "sample": false,
+          "type": "餐饮服务",
+          "address": "京山市新市街道京源大道394号旁停车场",
+          "reportedStreet": "新市街道",
+          "recordSource": "京山市商务局 · 限上商贸 · 餐饮服务",
+          "reportedOn": "2026-11-19",
+          "sourceRow": 46,
+          "locationRef": "baidu:bef4a3ce922c5e8bf6c59c51",
+          "locationSource": "百度地图 · 门店",
+          "locationReview": {
+            "checkedOn": "2026-11-20",
+            "note": "京源大道翰林华府旁的门店另有394号原蒙古包场地的地址记录，与填报的停车场位置相符。已区分御景北苑和尚东郡门店。",
+            "queries": [
+              "牛恋鹅的故事",
+              "京源大道394号 牛恋鹅"
+            ],
+            "poi": {
+              "uid": "bef4a3ce922c5e8bf6c59c51",
+              "name": "牛恋鹅的故事",
+              "address": "京源大道翰林华府旁",
+              "crs": "BD09MC",
+              "coordinates": [
+                12592275.47,
+                3614497.12
+              ]
+            },
+            "supportingUrl": "https://m.jiwu.com/jingmen/loupan/1305391.html"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "emergency_shelters",
+    "name": "应急避难场所与物资",
+    "department": "应急保障",
+    "category": "保障资源",
+    "description": "按填报名称、地址、容纳人数及物资登记。学校点位按名称和门牌与现有 CIM 图层核对。",
+    "features": [
+      {
+        "type": "Feature",
+        "id": "js-shelter-1",
+        "geometry": {
+          "type": "GeometryCollection",
+          "geometries": []
+        },
+        "properties": {
+          "name": "凤凰堰社区",
+          "region": "新市街道",
+          "kind": "shelter",
+          "sample": false,
+          "address": "京源大道53号",
+          "shelterCapacity": 2000,
+          "materialDetails": "抢险救援鞋子3 雨衣5 强光手电 2喇叭2 抢险救援头盔5 救生衣5 应急棉被5 铁锹5头盔3",
+          "materialQuantity": 35,
+          "recordSource": "应急避难场所和物资",
+          "sourceRow": 3,
+          "locationReview": {
+            "checkedOn": "2026-11-20",
+            "note": "京源大道53号标有供电公司内部充电站。社区居委会和其他避难点均有不同位置，未查到该址避难场地。",
+            "queries": [
+              "凤凰堰社区 京源大道53号",
+              "凤凰堰社区应急避难场所",
+              "京源大道53号 凤凰堰社区居委会"
+            ]
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "js-shelter-2",
+        "geometry": {
+          "type": "GeometryCollection",
+          "geometries": []
+        },
+        "properties": {
+          "name": "文峰公园",
+          "region": "新市街道",
+          "kind": "shelter",
+          "sample": false,
+          "address": "新市大道64号",
+          "shelterCapacity": 8000,
+          "materialDetails": "抢险救援鞋子3 雨衣5 强光手电2 喇叭2 抢险救援头盔5 救生衣5",
+          "materialQuantity": 22,
+          "recordSource": "应急避难场所和物资",
+          "sourceRow": 4,
+          "reviewNote": "同名公园的已有点位与填报地址不同，避难场所入口待核实。",
+          "locationReview": {
+            "checkedOn": "2026-11-20",
+            "note": "地图能定位文峰公园及多个出入口。新市大道64号尚未与具体避难场地对应，现有公园图层另按城中路与文峰西路交会处标址。",
+            "queries": [
+              "文峰公园",
+              "新市大道64号 文峰公园",
+              "文峰公园 应急避难场所"
+            ]
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "js-shelter-3",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.11747,
+            31.019068
+          ]
+        },
+        "properties": {
+          "name": "实验小学",
+          "region": "新市街道",
+          "kind": "shelter",
+          "sample": false,
+          "address": "新市街道新市镇城中路306号",
+          "shelterCapacity": 5000,
+          "materialDetails": "抢险救援鞋子3 雨衣5 强光手电2 喇叭2 抢险救援头盔5 救生衣5",
+          "materialQuantity": 22,
+          "recordSource": "应急避难场所和物资",
+          "sourceRow": 5,
+          "locationSource": "CIM 学校点位（校名、门牌一致）",
+          "locationRef": "cim-09-6109f905653e3b0770e57c"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "js-shelter-4",
+        "geometry": {
+          "type": "GeometryCollection",
+          "geometries": []
+        },
+        "properties": {
+          "name": "八里途社区",
+          "region": "永兴街道",
+          "kind": "shelter",
+          "sample": false,
+          "address": "轻机大道735号",
+          "shelterCapacity": 2000,
+          "materialDetails": "抢险救援鞋子3 雨衣5 强光手电2 喇叭2 抢险救援头盔5 救生衣5 应急棉被 铁锹",
+          "materialQuantity": 32,
+          "recordSource": "应急避难场所和物资",
+          "sourceRow": 6,
+          "locationReview": {
+            "checkedOn": "2026-11-20",
+            "note": "轻机大道沿线查到八里途社区服务机构，但未查到735号对应的避难场地，原表镇街与地图社区信息也需核对。",
+            "queries": [
+              "八里途社区 轻机大道735号",
+              "八里途社区应急避难场所",
+              "轻机大道735号"
+            ]
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "js-shelter-5",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.11919389,
+            31.02353694
+          ]
+        },
+        "properties": {
+          "name": "实验中学",
+          "region": "新市街道",
+          "kind": "shelter",
+          "sample": false,
+          "address": "新市街道云杜路100号",
+          "shelterCapacity": 5000,
+          "materialDetails": "抢险救援鞋子3 雨衣5 强光手电2 喇叭2 抢险救援头盔5 救生衣5 应急灯10 大衣 5铁锹 5 应急棉被10",
+          "materialQuantity": 52,
+          "recordSource": "应急避难场所和物资",
+          "sourceRow": 7,
+          "locationSource": "CIM 学校点位（校名、门牌一致）",
+          "locationRef": "cim-09-5b508c2f2e54ddbede5821"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "js-shelter-6",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.134347,
+            30.993845
+          ]
+        },
+        "properties": {
+          "name": "京山市文体中心体育场",
+          "region": "京山市",
+          "kind": "shelter",
+          "sample": false,
+          "address": "温泉路57号",
+          "shelterCapacity": 10600,
+          "materialDetails": "抢险救援鞋子3 雨衣5 强光手电2 喇叭2 抢险救援头盔5 救生衣5",
+          "materialQuantity": 22,
+          "recordSource": "应急避难场所和物资",
+          "sourceRow": 8,
+          "locationRef": "baidu:c91892cd9e4cdbd50bccdd8d",
+          "locationSource": "百度地图 · 场地",
+          "locationReview": {
+            "checkedOn": "2026-11-20",
+            "note": "原表指定温泉路的文体中心体育场，地图能区分体育场、网球场和停车场。本点为体育场场内参考位置，疏散入口待现场核实。",
+            "queries": [
+              "文体中心体育场",
+              "温泉路57号 体育场",
+              "京山市文化体育中心 体育场"
+            ],
+            "poi": {
+              "uid": "c91892cd9e4cdbd50bccdd8d",
+              "name": "京山文体中心体育场",
+              "address": "湖北省荆门市京山市温泉路南150米",
+              "crs": "BD09MC",
+              "coordinates": [
+                12595594.93,
+                3610270.77
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "form_jingyuan_tariffs",
+    "name": "京源充电分时电价",
+    "department": "京山京源资产经营管理有限公司",
+    "category": "收费标准",
+    "description": "来自京山京源充电站信息的收费标准。记录名称为每日时段，金额单位为元/kWh。",
+    "features": [
+      {
+        "type": "Feature",
+        "id": "jy-tariff-1",
+        "geometry": {
+          "type": "GeometryCollection",
+          "geometries": []
+        },
+        "properties": {
+          "name": "00:00-06:00",
+          "region": "京山市",
+          "kind": "form_record",
+          "sample": false,
+          "band": "谷",
+          "energyPrice": 0.4269,
+          "serviceFee": 0.33,
+          "totalPrice": 0.7569,
+          "tariffGroup": "京源充电",
+          "recordSource": "京山京源充电站信息 · 收费标准",
+          "sourceRow": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "jy-tariff-2",
+        "geometry": {
+          "type": "GeometryCollection",
+          "geometries": []
+        },
+        "properties": {
+          "name": "06:00-12:00",
+          "region": "京山市",
+          "kind": "form_record",
+          "sample": false,
+          "band": "平",
+          "energyPrice": 0.6378,
+          "serviceFee": 0.33,
+          "totalPrice": 0.9678,
+          "tariffGroup": "京源充电",
+          "recordSource": "京山京源充电站信息 · 收费标准",
+          "sourceRow": 3
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "jy-tariff-3",
+        "geometry": {
+          "type": "GeometryCollection",
+          "geometries": []
+        },
+        "properties": {
+          "name": "12:00-14:00",
+          "region": "京山市",
+          "kind": "form_record",
+          "sample": false,
+          "band": "谷",
+          "energyPrice": 0.4269,
+          "serviceFee": 0.33,
+          "totalPrice": 0.7569,
+          "tariffGroup": "京源充电",
+          "recordSource": "京山京源充电站信息 · 收费标准",
+          "sourceRow": 4
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "jy-tariff-4",
+        "geometry": {
+          "type": "GeometryCollection",
+          "geometries": []
+        },
+        "properties": {
+          "name": "14:00-16:00",
+          "region": "京山市",
+          "kind": "form_record",
+          "sample": false,
+          "band": "平",
+          "energyPrice": 0.6378,
+          "serviceFee": 0.33,
+          "totalPrice": 0.9678,
+          "tariffGroup": "京源充电",
+          "recordSource": "京山京源充电站信息 · 收费标准",
+          "sourceRow": 5
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "jy-tariff-5",
+        "geometry": {
+          "type": "GeometryCollection",
+          "geometries": []
+        },
+        "properties": {
+          "name": "16:00-18:00",
+          "region": "京山市",
+          "kind": "form_record",
+          "sample": false,
+          "band": "峰",
+          "energyPrice": 0.8364,
+          "serviceFee": 0.33,
+          "totalPrice": 1.1664,
+          "tariffGroup": "京源充电",
+          "recordSource": "京山京源充电站信息 · 收费标准",
+          "sourceRow": 6
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "jy-tariff-6",
+        "geometry": {
+          "type": "GeometryCollection",
+          "geometries": []
+        },
+        "properties": {
+          "name": "18:00-20:00",
+          "region": "京山市",
+          "kind": "form_record",
+          "sample": false,
+          "band": "尖",
+          "energyPrice": 0.9621,
+          "serviceFee": 0.33,
+          "totalPrice": 1.2921,
+          "tariffGroup": "京源充电",
+          "recordSource": "京山京源充电站信息 · 收费标准",
+          "sourceRow": 7
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "jy-tariff-7",
+        "geometry": {
+          "type": "GeometryCollection",
+          "geometries": []
+        },
+        "properties": {
+          "name": "20:00-24:00",
+          "region": "京山市",
+          "kind": "form_record",
+          "sample": false,
+          "band": "峰",
+          "energyPrice": 0.8364,
+          "serviceFee": 0.33,
+          "totalPrice": 1.1664,
+          "tariffGroup": "京源充电",
+          "recordSource": "京山京源充电站信息 · 收费标准",
+          "sourceRow": 8
+        }
+      }
+    ],
+    "formSchema": {
+      "fields": [
+        {
+          "key": "tariffGroup",
+          "label": "适用站点组",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "band",
+          "label": "峰谷类型",
+          "type": "select",
+          "required": true,
+          "options": [
+            "谷",
+            "平",
+            "峰",
+            "尖"
+          ]
+        },
+        {
+          "key": "energyPrice",
+          "label": "电费（元/kWh）",
+          "type": "number",
+          "required": true
+        },
+        {
+          "key": "serviceFee",
+          "label": "服务费（元/kWh）",
+          "type": "number",
+          "required": true
+        },
+        {
+          "key": "totalPrice",
+          "label": "合计（元/kWh）",
+          "type": "number",
+          "required": true
+        }
+      ]
+    }
+  }
+]

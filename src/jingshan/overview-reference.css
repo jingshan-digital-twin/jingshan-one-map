@@ -1,0 +1,745 @@
+/* MasterGo V1.4 cockpit values at the 1920 × 1080 design width. */
+.jt-screen {
+  --v14-unit: clamp(.6667px, .05208333vw, 1px);
+  --v14-rail-unit: max(.85px, var(--v14-unit));
+  --v14-font: "Microsoft YaHei", "Microsoft YaHei UI", sans-serif;
+  --v14-ink: #f9fcff;
+  --v14-muted: #bfcbe2;
+  --v14-metric: #6dd6ff;
+  --v14-edge: #4db3ff66;
+  --v14-icon: #6dd6ff;
+  --v14-list: linear-gradient(180deg, rgb(2 43 109 / .56), rgb(1 25 74 / .36));
+  --v14-list-line: #4db3ff;
+  --v14-scroll-thumb: #4db3ff;
+  --v14-tab: linear-gradient(180deg, rgb(14 60 131 / .9), rgb(37 82 150 / .6));
+  --v14-tab-active: linear-gradient(180deg, rgb(39 139 255 / .78), rgb(15 77 172 / .58));
+  --v14-surface: rgb(15 77 172 / .2);
+  --v14-overlay: rgb(26 44 87 / .8);
+  --v14-chart-track: rgb(77 179 255 / .23);
+  --v14-heading-color: #ffae00;
+  --v14-heading-image: url('/jingshan/ui/panel-heading.svg');
+  --v14-heading-icon: url('/jingshan/ui/panel-chevron.svg');
+  --v14-header-face: url('/jingshan/ui/cockpit-header.png');
+  --v14-header-height: calc(88 * var(--v14-unit));
+  --overview-dock-unit: min(.05995204vw, .10604454dvh);
+  font-family: var(--v14-font);
+}
+.jt-screen.cockpit-light {
+  --v14-ink: #164387;
+  --v14-muted: rgb(22 67 135 / .8);
+  --v14-metric: #4b8fda;
+  --v14-edge: #eaf6ff;
+  --v14-icon: #367ac7;
+  --v14-list: linear-gradient(180deg, rgb(254 254 255 / .88), rgb(220 238 255 / .78));
+  --v14-list-line: #8dceff;
+  --v14-scroll-thumb: #4b8fda;
+  --v14-tab: linear-gradient(180deg, #fff, #cbe5f8);
+  --v14-tab-active: linear-gradient(180deg, #4399ff, #0a5bd6);
+  --v14-surface: rgb(226 242 255 / .4);
+  --v14-overlay: rgb(226 242 255 / .88);
+  --v14-chart-track: rgb(75 143 218 / .2);
+  --v14-heading-color: #164387;
+  --v14-heading-image: url('/jingshan/ui/light-panel-heading.svg');
+  --v14-heading-icon: url('/jingshan/ui/light-panel-chevron.svg');
+  --v14-header-face: url('/jingshan/ui/light-header-mastergo.png');
+}
+.jt-screen .jt-header {
+  padding-inline: calc(12 * var(--v14-unit));
+  background: var(--v14-header-face) center top / 100% 100% no-repeat;
+}
+.jt-screen .jt-title {
+  color: var(--v14-heading-color);
+  font: 900 calc(58 * var(--v14-unit))/1 "YouSheBiaoTiHei", "优设标题黑", var(--v14-font);
+  letter-spacing: 0;
+  transform: translateY(calc(-4 * var(--v14-unit))) skewX(-9deg) scale(.88, .82);
+  text-shadow: none;
+}
+.jt-screen .jt-header :is(.header-left,.header-right) {
+  gap: calc(8 * var(--v14-unit));
+  position: relative;
+}
+.jt-screen .jt-header .header-return { min-width: 0; }
+.jt-screen .jt-header :is(button,.home-user-menu a) {
+  min-height: calc(36 * var(--v14-unit));
+  border: 1px solid var(--v14-edge);
+  background: var(--v14-tab);
+  border-radius: 1px;
+  color: var(--v14-ink);
+  font-size: max(11px, calc(16 * var(--v14-unit)));
+  line-height: 1.35;
+  padding: .15em .58em;
+  box-shadow: none;
+}
+.jt-screen .jt-header :is(button,.home-user-menu a):is(:hover,:focus-visible) {
+  background: var(--v14-tab-active);
+  color: #fff;
+}
+.jt-screen .header-left time {
+  color: var(--v14-ink);
+  font: 400 max(12px, calc(20 * var(--v14-unit)))/1.4 "Cockpit Bebas", var(--v14-font);
+  letter-spacing: .028em;
+  text-shadow: none;
+}
+.jt-screen .header-return svg { width: 1.1em; height: 1.1em; }
+.jt-screen .theme-switch { display: grid; place-items: center; }
+.jt-screen .theme-switch svg { width: 1.1em; height: 1.1em; }
+.jt-screen .home-user-trigger { display: flex; align-items: center; gap: .36em; }
+.jt-screen .home-user-trigger svg { width: .95em; height: .95em; }
+.jt-screen .home-user-trigger svg:first-child { fill: currentColor; }
+.jt-screen .home-user-menu {
+  position: absolute;
+  display: grid;
+  gap: calc(4 * var(--v14-unit));
+  z-index: 5;
+  inset: calc(100% + 4px) 0 auto auto;
+  width: max-content;
+  min-width: 112px;
+  padding: calc(8 * var(--v14-unit));
+  background: var(--v14-overlay);
+  border: 1px solid var(--v14-edge);
+}
+.jt-screen .home-user-menu :is(a,button) { text-decoration: none; text-align: start; }
+
+.v14-overview-rail-shell {
+  --v14-min-text: 16px;
+  position: relative;
+  z-index: 2;
+  container-type: inline-size;
+  min-width: 0;
+  min-height: 0;
+  font-size: var(--v14-min-text);
+  padding: calc(12 * var(--v14-rail-unit));
+  overflow-x: auto;
+  overflow-y: auto;
+  overscroll-behavior-y: contain;
+  scrollbar-gutter: stable;
+  scrollbar-width: thin;
+  scrollbar-color: var(--v14-scroll-thumb) transparent;
+  border: 1px solid var(--v14-edge);
+  background: var(--v14-surface);
+  box-shadow: var(--side-shadow);
+}
+@supports selector(::-webkit-scrollbar) {
+  .v14-overview-rail-shell {
+    scrollbar-width: auto;
+    scrollbar-color: auto;
+  }
+  .v14-overview-rail-shell::-webkit-scrollbar { width: 2px; }
+  .v14-overview-rail-shell::-webkit-scrollbar:horizontal { height: 6px; }
+  .v14-overview-rail-shell::-webkit-scrollbar-track { background: transparent; }
+  .v14-overview-rail-shell::-webkit-scrollbar-thumb {
+    border-radius: 1px;
+    background: var(--v14-scroll-thumb);
+  }
+}
+.v14-overview-rail-shell:focus-visible {
+  outline: 2px solid var(--v14-list-line);
+  outline-offset: -2px;
+}
+.v14-overview-rail {
+  display: grid;
+  min-width: 0;
+  gap: calc(16 * var(--v14-rail-unit));
+}
+.v14-overview-rail.left-panel .v14-overview-module:nth-child(1) { min-block-size: calc(390 * var(--v14-rail-unit)); }
+.v14-overview-rail.left-panel .v14-overview-module.v14-industry-overview { min-block-size: calc(328 * var(--v14-rail-unit)); }
+.v14-overview-rail.left-panel .v14-overview-module.v14-industry-primary { min-block-size: 0; }
+.v14-overview-rail.left-panel .v14-overview-module:nth-child(2) { min-block-size: calc(366 * var(--v14-rail-unit)); }
+.v14-overview-rail.left-panel .v14-overview-module:nth-child(3) { min-block-size: calc(355 * var(--v14-rail-unit)); }
+.v14-overview-rail.right-panel .v14-overview-module:nth-child(2) { min-block-size: calc(480 * var(--v14-rail-unit)); }
+.v14-overview-rail.right-panel .v14-overview-module:nth-child(3) { min-block-size: calc(405 * var(--v14-rail-unit)); }
+.v14-overview-module {
+  display: grid;
+  position: relative;
+  grid-template-rows: calc(52 * var(--v14-rail-unit)) minmax(auto,1fr);
+  min-width: 0;
+  min-height: 0;
+  isolation: isolate;
+  border: 1px solid var(--v14-edge);
+  background: var(--v14-surface);
+  box-shadow: var(--side-shadow);
+}
+.v14-overview-module::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 0;
+  height: calc(14 * var(--v14-rail-unit));
+  background: url('/jingshan/ui/panel-corner.svg') bottom left / auto 100% no-repeat;
+  pointer-events: none;
+}
+.v14-overview.cockpit-light .v14-overview-module::after { filter: brightness(0) invert(1); opacity: .75; }
+.v14-overview-heading {
+  display: flex;
+  align-items: center;
+  gap: calc(10 * var(--v14-rail-unit));
+  padding: 0 calc(16 * var(--v14-rail-unit));
+  min-width: 0;
+  background: var(--v14-heading-image) center / 100% 100% no-repeat;
+  color: var(--v14-heading-color);
+}
+.v14-overview-heading::before {
+  content: "";
+  width: calc(30 * var(--v14-rail-unit));
+  height: calc(30 * var(--v14-rail-unit));
+  flex: 0 0 auto;
+  background: var(--v14-heading-icon) center / contain no-repeat;
+}
+.v14-overview-heading h2 {
+  font: 700 calc(24 * var(--v14-rail-unit))/calc(32 * var(--v14-rail-unit)) var(--v14-font);
+  white-space: nowrap;
+}
+.v14-overview-content {
+  min-width: 0;
+  min-height: 0;
+  padding: calc(16 * var(--v14-rail-unit));
+  color: var(--v14-ink);
+}
+.v14-overview-content :focus-visible { outline-offset: -2px; }
+
+.map-top-controls:has(> .home-region-picker) { flex-direction: column; gap: calc(8 * var(--v14-unit)); }
+.v14-overview .home-legend {
+  color: var(--v14-ink);
+  background: var(--v14-overlay);
+  border: 1px solid var(--v14-edge);
+  border-radius: calc(4 * var(--v14-unit));
+}
+.jt-screen .home-region-picker {
+  position: relative;
+  width: min(396px, 100%);
+  color: var(--v14-ink);
+  font: 400 16px/24px var(--v14-font);
+}
+.home-region-bar {
+  display: flex;
+  align-items: stretch;
+  gap: 8px;
+}
+.jt-screen .home-region-picker button {
+  border: 1px solid var(--v14-edge);
+  border-radius: 2px;
+  background: var(--v14-tab);
+  color: var(--v14-ink);
+  font: inherit;
+  white-space: nowrap;
+}
+.jt-screen .home-region-trigger {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-width: 88px;
+  min-height: 40px;
+  padding: 0 10px;
+  font-weight: 700;
+}
+.home-region-trigger svg { width: 16px; height: 16px; }
+.home-region-keyword {
+  display: flex;
+  flex: 1;
+  min-width: 0;
+  align-items: center;
+  gap: 8px;
+  padding: 0 10px;
+  border: 1px solid var(--v14-edge);
+  border-radius: 2px;
+  background: var(--v14-overlay);
+}
+.jt-screen.cockpit-light .home-region-keyword { background: linear-gradient(90deg, #f9fcff, #e2f2ff); }
+.home-region-keyword:focus-within { border-color: var(--v14-metric); }
+.home-region-keyword svg { width: 20px; height: 20px; flex: 0 0 auto; color: var(--v14-metric); }
+.home-region-keyword input {
+  width: 100%;
+  min-width: 0;
+  border: 0;
+  outline: none;
+  padding: 0;
+  background: transparent;
+  color: inherit;
+}
+.home-region-keyword input:focus-visible { outline: none; }
+.home-region-keyword input::placeholder { color: var(--v14-muted); }
+.home-region-popover {
+  position: absolute;
+  inset: calc(100% + 12px) auto auto 0;
+  display: grid;
+  gap: 8px;
+  width: min(300px, 100%);
+  max-height: min(405px, calc(100dvh - 175px));
+  overflow: auto;
+  padding: 10px;
+  border: 1px solid var(--v14-edge);
+  border-radius: 2px;
+  background: var(--v14-overlay);
+  box-shadow: var(--side-shadow);
+}
+.jt-screen.cockpit-light .home-region-popover { background: #e2f2ff; }
+.home-region-popover-header, .home-region-breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  min-height: 24px;
+  font-weight: 700;
+}
+.home-region-popover-header h3 {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  gap: 12px;
+  font-size: inherit;
+  color: var(--v14-heading-color);
+}
+.home-region-popover-header h3::before {
+  width: 24px;
+  height: 24px;
+  content: "";
+  background: var(--v14-heading-icon) center / contain no-repeat;
+}
+.home-region-popover-header svg, .home-region-breadcrumb svg { width: 24px; height: 24px; }
+.jt-screen .home-region-popover-header button {
+  display: grid;
+  place-items: center;
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+.home-region-options { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+.home-region-communities summary { cursor: pointer; }
+.home-region-communities .home-region-options { grid-template-columns: 1fr; margin-top: 8px; }
+.home-region-empty { grid-column: 1 / -1; color: var(--v14-muted); }
+.home-region-options button {
+  min-height: 32px;
+  padding: 2px 3px;
+}
+.jt-screen .home-region-picker button:hover,
+.jt-screen .home-region-picker button[aria-pressed="true"] {
+  background: var(--v14-tab-active);
+  color: #f9fcff;
+}
+.jt-screen .home-toolbar {
+  --home-tool-art: url('/jingshan/ui/home-map-tools-dark.png');
+  --home-tool-focus: #75d9fb;
+  --home-tool-reset-fill: linear-gradient(rgb(14 60 131 / .9), rgb(37 82 150 / .6));
+  --home-tool-reset-edge: #4db3ff;
+  --home-tool-reset-ink: #6dd6ff;
+  gap: calc(8 * var(--v14-unit));
+}
+.jt-screen.cockpit-light .home-toolbar {
+  --home-tool-art: url('/jingshan/ui/home-map-tools-light.png');
+  --home-tool-focus: #448bd9;
+  --home-tool-reset-fill: linear-gradient(#fefeff, #cce5f8);
+  --home-tool-reset-edge: #eaf6ff;
+  --home-tool-reset-ink: #4b8fda;
+}
+.jt-screen .home-toolbar button {
+  position: relative;
+  width: var(--map-toolbar-width);
+  height: var(--map-toolbar-width);
+  min-height: var(--map-toolbar-width);
+  padding: 0;
+  border: 0;
+  border-radius: calc(4 * var(--v14-unit));
+  background: none;
+  box-shadow: none;
+  backdrop-filter: none;
+}
+
+/* Each MasterGo export contains five 44 px buttons at an 8 px gap. */
+.jt-screen .home-toolbar button::before {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: var(--home-tool-art) no-repeat;
+  background-size: 100% calc(100% * 252 / 44);
+  background-position: left var(--home-tool-position, 0%);
+  content: "";
+  pointer-events: none;
+}
+.jt-screen .home-toolbar button:nth-child(2) { --home-tool-position: 25%; }
+.jt-screen .home-toolbar button:nth-child(3) { --home-tool-position: 50%; }
+.jt-screen .home-toolbar button:nth-child(4) { --home-tool-position: 75%; }
+.jt-screen .home-toolbar button:nth-child(5) { --home-tool-position: 100%; }
+.jt-screen .home-toolbar .home-tool-reset {
+  justify-content: center;
+}
+.jt-screen .home-toolbar .home-tool-reset::before,
+.jt-screen .home-toolbar .home-tool-locate::before {
+  border: 1px solid var(--home-tool-reset-edge);
+  background: var(--home-tool-reset-fill);
+}
+.jt-screen .home-toolbar .home-tool-locate img {
+  position: relative;
+  display: block;
+  width: 60%;
+  height: 70%;
+  margin: auto;
+  object-fit: contain;
+  pointer-events: none;
+}
+.jt-screen .home-tool-reset-icon {
+  position: relative;
+  width: calc(24 * var(--v14-unit));
+  aspect-ratio: 1;
+  background: var(--home-tool-reset-ink);
+  /* The SVG path occupies 20 of its 24 units. Match the other visible glyphs at 22 px. */
+  mask: url('/jingshan/ui/reset.svg') center / 110% no-repeat;
+}
+.jt-screen .home-toolbar button:hover::before { filter: brightness(1.08); }
+.jt-screen.cockpit-light .home-toolbar button:hover::before { filter: brightness(.96); }
+.jt-screen .home-toolbar button:is(.on,:focus-visible)::before {
+  box-shadow: inset 0 0 0 2px var(--home-tool-focus);
+}
+.jt-screen .home-toolbar button::after {
+  position: absolute;
+  right: calc(100% + 8 * var(--v14-unit));
+  content: attr(data-tooltip);
+  padding: calc(4 * var(--v14-unit)) calc(8 * var(--v14-unit));
+  border: 1px solid var(--v14-edge);
+  border-radius: calc(4 * var(--v14-unit));
+  color: var(--v14-ink);
+  background: var(--v14-overlay);
+  font: 400 max(10px,calc(14 * var(--v14-unit)))/1.35 var(--v14-font);
+  white-space: nowrap;
+  pointer-events: none;
+  visibility: hidden;
+}
+.jt-screen .home-toolbar button:is(:hover,:focus-visible)::after { visibility: visible; }
+.jt-screen .home-popup-content { display: grid; max-height: min(37vh, 29em); overflow: auto; gap: calc(4 * var(--v14-unit)); }
+.jt-screen .home-popup-content input {
+  width: 100%;
+  border: 1px solid var(--v14-edge);
+  padding: .4em .55em;
+  color: var(--v14-ink);
+  background: var(--v14-tab);
+}
+.jt-screen .home-popup-content button { text-align: left; }
+.jt-screen .home-popup-content small { display: block; color: var(--v14-muted); }
+.v14-overview .home-legend {
+  position: absolute;
+  z-index: 4;
+  left: 0;
+  bottom: calc(84 * var(--v14-unit));
+  display: grid;
+  gap: calc(6 * var(--v14-unit));
+  padding: calc(12 * var(--v14-unit));
+  font-size: 16px;
+  pointer-events: none;
+}
+.v14-overview .home-legend span { display: flex; align-items: center; gap: calc(8 * var(--v14-unit)); }
+.v14-overview .home-legend i { display: inline-block; width: calc(26 * var(--v14-unit)); }
+.v14-overview .home-legend-city { height: calc(5 * var(--v14-unit)); border-radius: 4px; background: #5ec8ef; }
+.v14-overview .home-legend-town { height: 1px; background: #e9f6fb; }
+.v14-overview .home-legend-footprint::after {
+  content: "";
+  display: block;
+  width: 14px;
+  height: 8px;
+  margin: auto;
+  border: 1px solid #07516a;
+  background: var(--symbol);
+}
+
+/* The homepage wheel and scene pages share the curved footer artwork. */
+.jt-screen {
+  --dock-footer-art: url('/jingshan/ui/light-footer.png');
+  --dock-art-height: calc(132 * var(--overview-dock-unit));
+  --dock-title-fill: linear-gradient(#ffb618,#ffa600);
+  --dock-footer-mask: var(--dock-footer-art);
+  --dock-footer-fill: radial-gradient(ellipse 12% 8% at 50% 56%, #9cf4ff, #258ee8 28%, transparent 70%),
+    linear-gradient(#123a77 42%, #2261aa 56%, #1a4587 67%, #112b56 86%, #17396b 88%, #102952);
+  --dock-footer-edge: #23548d;
+  --dock-arc-edge: #69b7ff86;
+  --dock-arc-fill: linear-gradient(#468ecd80,#25568f44 24%,transparent 43%);
+  --dock-arc-shadow: inset 0 4px 8px #68bbfb43, 0 -2px 9px #0a214a8c;
+  --dock-pill-fill: linear-gradient(#26599b,#163a75);
+  --dock-pill-edge: #6db9f7;
+  --dock-pill-shadow: 0 0 12px #122b60b3;
+  --dock-pill-active: linear-gradient(#398de7,#2357ae);
+  --dock-pill-active-edge: #c8edff;
+  --dock-pill-active-shadow: inset 0 1px 5px #9edefa93, 0 2px 9px #122b60b3;
+}
+.jt-screen.cockpit-light {
+  --dock-footer-mask: none;
+  --dock-title-fill: linear-gradient(#4386ca,#174b90);
+  --dock-footer-fill: var(--dock-footer-art) center bottom / 100% 100% no-repeat;
+  --dock-footer-edge: #517495;
+  --dock-arc-edge: #eefaffc7;
+  --dock-arc-fill: linear-gradient(#d1f2ff55,#effaff24 24%,transparent 43%);
+  --dock-arc-shadow: inset 0 4px 8px #d7f4ff77, 0 -2px 9px #caeeff66;
+  --dock-pill-fill: linear-gradient(#84baff,#337fe7);
+  --dock-pill-edge: #f9fcff;
+  --dock-pill-shadow: 0 0 12px #19729b4d;
+  --dock-pill-active: linear-gradient(#91c4ff,#3e82e9);
+  --dock-pill-active-edge: #fff;
+  --dock-pill-active-shadow: inset 0 1px 5px #eef9ffb3, 0 2px 9px #2a63a369;
+}
+.v14-overview .scene-dock {
+  position: relative;
+  z-index: 5;
+  align-self: center;
+  max-width: 100%;
+  margin-bottom: max(0px, calc(43 * var(--overview-dock-unit) - 24 * var(--v14-unit)));
+}
+.v14-overview .scene-nav {
+  --dock-pill-width: clamp(59px,calc(129 * var(--overview-dock-unit)),172px);
+  --dock-pill-height: clamp(24px,calc(37 * var(--overview-dock-unit)),47px);
+  --dock-step: calc(29 * var(--overview-dock-unit));
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: calc(19 * var(--overview-dock-unit));
+  padding-inline: clamp(18px,3.25vw,62px);
+  min-height: calc(var(--dock-pill-height) + var(--dock-step));
+  white-space: nowrap;
+}
+.v14-overview .scene-nav::before {
+  position: absolute;
+  z-index: -1;
+  inset: clamp(4px,.45vw,9px) clamp(17px,1.65vw,32px) auto;
+  height: calc(var(--dock-step) * 5.5);
+  content: "";
+  pointer-events: none;
+  border: 1px solid var(--dock-arc-edge);
+  border-radius: 50%;
+  background: var(--dock-arc-fill);
+  box-shadow: var(--dock-arc-shadow);
+  mask-image: linear-gradient(#000 29%,transparent 43%);
+}
+.v14-overview .scene-nav .scene-item-raised { translate: 0 calc(-1 * var(--dock-step)); }
+.jt-screen.v14-overview .scene-nav .scene-item {
+  flex: 0 0 auto;
+  width: var(--dock-pill-width);
+  min-height: var(--dock-pill-height);
+  padding: 2px 4px;
+  border: max(1px,.10417vw) solid var(--dock-pill-edge);
+  border-radius: 24px;
+  color: #f9fcff;
+  background: var(--dock-pill-fill);
+  box-shadow: var(--dock-pill-shadow);
+  text-shadow: 0 1px 3px #265da559;
+  font-size: 16px;
+  font-size: clamp(16px, round(nearest, calc(18 * var(--overview-dock-unit)), 1px), 23px);
+  font-weight: 700;
+  line-height: 1.25;
+}
+.jt-screen.v14-overview .scene-nav .scene-item:is(.on,:hover,:focus-visible) {
+  background: var(--dock-pill-active);
+  border-color: var(--dock-pill-active-edge);
+  box-shadow: var(--dock-pill-active-shadow);
+}
+.v14-overview .scene-nav .scene-arrow {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  width: clamp(28px,4vw,76.8px);
+  height: clamp(24px,3.333vw,64px);
+  bottom: calc(-.68 * var(--dock-pill-height));
+  padding: 0;
+  border: 0;
+  background: none;
+}
+.v14-overview .scene-arrow img { display: block; width: 100%; }
+.v14-overview:not(.cockpit-light) .scene-arrow img { filter: brightness(.92) saturate(1.25); }
+.v14-overview .scene-arrow:is(:hover,:focus-visible) img { filter: brightness(1.18); }
+.v14-overview .scene-arrow-prev { left: -1.03vw; }
+.v14-overview .scene-arrow-next { right: -1.03vw; }
+.jt-screen { --rail-bottom-inset: calc(24 * var(--v14-unit)); }
+.jt-screen.v14-overview .jt-footer {
+  flex-basis: var(--rail-bottom-inset);
+}
+.jt-screen .jt-footer {
+  border-bottom: 2px solid var(--dock-footer-edge);
+  background: transparent;
+}
+.jt-screen .jt-footer::before, .v14-overview .scene-dock::before,
+.jt-screen.cockpit-light :is(.jt-footer,.scene-dock)::after {
+  position: absolute;
+  z-index: -1;
+  inset: auto 0 0;
+  height: var(--dock-art-height);
+  content: "";
+  pointer-events: none;
+}
+.jt-screen .jt-footer::before, .v14-overview .scene-dock::before {
+  background: var(--dock-footer-fill);
+  mask: var(--dock-footer-mask) center bottom / 100% 100% no-repeat;
+}
+/* Cover the baked-in title before rendering the homepage or scene title. */
+.jt-screen.cockpit-light :is(.jt-footer,.scene-dock)::after {
+  background: linear-gradient(#d0ecff, #d7edff 60%, #d0eaff) center 84% / 9.2% 22.4% no-repeat;
+  mask: linear-gradient(90deg, transparent, #000 4%, #000 96%, transparent) center 84% / 9.2% 22.4% no-repeat;
+}
+.scene-footer-title {
+  position: absolute;
+  inset: auto auto calc(12 * var(--overview-dock-unit)) 50%;
+  min-width: 4em;
+  transform: translateX(-50%);
+  background: var(--dock-title-fill);
+  background-clip: text;
+  color: transparent;
+  font: 400 clamp(22px,calc(38 * var(--overview-dock-unit)),46px)/1 "Cockpit Scene Title", var(--v14-font);
+  text-align: center;
+  white-space: nowrap;
+}
+.v14-overview .scene-dock::before,
+.jt-screen.cockpit-light .scene-dock::after,
+.v14-overview .scene-dock .scene-footer-title { display: none; }
+@media (min-width: 961px) {
+  .v14-overview .scene-footer-title {
+    font-size: clamp(22px, round(nearest, calc(38 * var(--overview-dock-unit)), 1px), 46px);
+  }
+  .jt-screen .jt-header { flex: 0 0 var(--v14-header-height); }
+  .jt-screen .jt-header :is(.header-left,.header-right) {
+    align-self: end;
+    margin: 0 0 calc(8 * var(--v14-unit));
+  }
+  .jt-screen .jt-body {
+    --map-toolbar-width: calc(44 * var(--v14-unit));
+    padding-top: calc(12 * var(--v14-unit));
+  }
+  .jt-screen .jt-body > .live-map { top: calc(-1 * var(--v14-header-height)); }
+  .jt-screen .jt-body.overview-rail-layout {
+    --left-panel-width: max(340px, calc(440 * var(--v14-unit)));
+    --right-panel-width: var(--left-panel-width);
+    grid-template-columns: var(--left-panel-width) minmax(0,1fr) var(--right-panel-width);
+    grid-template-rows: minmax(0, 1fr);
+    gap: calc(12 * var(--v14-unit));
+    padding: calc(12 * var(--v14-unit)) calc(12 * var(--v14-unit)) 0;
+  }
+  .jt-screen .overview-rail-layout.left-collapsed { grid-template-columns: minmax(0,1fr) var(--right-panel-width); }
+  .jt-screen .overview-rail-layout.right-collapsed { grid-template-columns: var(--left-panel-width) minmax(0,1fr); }
+  .jt-screen .overview-rail-layout.map-only { grid-template-columns: minmax(0,1fr); }
+  .jt-screen.v14-overview .jt-body > .live-map { bottom: calc(-24 * var(--v14-unit)); }
+  .v14-overview .panel-toggle[aria-expanded="true"] { opacity: 0; }
+  .v14-overview .panel-toggle[aria-expanded="true"]:is(:hover,:focus-visible) { opacity: 1; }
+}
+@media (961px <= width < 1280px) {
+  .jt-screen.v14-overview { --v14-rail-unit: clamp(.68px, .067vw, .85px); }
+  .jt-screen .jt-body.overview-rail-layout { --left-panel-width: clamp(260px, 26.5625vw, 340px); }
+}
+@media (max-width: 960px) {
+  .jt-screen .jt-body { --map-toolbar-width: 34px; }
+  .jt-screen .jt-title { font-size: clamp(23px,4.1vw,38px); }
+  .v14-overview .home-legend { display: none; }
+  .v14-overview-rail-shell {
+    max-block-size: min(70dvh, 720px);
+    overscroll-behavior-y: auto;
+  }
+  .v14-overview-module { grid-template-rows: calc(52 * var(--v14-rail-unit)) auto; }
+  .v14-overview .scene-nav { --dock-pill-width: clamp(54px,17vw,82px); --dock-step: 8px; gap: 4px; }
+  .v14-overview .scene-dock { margin-bottom: 0; padding: .4em .35em 1.4em; }
+  .v14-overview .scene-dock::before, .jt-screen.cockpit-light .scene-dock::after {
+    display: block;
+    inset: auto auto 0 -15%;
+    width: 130%;
+    height: auto;
+    aspect-ratio: 1924 / 152;
+  }
+  .v14-overview .scene-dock::before { clip-path: inset(0 11.54%); }
+  .v14-overview .jt-footer::before,
+  .jt-screen.v14-overview.cockpit-light .jt-footer::after,
+  .v14-overview .jt-footer .scene-footer-title { display: none; }
+  .jt-screen .scene-footer { --dock-art-height: calc(86 * var(--scene-footer-unit)); }
+  .scene-footer-title { font-size: clamp(10px,2.4vw,12px); }
+  .scene-footer .scene-footer-title { font-size: 16px; bottom: calc(19 * var(--scene-footer-unit)); }
+  .v14-overview .scene-dock .scene-footer-title { display: block; bottom: 4px; }
+  .v14-overview .scene-arrow-prev { left: 0; }
+  .v14-overview .scene-arrow-next { right: 0; }
+}
+@media (max-width: 560px) {
+  .v14-overview .scene-nav { --dock-pill-width: 70px; padding-inline: 12px; }
+  .jt-screen.v14-overview .scene-nav .scene-item { padding-inline: 2px; }
+  .v14-overview .scene-nav .scene-arrow { width: 22px; bottom: -10px; }
+}
+
+/* A narrower desktop window still uses the map dashboard with two side rails. */
+@media (max-width: 960px) and (hover: hover) and (pointer: fine) {
+  .jt-screen { --compact-rail-share: .265625; }
+  .jt-screen:is(.v14-overview, .v14-panorama) {
+    height: 100dvh;
+    min-height: 0;
+    overflow: hidden;
+  }
+  :is(.v14-overview, .v14-panorama) .jt-body.overview-rail-layout {
+    --left-panel-width: calc(100% * var(--compact-rail-share));
+    --right-panel-width: var(--left-panel-width);
+    flex: 1 1 0;
+    grid-template: "left map right" minmax(0, 1fr) / var(--left-panel-width) minmax(0, 1fr) var(--right-panel-width);
+    padding: calc(12 * var(--v14-unit)) calc(12 * var(--v14-unit)) 0;
+    gap: calc(12 * var(--v14-unit));
+  }
+  :is(.v14-overview, .v14-panorama) .jt-body.left-collapsed:not(.map-only) {
+    grid-template-areas: "map right";
+    grid-template-columns: minmax(0, 1fr) var(--right-panel-width);
+  }
+  :is(.v14-overview, .v14-panorama) .jt-body.right-collapsed:not(.map-only) {
+    grid-template-areas: "left map";
+    grid-template-columns: var(--left-panel-width) minmax(0, 1fr);
+  }
+  :is(.v14-overview, .v14-panorama) .jt-body.map-only {
+    grid-template-areas: "map";
+    grid-template-columns: minmax(0, 1fr);
+  }
+  :is(.v14-overview, .v14-panorama) .jt-body > .live-map {
+    position: absolute;
+    align-self: stretch;
+    grid-area: auto;
+    inset: 0 0 calc(-1 * var(--rail-bottom-inset));
+    height: auto;
+    min-height: 0;
+  }
+  :is(.v14-overview, .v14-panorama) .jt-body .jt-map { min-height: 0; }
+  :is(.v14-overview, .v14-panorama) .v14-overview-rail-shell {
+    --v14-rail-unit: .85px;
+    max-block-size: none;
+    overscroll-behavior-y: contain;
+  }
+  .v14-overview .scene-dock { width: 100%; container-type: inline-size; }
+  .v14-overview .scene-nav { --dock-pill-width: min(82px, 19cqi); padding-inline: 6%; }
+  @container (max-width: 385px) {
+    .v14-overview .scene-nav { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); --dock-pill-width: 100%; }
+    .v14-overview .scene-nav .scene-item-raised { translate: none; }
+  }
+  @container (max-width: 195px) {
+    .v14-overview .scene-nav { grid-template-columns: repeat(auto-fit, minmax(70px, 1fr)); padding-inline: 0; }
+  }
+  .v14-overview .panel-toggle[aria-expanded="true"]:not(:hover, :focus-visible) { opacity: 0; }
+}
+
+/* Use discrete text sizes while the map, panels and their spacing resize. */
+.jt-screen.v14-overview {
+  --v14-min-text: 16px;
+  --home-title-size: 48px;
+  --rail-bottom-inset: 24px;
+  font-size: 16px;
+}
+.jt-screen.v14-overview .jt-title {
+  font-size: var(--home-title-size);
+  transform: translateY(calc(-4 * var(--v14-unit))) skewX(-9deg);
+}
+.v14-overview .v14-overview-heading h2,
+.v14-overview .modal-title h2 { font-size: 24px; }
+.v14-overview .panel-toggle span,
+.v14-overview :is(.map-popover, .map-detail, .modal-box) h3 { font-size: 18px; }
+.v14-overview .jt-header :is(button, .home-user-menu a),
+.v14-overview .header-left time,
+.v14-overview .panel-toggle,
+.v14-overview .map-caption,
+.v14-overview .home-toolbar button::after,
+.v14-overview :is(.map-popover, .map-detail, .map-instruction) :is(button, small, input, select),
+.v14-overview .modal-box,
+.v14-overview .modal-box :is(button, input, select, textarea, p, small, .flag, .version-label, .dataset-source),
+.v14-overview .layer-identity p { font-size: 16px; }
+@media (max-width: 1599px) {
+  .jt-screen.v14-overview { --home-title-size: 36px; }
+}
+@media (max-width: 960px) {
+  .v14-overview .scene-footer-title { font-size: 16px; }
+}
+@media (max-width: 560px) {
+  .jt-screen.v14-overview { --home-title-size: 24px; }
+}
+
+

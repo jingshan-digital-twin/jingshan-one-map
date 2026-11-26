@@ -1,0 +1,1057 @@
+[
+  {
+    "name": "京山市京诚天沐酒店管理有限公司",
+    "stage": "下游",
+    "topics": [
+      "住宿接待",
+      "餐饮服务"
+    ],
+    "mainBusiness": "经营京山天沐温泉酒店，提供客房和餐饮服务。2026年网球体育单招期间为入住考生提供红土场体验及考场接送。",
+    "region": "温泉街道",
+    "siteNames": [
+      "京山天沐温泉酒店"
+    ],
+    "sources": [
+      {
+        "title": "京山市融媒体中心｜2026年体育单招网球考生交通住宿攻略",
+        "url": "https://www.jrjingshan.com/a/zt/wqdzjsx/2026/0411/75433.html",
+        "evidence": "攻略列出国康酒店、京山天沐温泉酒店及两处地址。天沐为入住考生提供红土场使用和考场接送。",
+        "date": "2026-04-11"
+      },
+      {
+        "title": "京山市京诚天沐酒店管理有限公司｜食品原材料采购更正公告",
+        "url": "https://www.jrjingshan.com/m/a/wzgg/2026/0901/77752.html",
+        "evidence": "采购人明确更正后的公司名称，确认酒店以该主体采购食品原材料。",
+        "date": "2026-09-01"
+      },
+      {
+        "title": "京诚集团主体与相关债项2024年度跟踪评级报告",
+        "url": "https://static.cninfo.com.cn/finalpage/2024-06-26/1220466374.pdf",
+        "evidence": "集团合并范围列示京山市京诚天沐酒店管理有限公司及酒店相关业务。",
+        "date": "2024-06-26"
+      },
+      {
+        "title": "水滴点评｜京山市京诚天沐酒店管理有限公司工商信息",
+        "url": "https://www.shuididp.cn/yp-82637072119ac87eca1a148114b01101.html",
+        "evidence": "公开企业信息平台列示该主体的信用代码、注册资本、法定代表人、登记状态和经营范围，所列核准日期为2026-08-19。",
+        "date": "2026-11-18"
+      }
+    ],
+    "creditCode": "91420821MACMCKF71N",
+    "registeredCapital": "480万元人民币",
+    "legalRepresentative": "王磊",
+    "established": "2023-06-09",
+    "registrationStatus": "存续（在营、开业、在册）",
+    "registeredAddress": "湖北省荆门市京山市温泉街道汤堰村5组",
+    "address": "天沐温泉酒店 · 京山市温泉南路与南环路交汇处",
+    "businessScopeExcerpt": "登记范围节选：酒店管理、会议及展览服务、休闲观光活动、餐饮管理。许可项目包括住宿、餐饮、食品销售及洗浴服务。"
+  },
+  {
+    "name": "国中康健（京山）健康产业有限公司",
+    "stage": "下游",
+    "topics": [
+      "运动康养",
+      "住宿接待",
+      "餐饮服务"
+    ],
+    "mainBusiness": "京山国康园区提供康养住宿、餐饮、温泉水疗和健康管理，配有游泳池及室内羽毛球场。国康酒店列入京山网球考生住宿指南。",
+    "region": "新市街道",
+    "siteNames": [
+      "国康酒店"
+    ],
+    "sources": [
+      {
+        "title": "国中康健集团｜国康京山康养公司",
+        "url": "https://www.hchina.com/jgjs/kyzx/gkjsxm/",
+        "evidence": "运营方公布京山公司的全称、康养项目、客房及游泳和羽毛球设施。"
+      },
+      {
+        "title": "京山市市场监督管理局｜2024年餐饮服务单位食品安全红黑榜（第一期）",
+        "url": "https://www.jingshan.gov.cn/art/2024/12/3/art_24362_1118046.html",
+        "evidence": "监管部门点名该公司为提供餐饮服务的经营主体，并核实经营地址为新市街道温泉路32号。",
+        "date": "2024-12-03"
+      },
+      {
+        "title": "京山市融媒体中心｜2026年体育单招网球考生交通住宿攻略",
+        "url": "https://www.jrjingshan.com/a/zt/wqdzjsx/2026/0411/75433.html",
+        "evidence": "攻略列出国康酒店、京山天沐温泉酒店及两处地址。天沐为入住考生提供红土场使用和考场接送。",
+        "date": "2026-04-11"
+      },
+      {
+        "title": "水滴点评｜国中康健（京山）健康产业有限公司工商信息",
+        "url": "https://www.shuididp.cn/yp-4cc347213f2bbce070dbfbc825687901.html",
+        "evidence": "公开企业信息平台列示该主体的信用代码、注册资本、法定代表人、登记状态和经营范围，所列核准日期为2021-10-25。",
+        "date": "2026-11-18"
+      },
+      {
+        "title": "携程酒店｜京山国康酒店位置与地址",
+        "url": "https://hotels.ctrip.com/hotels/34047627.html",
+        "evidence": "园区住宿设施的公开地图位置，经百度坐标转换为 WGS84，在大屏上作近似定位。"
+      }
+    ],
+    "creditCode": "91420821MA49R2DB8E",
+    "registeredCapital": "1,000万元人民币",
+    "legalRepresentative": "吴亮",
+    "established": "2021-04-28",
+    "registrationStatus": "存续（在营、开业、在册）",
+    "registeredAddress": "京山市新市街道温泉路32号",
+    "address": "京山国康园区 · 京山市温泉路32号",
+    "businessScopeExcerpt": "登记范围节选：机构养老、健康咨询、职工疗休养策划、健身休闲活动。许可项目包括游泳、住宿、餐饮、洗浴及医疗服务。",
+    "sitePoint": {
+      "name": "园区住宿设施 · 京山国康酒店",
+      "source": "携程酒店公开地图（近似位置）",
+      "url": "https://hotels.ctrip.com/hotels/34047627.html",
+      "originalCrs": "BD-09",
+      "originalCoordinates": [
+        113.157231,
+        30.987655
+      ],
+      "wgs84": [
+        113.144707,
+        30.983482
+      ],
+      "conversion": "gcoord 1.0.7"
+    }
+  },
+  {
+    "name": "泰康启园（京山）置业有限公司",
+    "stage": "下游",
+    "topics": [
+      "景区游览",
+      "住宿接待",
+      "餐饮服务"
+    ],
+    "mainBusiness": "京山农场项目公司。双墩村农场接待游客，提供农耕体验、特色酒店及生态餐饮。京山农场曾纳入中国村网的网旅体验奖品。",
+    "region": "杨集镇",
+    "creditCode": "91420821MA499ACT2K",
+    "registeredCapital": "33,500万元人民币",
+    "legalRepresentative": "赵欣",
+    "established": "2019-05-27",
+    "siteNames": [
+      "京山农场"
+    ],
+    "sources": [
+      {
+        "title": "泰康人寿｜京山置业增资关联交易披露公告",
+        "url": "https://m.taikanglife.com/mobile/uploader/informationFile/2024/02/18/a19711d1-c025-4ce5-baed-cccbbdfa137c.PDF",
+        "evidence": "泰康人寿确认该公司是京山农场的项目公司，并披露成立日期、住所、统一社会信用代码及经营范围。",
+        "date": "2024-02-18"
+      },
+      {
+        "title": "泰康人寿｜非保险子公司基本情况表",
+        "url": "https://m.taikanglife.com/mobile/uploader/informationFile/2026/02/13/0567ef6a-cbf5-4c53-b5bd-8b9f50396334.pdf",
+        "evidence": "截至2026年2月10日，京山置业注册资本为33,500万元，法定代表人为赵欣。",
+        "date": "2026-02-10"
+      },
+      {
+        "title": "泰康之家｜泰康把“商业向善”写在广袤乡野大地上",
+        "url": "https://www.taikangzhijia.com/news/2026/mob_11759.html",
+        "evidence": "泰康介绍京山农场的生态餐饮、特色酒店、森林树屋、农耕体验及游客接待业务。",
+        "date": "2026-09-04"
+      },
+      {
+        "title": "中国县域经济报｜三项网球赛事集中开打 京山市持续释放乡村体育新活力",
+        "url": "https://www.xyshjj.cn/content/202511/02/c27204548.html",
+        "evidence": "记者记录国宝桥米、神地鸡蛋在文峰公园赛事开幕式展示。京山农场也列入赛事奖品中的网旅体验产品。",
+        "date": "2025-11-02"
+      },
+      {
+        "title": "水滴点评｜泰康启园（京山）置业有限公司工商信息",
+        "url": "https://www.shuididp.cn/yp-e68151bd2ff0cfc776deb691110a6c01.html",
+        "evidence": "公开企业信息平台列示该主体的信用代码、注册资本、法定代表人、登记状态和经营范围，所列核准日期为2026-05-12。",
+        "date": "2026-11-18"
+      },
+      {
+        "title": "携程酒店｜京山农场谷庄度假酒店位置与地址",
+        "url": "https://hotels.ctrip.com/hotels/117959825.html",
+        "evidence": "农场住宿设施的公开地图位置，经百度坐标转换为 WGS84，在大屏上作近似定位。"
+      }
+    ],
+    "registrationStatus": "存续（在营、开业、在册）",
+    "registeredAddress": "湖北省荆门市京山市杨集镇双墩村一组",
+    "businessScopeExcerpt": "登记范围节选：休闲农业和乡村旅游资源开发经营、园区和景区管理、体育健康服务。许可项目包括餐饮、旅游及住宿服务。",
+    "sitePoint": {
+      "name": "农场住宿设施 · 京山农场谷庄度假酒店",
+      "source": "携程酒店公开地图（近似位置）",
+      "url": "https://hotels.ctrip.com/hotels/117959825.html",
+      "originalCrs": "BD-09",
+      "originalCoordinates": [
+        112.94833,
+        31.286099
+      ],
+      "wgs84": [
+        112.936184,
+        31.282246
+      ],
+      "conversion": "gcoord 1.0.7"
+    }
+  },
+  {
+    "name": "京山大洪山旅游开发有限公司",
+    "stage": "下游",
+    "topics": [
+      "景区游览"
+    ],
+    "mainBusiness": "经营绿林山风景区，游客可游览美人谷、绿林寨等景点。景区内的研学旅行实践教育基地还接待学生团体。",
+    "region": "绿林镇",
+    "siteNames": [
+      "绿林山风景区",
+      "美人谷",
+      "绿林寨",
+      "鸳鸯溪漂流",
+      "空山洞"
+    ],
+    "sources": [
+      {
+        "title": "京山市人民政府｜绿林山景区安全生产应急预案",
+        "url": "https://www.jingshan.gov.cn/art/2021/11/18/art_19448_934488.html",
+        "evidence": "景区预案明确由京山大洪山旅游开发有限公司负责绿林山风景区突发事件处置。",
+        "date": "2021-11-18"
+      },
+      {
+        "title": "湖北日报｜深耕荆楚沃土 书写强农答卷",
+        "url": "https://epaper.hubeidaily.net/pc/content/202609/22/content_359223.html",
+        "evidence": "报道明确绿林山风景区由京山大洪山旅游开发有限公司经营管理，并列出美人谷、绿林寨、鸳鸯溪漂流和空山洞。",
+        "date": "2026-09-22"
+      },
+      {
+        "title": "武昌理工学院｜商学院举行旅游管理专业实习动员大会",
+        "url": "https://wbs.wut.edu.cn/info/3221/74361.htm",
+        "evidence": "基地负责人介绍绿林山研学旅行实践教育基地隶属该公司，地点为京山市绿林山风景区。"
+      },
+      {
+        "title": "湖北省文化和旅游厅｜绿林山风景区导览",
+        "url": "https://wlt.hubei.gov.cn/bmdt/ztzl/mzyj/202305/t20230510_4657779.shtml",
+        "evidence": "省文旅厅列出绿林山风景区各景点、票务以及绿林镇游客中心地址。",
+        "date": "2023-05-10"
+      },
+      {
+        "title": "水滴点评｜京山大洪山旅游开发有限公司工商信息",
+        "url": "https://www.shuididp.cn/yp-1e6bca83681cd9081fc28226dea34dd6.html",
+        "evidence": "公开企业信息平台列示该主体的信用代码、注册资本、法定代表人、登记状态和经营范围，所列核准日期为2025-07-04。",
+        "date": "2026-11-18"
+      },
+      {
+        "title": "携程酒店｜绿林好汉大酒店位置与地址",
+        "url": "https://hotels.ctrip.com/hotels/94374546.html",
+        "evidence": "登记地址所在建筑的公开地图位置，经百度坐标转换为 WGS84，在大屏上作近似定位。"
+      }
+    ],
+    "creditCode": "91420821767416108G",
+    "registeredCapital": "4,763万元人民币",
+    "legalRepresentative": "吕浩田",
+    "established": "2004-11-12",
+    "registrationStatus": "存续（在营、开业、在册）",
+    "registeredAddress": "湖北省京山市绿林镇厂河村一组9号绿林好汉大酒店",
+    "businessScopeExcerpt": "登记范围节选：游览景区管理、乡村旅游资源开发经营、休闲观光、研学拓展相关活动、露营地服务、体育赛事策划。许可项目包括旅游、住宿及餐饮服务。",
+    "siteRegion": "绿林镇",
+    "sitePoint": {
+      "name": "登记地址所在建筑 · 绿林好汉大酒店",
+      "source": "携程酒店公开地图（近似位置）",
+      "url": "https://hotels.ctrip.com/hotels/94374546.html",
+      "originalCrs": "BD-09",
+      "originalCoordinates": [
+        113.083188,
+        31.323265
+      ],
+      "wgs84": [
+        113.070529,
+        31.319322
+      ],
+      "conversion": "gcoord 1.0.7"
+    }
+  },
+  {
+    "name": "京山市京诚苏家垄旅游发展有限公司",
+    "stage": "下游",
+    "topics": [
+      "景区游览"
+    ],
+    "mainBusiness": "承担坪坝镇苏家垄国家考古遗址公园游客讲解接待和宣传教育，参与园区管理、摆渡设施投入与文创产品开发。",
+    "region": "新市街道",
+    "siteNames": [
+      "苏家垄国家考古遗址公园"
+    ],
+    "sources": [
+      {
+        "title": "京山市融媒体中心｜苏家垄讲解员培训成果展示暨管理运营签约仪式举行",
+        "url": "https://www.jrjingshan.com/m/a/sz/2026/0126/74152.html",
+        "evidence": "报道明确遗址管理处与京诚苏家垄旅游发展公司签约，活动覆盖遗址、博物院等讲解点。",
+        "date": "2026-01-26"
+      },
+      {
+        "title": "京山市人民政府｜春节假期京山这些场馆免费开放",
+        "url": "https://www.jingshan.gov.cn/art/2026/2/10/art_24278_1206171.html",
+        "evidence": "市政府发布的春节活动安排列出该公司和遗址博物院、坪坝镇政府共同主办活动。",
+        "date": "2026-02-10"
+      },
+      {
+        "title": "京山市文化和旅游局｜关于市二届人民代表大会四次会议第56号建议办理答复的函",
+        "url": "https://www.jingshan.gov.cn/art/2025/8/22/art_8617_1197261.html",
+        "evidence": "市文旅局确认公司进驻遗址公园，并投入摆渡车等设施、开发文创产品及组织营销。",
+        "date": "2025-08-22"
+      },
+      {
+        "title": "水滴点评｜京山市京诚苏家垄旅游发展有限公司工商信息",
+        "url": "https://www.shuididp.cn/yp-2170d88db50e8c349819249bf0840301.html",
+        "evidence": "公开企业信息平台列示该主体的信用代码、注册资本、法定代表人、登记状态和经营范围，所列核准日期为2026-10-14。",
+        "date": "2026-11-18"
+      }
+    ],
+    "creditCode": "91420821MAELENF14Q",
+    "registeredCapital": "200万元人民币",
+    "legalRepresentative": "梁璐",
+    "established": "2025-05-26",
+    "registrationStatus": "存续（在营、开业、在册）",
+    "registeredAddress": "湖北省荆门市京山市新市街道胜利社区三王路6号",
+    "address": "苏家垄国家考古遗址公园 · 京山市坪坝镇",
+    "businessScopeExcerpt": "登记范围节选：游览景区管理、文物文化遗址保护、休闲观光、文化场馆管理、票务代理及旅游开发项目策划。旅游业务属于许可经营项目。"
+  },
+  {
+    "name": "湖北国宝桥米有限公司",
+    "stage": "下游",
+    "topics": [
+      "购物展销"
+    ],
+    "mainBusiness": "经营京山桥米，设有京山桥米文化展示中心。国宝桥米作为本地特产在2025年中国村网开幕式上展示。",
+    "creditCode": "91420821722032469U",
+    "siteNames": [
+      "京山桥米文化展示中心"
+    ],
+    "sources": [
+      {
+        "title": "荆门日报｜刘敏到京山调研",
+        "url": "https://www.jrjingshan.com/m/a/sz/2026/0123/74131.html",
+        "evidence": "现场报道分别点名湖北国宝桥米有限公司的桥米文化展示中心、湖北神地农业科贸有限公司的蛋品展厅与生产车间。",
+        "date": "2026-01-23"
+      },
+      {
+        "title": "中国县域经济报｜三项网球赛事集中开打 京山市持续释放乡村体育新活力",
+        "url": "https://www.xyshjj.cn/content/202511/02/c27204548.html",
+        "evidence": "记者记录国宝桥米、神地鸡蛋在文峰公园赛事开幕式展示。京山农场也列入赛事奖品中的网旅体验产品。",
+        "date": "2025-11-02"
+      },
+      {
+        "title": "湖北省知识产权局｜地理标志专用标志使用人名单（第47批）",
+        "url": "https://zscqj.hubei.gov.cn/fbjd/zc/qtzdgkwj/202505/t20250530_5673916.shtml",
+        "evidence": "公示将该公司的统一社会信用代码与京山桥米证明商标对应。",
+        "date": "2025-05-30"
+      },
+      {
+        "title": "水滴点评｜湖北国宝桥米有限公司工商信息",
+        "url": "https://www.shuididp.cn/yp-e6ae6e7fec5352cfa4d71ed802f31f9d.html",
+        "evidence": "公开企业信息平台列示该主体的信用代码、注册资本、法定代表人、登记状态和经营范围，所列核准日期为2026-07-27。",
+        "date": "2026-11-18"
+      },
+      {
+        "title": "京山轻机｜日常关联交易公告",
+        "url": "https://disc.static.szse.cn/disc/disk01/finalpage/2019-04-26/c4dcd4bd-b7f3-4c8a-b2dc-f8a0cd3214cc.PDF",
+        "evidence": "上市公司曾公开披露该公司注册资本为11,500万元，以及粮油收购、大米加工销售等经营范围。",
+        "date": "2019-04-26"
+      }
+    ],
+    "registeredCapital": "11,500万元人民币",
+    "legalRepresentative": "韩志刚",
+    "established": "2000-07-05",
+    "registrationStatus": "存续（在营、开业、在册）",
+    "region": "孙桥镇",
+    "registeredAddress": "湖北省荆门市京山市孙桥镇梭罗河村特1号",
+    "businessScopeExcerpt": "登记范围节选：粮油及副产品收购、大米和面制品加工销售、水稻常规种子生产销售、仓储、预包装食品及散装食品零售。"
+  },
+  {
+    "name": "湖北神地农业科贸有限公司",
+    "stage": "下游",
+    "topics": [
+      "购物展销"
+    ],
+    "mainBusiness": "开展本地蛋品加工、产品展览和销售。神地鸡蛋在2025年中国村网开幕式上作为京山农产品展示。",
+    "creditCode": "91420821760656029Q",
+    "sources": [
+      {
+        "title": "荆门日报｜刘敏到京山调研",
+        "url": "https://www.jrjingshan.com/m/a/sz/2026/0123/74131.html",
+        "evidence": "现场报道分别点名湖北国宝桥米有限公司的桥米文化展示中心、湖北神地农业科贸有限公司的蛋品展厅与生产车间。",
+        "date": "2026-01-23"
+      },
+      {
+        "title": "中国县域经济报｜三项网球赛事集中开打 京山市持续释放乡村体育新活力",
+        "url": "https://www.xyshjj.cn/content/202511/02/c27204548.html",
+        "evidence": "记者记录国宝桥米、神地鸡蛋在文峰公园赛事开幕式展示。京山农场也列入赛事奖品中的网旅体验产品。",
+        "date": "2025-11-02"
+      },
+      {
+        "title": "湖北省知识产权局｜地理标志专用标志使用人名单（第58批）",
+        "url": "https://zscqj.hubei.gov.cn/fbjd/zc/qtzdgkwj/202605/t20260527_5945301.shtml",
+        "evidence": "公示列明京山鸡蛋证明商标使用人湖北神地农业科贸有限公司及其统一社会信用代码。",
+        "date": "2026-05-27"
+      },
+      {
+        "title": "湖北神地农业科贸有限公司｜企业简介",
+        "url": "https://www.hbsd.cn/about_us.html",
+        "evidence": "公司介绍其蛋鸡养殖和蛋品精深加工业务。"
+      },
+      {
+        "title": "水滴点评｜湖北神地农业科贸有限公司工商信息",
+        "url": "https://www.shuididp.cn/yp-99789263c2b7d371b01d7318e7ee9656.html",
+        "evidence": "公开企业信息平台列示该主体的信用代码、注册资本、法定代表人、登记状态和经营范围，所列核准日期为2026-05-29。",
+        "date": "2026-11-18"
+      }
+    ],
+    "registeredCapital": "5,000万元人民币",
+    "legalRepresentative": "熊万菊",
+    "established": "2004-04-06",
+    "registrationStatus": "存续（在营、开业、在册）",
+    "region": "钱场镇",
+    "registeredAddress": "湖北省荆门市京山市钱场镇汉宜路",
+    "businessScopeExcerpt": "登记范围节选：食用农产品批发、农副产品销售、农产品加工及休闲观光活动。许可项目包括食品生产销售、饲料生产及种畜禽生产经营。"
+  },
+  {
+    "name": "京山玉丰国际大酒店有限公司",
+    "stage": "下游",
+    "topics": [
+      "住宿接待",
+      "餐饮服务"
+    ],
+    "mainBusiness": "提供客房和餐饮服务。2026 年 ITF 国际网球大师赛京山站将玉丰国际大酒店列为参赛住宿推荐点。",
+    "region": "新市街道",
+    "creditCode": "91420821662273745N",
+    "registeredCapital": "2,000万元人民币",
+    "established": "2007-06-18",
+    "registeredAddress": "京山市新市镇轻机大道（新市大道交汇处）",
+    "legalRepresentative": "胡伟光",
+    "registrationStatus": "存续（在营、开业、在册）",
+    "businessScopeExcerpt": "餐饮及住宿服务、商务会议、旅游纪念品销售。",
+    "sources": [
+      {
+        "title": "京山网球｜2026 年 ITF 国际网球大师赛京山站补充通知",
+        "url": "https://jswq.net/h-nd-552.html",
+        "evidence": "赛事发布的住宿与抵达指引列出酒店名称和新市大道门牌。",
+        "date": "2026-04-14"
+      },
+      {
+        "title": "携程酒店｜京山玉丰国际大酒店",
+        "url": "https://hotels.ctrip.com/hotels/1938824.html",
+        "evidence": "酒店预订页公开展示住宿设施、营业地址和地图位置。图上标记酒店营业场所。"
+      },
+      {
+        "title": "水滴点评｜京山玉丰国际大酒店有限公司工商档案",
+        "url": "https://www.shuididp.cn/yp-8d1e07609c204ffee1357d7e48610536.html",
+        "evidence": "第三方企业档案列有统一社会信用代码、注册资本、住所、法定代表人、成立日期和登记范围，本次摘录据此核对。"
+      }
+    ],
+    "siteNames": [
+      "京山玉丰国际大酒店"
+    ],
+    "sitePoint": {
+      "name": "京山玉丰国际大酒店",
+      "source": "携程酒店公开地图（近似位置）",
+      "url": "https://hotels.ctrip.com/hotels/1938824.html",
+      "originalCrs": "BD-09",
+      "originalCoordinates": [
+        113.134289,
+        31.029661
+      ],
+      "conversion": "gcoord 1.0.7",
+      "wgs84": [
+        113.12166,
+        31.025779
+      ]
+    }
+  },
+  {
+    "name": "京山市金山国际大酒店有限公司",
+    "stage": "下游",
+    "topics": [
+      "住宿接待",
+      "餐饮服务"
+    ],
+    "mainBusiness": "在新市大道提供住宿、中西餐和宴会服务。2026 年 ITF 国际网球大师赛京山站住宿指引列有金山国际大酒店。",
+    "region": "新市街道",
+    "creditCode": "914208215942284157",
+    "registeredCapital": "700万元人民币",
+    "established": "2012-05-07",
+    "registeredAddress": "湖北省京山市新市大道58号",
+    "legalRepresentative": "李苗",
+    "registrationStatus": "存续（在营、开业、在册）",
+    "businessScopeExcerpt": "住宿、餐饮、会议会展服务，旅游纪念品销售。",
+    "sources": [
+      {
+        "title": "京山网球｜2026 年 ITF 国际网球大师赛京山站补充通知",
+        "url": "https://jswq.net/h-nd-552.html",
+        "evidence": "赛事发布的住宿与抵达指引列出酒店名称和新市大道门牌。",
+        "date": "2026-04-14"
+      },
+      {
+        "title": "携程酒店｜京山金山国际大酒店",
+        "url": "https://hotels.ctrip.com/hotels/1938780.html",
+        "evidence": "酒店预订页公开展示住宿设施、营业地址和地图位置。图上标记酒店营业场所。"
+      },
+      {
+        "title": "水滴点评｜京山市金山国际大酒店有限公司工商档案",
+        "url": "https://www.shuididp.cn/yp-a8bf3688552cb480ec0aff076253976f.html",
+        "evidence": "第三方企业档案列有统一社会信用代码、注册资本、住所、法定代表人、成立日期和登记范围，本次摘录据此核对。"
+      }
+    ],
+    "siteNames": [
+      "京山金山国际大酒店"
+    ],
+    "sitePoint": {
+      "name": "京山金山国际大酒店",
+      "source": "携程酒店公开地图（近似位置）",
+      "url": "https://hotels.ctrip.com/hotels/1938780.html",
+      "originalCrs": "BD-09",
+      "originalCoordinates": [
+        113.134924,
+        31.029263
+      ],
+      "conversion": "gcoord 1.0.7",
+      "wgs84": [
+        113.122298,
+        31.025371
+      ]
+    }
+  },
+  {
+    "name": "京山九锦福酒店管理有限公司",
+    "stage": "下游",
+    "topics": [
+      "住宿接待"
+    ],
+    "mainBusiness": "九锦福温泉酒店位于富水大道。京山市融媒体中心将该酒店列入 2026 年体育单招网球考生住宿指南。",
+    "region": "温泉街道",
+    "creditCode": "91420821MAEB3YXH0R",
+    "registeredCapital": "200万元人民币",
+    "established": "2025-01-21",
+    "registeredAddress": "湖北省荆门市京山市温泉街道文峰村五组1号-2号（标准地址）（自主申报）",
+    "legalRepresentative": "田志",
+    "registrationStatus": "存续（在营、开业、在册）",
+    "businessScopeExcerpt": "酒店管理、会议及展览服务、休闲观光活动；许可项目包括住宿、餐饮和洗浴服务。",
+    "sources": [
+      {
+        "title": "京山市融媒体中心｜2026 年体育单招网球考生交通住宿攻略",
+        "url": "https://www.jrjingshan.com/a/zt/wqdzjsx/2026/0411/75433.html",
+        "evidence": "指南列出酒店、营业地点和面向网球考生的接待信息。",
+        "date": "2026-04-11"
+      },
+      {
+        "title": "京山招聘网｜九锦福酒店企业招聘档案",
+        "url": "https://www.07248.com/company/123327",
+        "evidence": "本地招聘页面将九锦福酒店与京山九锦福酒店管理有限公司对应。"
+      },
+      {
+        "title": "水滴点评｜京山九锦福酒店管理有限公司工商档案",
+        "url": "https://www.shuididp.cn/yp-1c12109a3235c903893edce3835b9901.html",
+        "evidence": "第三方企业档案列有统一社会信用代码、注册资本、住所、法定代表人、成立日期和登记范围，本次摘录据此核对。"
+      }
+    ],
+    "siteNames": [
+      "九锦福温泉酒店"
+    ]
+  },
+  {
+    "name": "京山京悦森呼吸酒店管理有限公司",
+    "stage": "下游",
+    "topics": [
+      "住宿接待"
+    ],
+    "mainBusiness": "在轻机大道提供网球主题住宿。酒店为球友对接球场与教练，向网球考生提供预约接送。酒店早于现登记公司营业。",
+    "region": "新市街道",
+    "creditCode": "91420821MAKHLUAL0D",
+    "registeredCapital": "10万元人民币",
+    "established": "2026-07-06",
+    "registeredAddress": "湖北省荆门市京山市新市街道青年路社区轻机大道286号（自主申报）",
+    "legalRepresentative": "杨成智",
+    "registrationStatus": "存续（在营、开业、在册）",
+    "businessScopeExcerpt": "酒店管理、物业管理、商务代理代办；许可项目包括住宿和餐饮服务。",
+    "sources": [
+      {
+        "title": "国家体育总局｜京山首创“网球城市主理人”机制",
+        "url": "https://www.sport.gov.cn/n14471/n14488/n14525/c29190174/content.html",
+        "evidence": "采访记录酒店负责人杨成智向外地球友提供场地和教练对接。报道反映酒店品牌在现公司成立前的业务。"
+      },
+      {
+        "title": "京山市融媒体中心｜2026 年体育单招网球考生交通住宿攻略",
+        "url": "https://www.jrjingshan.com/a/zt/wqdzjsx/2026/0411/75433.html",
+        "evidence": "指南列出酒店、营业地点和面向网球考生的接待信息。",
+        "date": "2026-04-11"
+      },
+      {
+        "title": "2026 京网黄金赛季｜首批网旅管家名单",
+        "url": "https://www.sohu.com/a/1078209045_121123773",
+        "evidence": "9 月公布的名单仍以杨成智为京悦森呼吸酒店主理人，与同年 7 月登记的酒店管理公司负责人相符。",
+        "date": "2026-09-19"
+      },
+      {
+        "title": "携程酒店｜京山京悦森呼吸酒店",
+        "url": "https://hotels.ctrip.com/hotels/128027428.html",
+        "evidence": "酒店预订页公开展示住宿设施、营业地址和地图位置。图上标记酒店营业场所。"
+      },
+      {
+        "title": "水滴点评｜京山京悦森呼吸酒店管理有限公司工商档案",
+        "url": "https://www.shuididp.cn/yp-b54bb3f93b744b177d34f21843d43101.html",
+        "evidence": "第三方企业档案列有统一社会信用代码、注册资本、住所、法定代表人、成立日期和登记范围，本次摘录据此核对。"
+      }
+    ],
+    "siteNames": [
+      "京山京悦森呼吸酒店"
+    ],
+    "sitePoint": {
+      "name": "京山京悦森呼吸酒店",
+      "source": "携程酒店公开地图（近似位置）",
+      "url": "https://hotels.ctrip.com/hotels/128027428.html",
+      "originalCrs": "BD-09",
+      "originalCoordinates": [
+        113.136013,
+        31.027968
+      ],
+      "conversion": "gcoord 1.0.7",
+      "wgs84": [
+        113.123392,
+        31.024058
+      ]
+    }
+  },
+  {
+    "name": "湖北众拓酒店管理有限公司",
+    "stage": "下游",
+    "topics": [
+      "住宿接待",
+      "餐饮服务"
+    ],
+    "mainBusiness": "美豪酒店京山店项目单位。酒店在国际网球赛事中心附近于 2026 年 9 月开业，设有客房和特色餐厅，面向赛事及团体旅客。",
+    "region": "温泉街道",
+    "creditCode": "91420821MAG197LT6D",
+    "registeredCapital": "30万元人民币",
+    "established": "2025-10-22",
+    "registeredAddress": "湖北省荆门市京山市温泉街道月堰湾社区温泉路中农储华中农博汇2#楼103号（自主申报）",
+    "legalRepresentative": "黄远波",
+    "registrationStatus": "存续（在营、开业、在册）",
+    "businessScopeExcerpt": "酒店管理、会议及展览服务、品牌管理；许可项目包括住宿、餐饮及食品销售。",
+    "sources": [
+      {
+        "title": "京山市融媒体中心｜京山美豪酒店正式投入运营",
+        "url": "https://www.jrjingshan.com/m/a/sz/2026/0914/77944.html",
+        "evidence": "开业报道点名酒店负责人黄远波，并记载特色餐厅、客房及赛事接待业务。",
+        "date": "2026-09-14"
+      },
+      {
+        "title": "招标网｜美豪酒店·京山店项目备案公示",
+        "url": "https://m.zhaobiao.cn/rlxm/approved_v_c78e705b32120516b09fa5bc66f07b5b_new.html",
+        "evidence": "项目备案信息列示湖北众拓酒店管理有限公司为项目单位，法定代表人为黄远波。",
+        "date": "2026-01-08"
+      },
+      {
+        "title": "携程酒店｜美豪酒店（京山国际网球赛事中心店）",
+        "url": "https://hotels.ctrip.com/hotels/135629019.html",
+        "evidence": "酒店预订页公开展示住宿设施、营业地址和地图位置。图上标记酒店营业场所。"
+      },
+      {
+        "title": "水滴点评｜湖北众拓酒店管理有限公司工商档案",
+        "url": "https://www.shuididp.cn/yp-64c164961d8ea3a53f1739b6a56f8701.html",
+        "evidence": "第三方企业档案列有统一社会信用代码、注册资本、住所、法定代表人、成立日期和登记范围，本次摘录据此核对。"
+      }
+    ],
+    "siteNames": [
+      "美豪酒店（京山国际网球赛事中心店）"
+    ],
+    "sitePoint": {
+      "name": "美豪酒店（京山国际网球赛事中心店）",
+      "source": "携程酒店公开地图（近似位置）",
+      "url": "https://hotels.ctrip.com/hotels/135629019.html",
+      "originalCrs": "BD-09",
+      "originalCoordinates": [
+        113.143142,
+        31.001214
+      ],
+      "conversion": "gcoord 1.0.7",
+      "wgs84": [
+        113.130545,
+        30.997198
+      ]
+    }
+  },
+  {
+    "name": "京山五鼎福餐饮服务有限公司",
+    "stage": "下游",
+    "topics": [
+      "餐饮服务"
+    ],
+    "mainBusiness": "2025 年京山网球公开赛在网球训练基地开赛期间，五鼎福参与现场嘉年华，为观众提供餐饮。",
+    "region": "京山市",
+    "creditCode": "91420821MA4895YM0P",
+    "registeredCapital": "50万元人民币",
+    "established": "2016-03-21",
+    "registeredAddress": "湖北省荆门市京山市新市镇人民大道御景天城37栋1单元603室",
+    "legalRepresentative": "宋百玺",
+    "registrationStatus": "存续（在营、开业、在册）",
+    "businessScopeExcerpt": "许可项目包括餐饮服务、住宿服务、食品经营；一般项目包括外卖递送、农副产品销售。",
+    "sources": [
+      {
+        "title": "京山网球公开赛｜2025 年赛事开幕及嘉年华现场报道",
+        "url": "https://hb.news.163.com/jingmen/25/0922/09/KA24DJTI04089BBL.html",
+        "evidence": "赛事方在嘉年华供餐企业名单中使用该企业工商全称。",
+        "date": "2025-09-22"
+      },
+      {
+        "title": "水滴点评｜京山五鼎福餐饮服务有限公司工商档案",
+        "url": "https://www.shuididp.cn/yp-cbeefeb9b29aff23bfc419f58ac23040.html",
+        "evidence": "第三方企业档案列有统一社会信用代码、注册资本、住所、法定代表人、成立日期和登记范围，本次摘录据此核对。"
+      }
+    ]
+  },
+  {
+    "name": "湖北天天有鱼餐饮管理有限公司",
+    "stage": "下游",
+    "topics": [
+      "餐饮服务"
+    ],
+    "mainBusiness": "以“天天有鱼”参与 2025 年京山网球公开赛嘉年华餐饮服务。该品牌也列入当年中国村网的京山美食攻略。",
+    "region": "京山市",
+    "creditCode": "91420821MA49H4MP00",
+    "registeredCapital": "100万元人民币",
+    "established": "2020-06-28",
+    "registeredAddress": "湖北省荆门市京山市新市镇轻机大道富水花园29幢4单元301号",
+    "legalRepresentative": "张玉华",
+    "registrationStatus": "存续（在营、开业、在册）",
+    "businessScopeExcerpt": "餐饮管理、餐饮服务、餐饮策划及咨询，预包装和散装食品销售。",
+    "sources": [
+      {
+        "title": "京山网球公开赛｜2025 年赛事开幕及嘉年华现场报道",
+        "url": "https://hb.news.163.com/jingmen/25/0922/09/KA24DJTI04089BBL.html",
+        "evidence": "赛事方在嘉年华供餐企业名单中使用该企业工商全称。",
+        "date": "2025-09-22"
+      },
+      {
+        "title": "京山网球｜2025 中国村网观赛攻略",
+        "url": "https://www.jswq.net/h-nd-501.html",
+        "evidence": "京山美食推介名单中列有“天天有鱼”。"
+      },
+      {
+        "title": "水滴点评｜湖北天天有鱼餐饮管理有限公司工商档案",
+        "url": "https://www.shuididp.cn/yp-a6add213d3685ac33e85ab4495415d01.html",
+        "evidence": "第三方企业档案列有统一社会信用代码、注册资本、住所、法定代表人、成立日期和登记范围，本次摘录据此核对。"
+      }
+    ]
+  },
+  {
+    "name": "湖北京山丹峰生态农业科技有限公司",
+    "stage": "下游",
+    "topics": [
+      "购物展销"
+    ],
+    "mainBusiness": "在 2025 年京山网球公开赛嘉年华展示本地农产品。",
+    "region": "石龙镇",
+    "creditCode": "91420821MA48A8H57G",
+    "registeredCapital": "500万元人民币",
+    "established": "2016-05-27",
+    "registeredAddress": "湖北省荆门市京山市石龙镇陈湾村四组",
+    "legalRepresentative": "莫峰",
+    "registrationStatus": "存续（在营、开业、在册）",
+    "businessScopeExcerpt": "谷物、水果及蔬菜种植，食用农产品批发，农副产品销售和互联网销售。",
+    "sources": [
+      {
+        "title": "京山网球公开赛｜2025 年赛事开幕及嘉年华现场报道",
+        "url": "https://hb.news.163.com/jingmen/25/0922/09/KA24DJTI04089BBL.html",
+        "evidence": "赛事方点名该公司在嘉年华现场展示京山农产品。",
+        "date": "2025-09-22"
+      },
+      {
+        "title": "水滴点评｜湖北京山丹峰生态农业科技有限公司工商档案",
+        "url": "https://www.shuididp.cn/yp-e05a2c68c58ab9a15c9eab6ad2ebb7b1.html",
+        "evidence": "第三方企业档案列有统一社会信用代码、注册资本、住所、法定代表人、成立日期和登记范围，本次摘录据此核对。"
+      }
+    ]
+  },
+  {
+    "name": "京山绿丰家庭农场有限公司",
+    "stage": "下游",
+    "topics": [
+      "购物展销"
+    ],
+    "mainBusiness": "通过电商和商超销售京山桥米等农产品，并在 2025 年京山网球公开赛嘉年华展示本地农产品。",
+    "region": "罗店镇",
+    "creditCode": "91420821309700611F",
+    "registeredCapital": "508万元人民币",
+    "established": "2014-08-27",
+    "registeredAddress": "湖北省荆门市京山市罗店镇麻城村二组",
+    "legalRepresentative": "李亚红",
+    "registrationStatus": "存续（在营、开业、在册）",
+    "businessScopeExcerpt": "谷物、蔬菜种植，粮食收购，食用农产品批发零售；许可项目包括粮食加工食品生产、食品销售。",
+    "sources": [
+      {
+        "title": "京山网球公开赛｜2025 年赛事开幕及嘉年华现场报道",
+        "url": "https://hb.news.163.com/jingmen/25/0922/09/KA24DJTI04089BBL.html",
+        "evidence": "赛事方点名该公司在嘉年华现场展示京山农产品。",
+        "date": "2025-09-22"
+      },
+      {
+        "title": "京山桥米协会｜京山绿丰家庭农场有限公司",
+        "url": "https://www.jsqmxh.com/a/brand/fuhuizhangdanwei/208.html",
+        "evidence": "协会介绍该公司在电商平台及商超销售京山桥米和当地农产品。"
+      },
+      {
+        "title": "水滴点评｜京山绿丰家庭农场有限公司工商档案",
+        "url": "https://www.shuididp.cn/yp-193eb98f5f22d250004df4df9ba0b9a0.html",
+        "evidence": "第三方企业档案列有统一社会信用代码、注册资本、住所、法定代表人、成立日期和登记范围，本次摘录据此核对。"
+      }
+    ]
+  },
+  {
+    "name": "湖北太子山狩猎文化股份有限公司",
+    "stage": "下游",
+    "topics": [
+      "景区游览"
+    ],
+    "mainBusiness": "经营太子山狩猎文化主题乐园，面向游客提供户外游览、文化体验和研学活动。",
+    "region": "太子山林场",
+    "siteNames": [
+      "太子山狩猎文化主题乐园"
+    ],
+    "creditCode": "914208210554426076",
+    "registeredCapital": "5000万元人民币",
+    "legalRepresentative": "刘汉民",
+    "established": "2012-11-16",
+    "registrationStatus": "存续（在营、开业、在册）",
+    "registeredAddress": "湖北省太子山林场管理局",
+    "businessScopeExcerpt": "登记范围涵盖旅游景区管理、景区规划咨询和体育休闲观光。",
+    "sources": [
+      {
+        "title": "太子山狩猎文化主题乐园官网",
+        "url": "https://www.taizishan.com.cn/",
+        "evidence": "乐园官网列明公司全称，并介绍园区游览、研学和户外体验项目。"
+      },
+      {
+        "title": "湖北太子山狩猎文化股份有限公司｜2022年年度报告",
+        "url": "https://pdf.dfcfw.com/pdf/H2_AN202304251585795399_1.pdf",
+        "evidence": "公司披露的年度报告列明公司基本信息及文旅景区业务。"
+      },
+      {
+        "title": "水滴点评｜湖北太子山狩猎文化股份有限公司工商信息",
+        "url": "https://www.shuididp.cn/yp-d15bd86f10d03eaae3341d6f0772c278.html",
+        "evidence": "公开工商资料列明信用代码、资本、法定代表人、成立时间、登记地址、状态和经营范围。",
+        "date": "2026-11-18"
+      }
+    ]
+  },
+  {
+    "name": "湖北太子山旅游开发有限公司",
+    "stage": "下游",
+    "topics": [
+      "景区游览",
+      "运动康养"
+    ],
+    "mainBusiness": "经营太子山王莽洞风景区，开展森林康养课程。基地课程含林间运动和感官体验，公司于2025年中标湖北生态工程职业技术学院康养课程服务项目。",
+    "region": "石龙镇",
+    "siteNames": [
+      "王莽洞风景区"
+    ],
+    "creditCode": "91420821591456578P",
+    "registeredCapital": "600万元人民币",
+    "legalRepresentative": "李艳霞",
+    "established": "2012-03-07",
+    "registrationStatus": "存续（在营、开业、在册）",
+    "registeredAddress": "湖北省京山市石龙镇太子山林管局",
+    "businessScopeExcerpt": "登记范围涵盖旅游景区开发与经营、旅游项目策划、旅游产品开发与销售、景观设计和森林经营。",
+    "sources": [
+      {
+        "title": "湖北省太子山林场管理局｜湖北太子山旅游开发有限公司",
+        "url": "https://lyj.hubei.gov.cn/tzs/dwjs/jzdw/201912/t20191212_1757631.shtml",
+        "evidence": "林场管理局介绍下属旅游开发企业和王莽洞风景区业务。",
+        "date": "2019-12-12"
+      },
+      {
+        "title": "湖北生态工程职业技术学院｜2024级森旅学生圆满完成太子山岗位实训",
+        "url": "https://jyzc.com/article/detail/1776835948748?id=2082&type=zkgz%2Fsxsx",
+        "evidence": "学院记载该公司与林管局共同支持2026年太子山国家森林公园实训，实际设置景区服务、康养运营、游客接待等岗位。",
+        "date": "2026-04-22"
+      },
+      {
+        "title": "湖北省太子山林场管理局｜森林康养基地教学活动",
+        "url": "https://lyj.hubei.gov.cn/tzs/jzdw/slky/202405/t20240522_5199457.shtml",
+        "evidence": "介绍太子山森林康养基地的林间运动和五感体验教学，并记载旅游公司总经理参与现场指导。",
+        "date": "2024-05-22"
+      },
+      {
+        "title": "中国政府采购网｜湖北生态工程职业技术学院2025年课程外包服务中标结果公告",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202505/t20250506_24542857.htm",
+        "evidence": "康养课程服务成交供应商为湖北太子山旅游开发有限公司。",
+        "date": "2025-05-06"
+      },
+      {
+        "title": "水滴点评｜湖北太子山旅游开发有限公司工商信息",
+        "url": "https://www.shuididp.cn/yp-a292aa17a3652a79d1951e9043b7e3f4.html",
+        "evidence": "工商资料列明公司的信用代码、注册资本、法定代表人、成立时间、地址和经营范围。",
+        "date": "2026-11-18"
+      }
+    ]
+  },
+  {
+    "name": "湖北森宝园艺有限公司",
+    "stage": "下游",
+    "topics": [
+      "购物展销"
+    ],
+    "mainBusiness": "在孙桥镇生产和销售京山特色对节白蜡盆景，通过网络直播向消费者展示造型、销售小型盆景。",
+    "region": "孙桥镇",
+    "creditCode": "91420821326037858X",
+    "registeredCapital": "1000万元人民币",
+    "legalRepresentative": "马倩",
+    "established": "2015-01-12",
+    "registrationStatus": "存续（在营、开业、在册）",
+    "registeredAddress": "湖北省荆门市京山市孙桥镇青树岭村一组18号",
+    "businessScopeExcerpt": "登记范围涵盖园艺产品种植及销售、花卉种植、农副产品销售、会议及展览服务。",
+    "sources": [
+      {
+        "title": "湖北省农业农村厅｜孙桥镇培育三千名对节白蜡园艺师",
+        "url": "https://nyt.hubei.gov.cn/bmdt/yw/szdt/202311/t20231124_4966988.shtml",
+        "evidence": "报道京山对节白蜡盆景的生产与销售，点名湖北森宝园艺有限公司及其小型盆景。",
+        "date": "2023-11-24"
+      },
+      {
+        "title": "农村新报｜百人直播闹 对节白蜡俏",
+        "url": "https://www.jrjingshan.com/a/wm/2023/0918/53150.html",
+        "evidence": "现场采访该公司负责人，记录直播展示并销售京山盆景的过程。",
+        "date": "2023-09-18"
+      },
+      {
+        "title": "水滴点评｜湖北森宝园艺有限公司工商信息",
+        "url": "https://www.shuididp.cn/yp-e5c405749307de90a4c66904e5507b92.html",
+        "evidence": "工商资料列明公司登记信息、经营范围及其在京山市孙桥镇的注册地址。",
+        "date": "2026-11-18"
+      }
+    ]
+  },
+  {
+    "name": "湖北谷岭农贸有限公司",
+    "stage": "下游",
+    "topics": [
+      "购物展销"
+    ],
+    "mainBusiness": "运营泰康网上商城“荆楚优品”专区，通过“泰享购”线上渠道销售京山特色农产品。",
+    "region": "曹武镇",
+    "creditCode": "91420821MA491KKMXW",
+    "registeredCapital": "100万元人民币",
+    "legalRepresentative": "王凯",
+    "established": "2017-10-16",
+    "registrationStatus": "存续（在营、开业、在册）",
+    "registeredAddress": "湖北省荆门市京山市曹武镇邓李村（原邓李粮站）6号（自主申报）",
+    "businessScopeExcerpt": "登记范围涵盖农产品生产、加工和销售，食用农产品零售及预包装食品网上销售。",
+    "sources": [
+      {
+        "title": "京山市文化和旅游局｜关于市政协二届三次会议第2024009号提案办结答复",
+        "url": "https://www.jingshan.gov.cn/art/2024/9/19/art_24270_1113532.html",
+        "evidence": "市文旅局确认湖北谷岭农贸有限公司获得荆楚优品专区运营授权，并介绍京山产品上线泰享购的渠道。",
+        "date": "2024-09-19"
+      },
+      {
+        "title": "京山市商务局｜京山：培育龙头电商 推动转型升级",
+        "url": "https://www.jingshan.gov.cn/art/2024/4/17/art_24262_1072287.html",
+        "evidence": "商务局介绍企业同荆楚优品合作发展京山农产品电商业务。",
+        "date": "2024-04-17"
+      },
+      {
+        "title": "水滴点评｜湖北谷岭农贸有限公司工商信息",
+        "url": "https://www.shuididp.cn/yp-52ac3e78331388a7643803e3a7ae3cf9.html",
+        "evidence": "工商资料列明公司的信用代码、登记资本、负责人、成立时间、注册地址及经营范围。",
+        "date": "2026-11-18"
+      }
+    ]
+  },
+  {
+    "name": "湖北盛昌水产有限公司",
+    "stage": "下游",
+    "topics": [
+      "购物展销"
+    ],
+    "mainBusiness": "在钱场镇经营龟鳖养殖和加工销售。盛昌龟业产品展厅展示龟甲胶等京山特色产品。",
+    "region": "钱场镇",
+    "creditCode": "91420821326104301C",
+    "registeredCapital": "100万元人民币",
+    "legalRepresentative": "盛文涛",
+    "established": "2015-01-07",
+    "registrationStatus": "存续（在营、开业、在册）",
+    "registeredAddress": "湖北省荆门市京山市钱场镇吴岭村三组特1号",
+    "businessScopeExcerpt": "登记范围涵盖水产养殖、水产苗种生产、食品生产及销售、水产品批发零售和预包装食品网上销售。",
+    "sources": [
+      {
+        "title": "中国农村网｜极目楚天 嘉禾盈畴——湖北打造新时代“鱼米之乡”的实践与探索",
+        "url": "https://www.crnews.net/zt/jj2025nzyncgzhy/dfsj/976031_20251230095606.html",
+        "evidence": "中国农村杂志社调研组实地走访钱场镇盛昌龟业产品展厅，记者记录展出的龟甲胶等产品，负责人盛文涛介绍企业的加工销售业务。",
+        "date": "2025-12-30"
+      },
+      {
+        "title": "京山市融媒体中心｜省政协专题调研京山水产业发展工作",
+        "url": "https://www.jrjingshan.com/a/sz/2026/1013/78372.html",
+        "evidence": "报道明确将钱场镇龟屿稻境农文旅示范基地与湖北盛昌水产有限公司对应。",
+        "date": "2026-10-13"
+      },
+      {
+        "title": "农村新报｜京山“一只龟鳖”步入全国前列的生态路",
+        "url": "https://ncxbepaper.hubeidaily.net/pc/content/202506/28/content_318846.html",
+        "evidence": "现场采访明确钱场镇基地的企业全称为湖北盛昌水产有限公司，并点名负责人盛文涛。",
+        "date": "2025-06-28"
+      },
+      {
+        "title": "水滴点评｜湖北盛昌水产有限公司工商信息",
+        "url": "https://www.shuididp.cn/yp-e22895bbd2ce9f33400196dc60fcb56e.html",
+        "evidence": "工商资料列明公司全称、信用代码、地址、资本、成立时间、法定代表人与经营范围。",
+        "date": "2026-11-18"
+      }
+    ]
+  },
+  {
+    "name": "京山市京源美华酒店管理有限公司",
+    "stage": "下游",
+    "topics": [
+      "住宿接待",
+      "餐饮服务"
+    ],
+    "mainBusiness": "为京山网球训练基地万达美华酒店提供本地住宿和餐饮服务。酒店接待网球考生、球员和球友，并推出由专业教练带训的五天四晚网旅进阶班，前台可协助预约球场和接送。",
+    "region": "温泉街道",
+    "siteNames": [
+      "京山网球训练基地万达美华酒店"
+    ],
+    "creditCode": "91420821MAEGBMKUXY",
+    "registeredCapital": "1000万元人民币",
+    "established": "2025-04-24",
+    "legalRepresentative": "孙磊",
+    "registrationStatus": "存续（在营、开业、在册）",
+    "registeredAddress": "湖北省荆门市京山市温泉街道文峰村五组温泉路68号（自主申报）",
+    "address": "京山网球训练基地万达美华酒店，京山市温泉路68号",
+    "businessScopeExcerpt": "酒店管理、餐饮管理、会议及展览服务、旅游开发项目策划咨询、体育竞赛组织、体育赛事策划。许可项目包括餐饮服务和住宿服务。",
+    "sources": [
+      {
+        "title": "京山市融媒体中心｜2026年体育单招网球考生交通住宿攻略",
+        "url": "https://www.jrjingshan.com/a/zt/wqdzjsx/2026/0411/75433.html",
+        "date": "2026-04-11",
+        "evidence": "网球单招住宿攻略列出万达美华酒店及其京山市温泉路68号地址，与该企业登记地址一致。"
+      },
+      {
+        "title": "湖北日报｜300多名网球陪练网旅管家上岗",
+        "url": "https://epaper.hubeidaily.net/pad/content/202609/24/content_359469.html",
+        "date": "2026-09-24",
+        "evidence": "酒店销售经理谢岚介绍客房接待、球场预约和接送服务，以及由专业教练每天分上下午带训的五天四晚网旅产品。"
+      },
+      {
+        "title": "京山市京源美华酒店管理有限公司食品原材料采购竞争性磋商公告",
+        "url": "https://hbs.qianlima.com/zbcontent-644004506.html",
+        "date": "2026-11-02",
+        "evidence": "采购公告以公司全称发布餐厅食材配送需求，公开部分可辨认采购人地址为村五组、路68号。"
+      },
+      {
+        "title": "水滴点评｜京山市京源美华酒店管理有限公司工商信息",
+        "url": "https://www.shuididp.cn/yp-2f8d31bbe2e40734458d458554febd01.html",
+        "date": "2026-11-18",
+        "evidence": "登记列明京山市网球产业发展有限公司为唯一股东，住所为文峰村五组温泉路68号，并列示信用代码、资本、成立日期、法定代表人、经营状态和范围。"
+      }
+    ],
+    "relationRecords": [
+      {
+        "product": "京山网球训练基地酒店经营主体股权关系",
+        "activity": "公开工商资料列示，京山市网球产业发展有限公司持有京山市京源美华酒店管理有限公司 100% 股权。",
+        "receipt": "京山市京源美华酒店管理有限公司 · 股东信息",
+        "url": "https://www.shuididp.cn/yp-2f8d31bbe2e40734458d458554febd01.html"
+      }
+    ]
+  }
+]

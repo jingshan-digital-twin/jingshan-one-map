@@ -1,0 +1,203 @@
+[
+  {
+    "sequence": 1,
+    "name": "京山市绿林山景区",
+    "resourceClass": "旅游景区",
+    "address": "京山市绿林镇洪山路",
+    "grade": "AAAA",
+    "operator": "京山大洪山旅游开发有限公司",
+    "scaleEnterprise": "是"
+  },
+  {
+    "sequence": 2,
+    "name": "京山市太子山生态旅游区",
+    "resourceClass": "旅游景区",
+    "address": "京山市石龙镇太子山",
+    "grade": "AAAA",
+    "operator": "湖北太子山旅游开发有限公司",
+    "scaleEnterprise": "否"
+  },
+  {
+    "sequence": 3,
+    "name": "京山市花台山景区",
+    "resourceClass": "旅游景区",
+    "address": "京山市曹武镇花台山村",
+    "grade": "AAA",
+    "operator": "京山花台旅游开发有限公司",
+    "scaleEnterprise": "是"
+  },
+  {
+    "sequence": 4,
+    "name": "京山市潼泉湖休闲旅游区",
+    "resourceClass": "旅游景区",
+    "address": "京山市石龙镇张湾村",
+    "grade": "AAA",
+    "operator": "荆门裕龙源农业有限公司",
+    "scaleEnterprise": "否"
+  },
+  {
+    "sequence": 5,
+    "name": "京山市仙女紫薇园",
+    "resourceClass": "旅游景区",
+    "address": "京山市石龙镇仙女林场东马队",
+    "grade": "AA",
+    "operator": "湖北太子山旅游开发有限公司",
+    "scaleEnterprise": "否"
+  },
+  {
+    "sequence": 6,
+    "name": "京山市太子山月季园",
+    "resourceClass": "旅游景区",
+    "address": "京山市石龙镇太子山林场",
+    "grade": "AA",
+    "operator": "湖北太子山叶坡月季园有限公司",
+    "scaleEnterprise": "否"
+  },
+  {
+    "sequence": 7,
+    "name": "太子山狩猎主题乐园",
+    "resourceClass": "旅游景区",
+    "address": "京山市农谷大道西100米",
+    "operator": "湖北太子山狩猎文化股份有限公司",
+    "scaleEnterprise": "是"
+  },
+  {
+    "sequence": 8,
+    "name": "京山农场",
+    "resourceClass": "旅游景区",
+    "address": "京山市杨集镇双墩村",
+    "operator": "泰康启园（京山）置业有限公司",
+    "scaleEnterprise": "是"
+  },
+  {
+    "sequence": 9,
+    "name": "青龙山景区",
+    "resourceClass": "旅游景区",
+    "address": "温泉街道汤堰畈村",
+    "operator": "湖北京山青龙山旅游开发有限公司",
+    "scaleEnterprise": "否"
+  },
+  {
+    "sequence": 10,
+    "name": "空山洞景区",
+    "resourceClass": "旅游景区",
+    "address": "钱场镇七宝山村",
+    "operator": "京山大洪山旅游开发有限公司",
+    "scaleEnterprise": "是"
+  },
+  {
+    "sequence": 11,
+    "name": "京山玉珑温泉",
+    "resourceClass": "旅游景区",
+    "address": "京山市景观大道东侧领尚山河院内",
+    "operator": "京山岭苑旅游开发有限公司",
+    "scaleEnterprise": "是"
+  },
+  {
+    "sequence": 12,
+    "name": "京山天沐温泉",
+    "resourceClass": "旅游景区",
+    "address": "京山市温泉街道汤堰村 5 组（温泉路 32 号）",
+    "operator": "京山市京诚天沐酒店管理有限公司",
+    "scaleEnterprise": "是"
+  },
+  {
+    "sequence": 13,
+    "name": "对节白蜡旅游区",
+    "resourceClass": "旅游景区",
+    "address": "京山市孙桥镇青树岭村一组",
+    "operator": "京诚集团",
+    "scaleEnterprise": "否"
+  },
+  {
+    "sequence": 14,
+    "name": "花苑台景区",
+    "resourceClass": "乡村旅游点",
+    "address": "京山市孙桥镇花苑台村",
+    "operator": "村集体"
+  },
+  {
+    "sequence": 15,
+    "name": "文峰网球特色村",
+    "resourceClass": "乡村旅游点",
+    "address": "京山市温泉路文峰网球特色村",
+    "operator": "村集体"
+  },
+  {
+    "sequence": 16,
+    "name": "虎爪山森林公园",
+    "resourceClass": "乡村旅游点",
+    "address": "京山市孙桥镇虎爪山森林公园",
+    "operator": "村集体"
+  },
+  {
+    "sequence": 17,
+    "name": "白谷烟树乡村休闲点",
+    "resourceClass": "乡村旅游点",
+    "address": "京山市京绿线新市街道白谷洞村",
+    "operator": "村集体"
+  },
+  {
+    "sequence": 18,
+    "name": "石板河秋满园",
+    "resourceClass": "乡村旅游点",
+    "address": "京山市罗店镇石板河村",
+    "operator": "村集体"
+  },
+  {
+    "sequence": 19,
+    "name": "马岭乡村休闲旅游点",
+    "resourceClass": "乡村旅游点",
+    "address": "京山市罗店镇马岭村",
+    "operator": "村集体"
+  },
+  {
+    "sequence": 20,
+    "name": "梭罗河村“女婚男嫁”婚俗",
+    "resourceClass": "乡村旅游点",
+    "address": "孙桥镇梭罗河村",
+    "operator": "村集体"
+  },
+  {
+    "sequence": 21,
+    "name": "荷花堰邮驿小镇",
+    "resourceClass": "乡村旅游点",
+    "address": "孙桥镇荷花堰村",
+    "operator": "村集体"
+  },
+  {
+    "sequence": 22,
+    "name": "丁家塝耕读小镇",
+    "resourceClass": "乡村旅游点",
+    "address": "孙桥镇丁家塝村",
+    "operator": "村集体"
+  },
+  {
+    "sequence": 23,
+    "name": "青树岭张文秋故居",
+    "resourceClass": "乡村旅游点",
+    "address": "孙桥镇青树岭村",
+    "operator": "村集体"
+  },
+  {
+    "sequence": 24,
+    "name": "蒋家大堰桥米源",
+    "resourceClass": "乡村旅游点",
+    "address": "孙桥镇蒋家大堰村",
+    "operator": "村集体"
+  },
+  {
+    "sequence": 25,
+    "name": "栖栖汀屿",
+    "resourceClass": "乡村旅游点",
+    "address": "永兴镇汀河村",
+    "operator": "村集体"
+  },
+  {
+    "sequence": 26,
+    "name": "丹峰产业园",
+    "resourceClass": "乡村旅游点",
+    "address": "石龙镇陈湾村",
+    "operator": "村集体"
+  }
+]

@@ -1,0 +1,3646 @@
+{
+  "checkedAt": "2026-11-23",
+  "sourceSummaries": [
+    {
+      "year": 2025,
+      "file": "2025年京山市网球赛事计划表.xlsx",
+      "count": 48,
+      "declaredParticipants": 13131,
+      "computedParticipants": 13278,
+      "note": "原表合计为13,131人，逐行求和为13,278人；平台采用逐行求和，保留原表合计供核对。"
+    },
+    {
+      "year": 2026,
+      "file": "2026年京山网球赛事活动计划(.xlsx、京山市网球赛事整合表.xlsx",
+      "count": 46,
+      "declaredParticipants": null,
+      "computedParticipants": 10028,
+      "note": ""
+    }
+  ],
+  "events": [
+    {
+      "id": "plan-2025-01",
+      "year": 2025,
+      "sequence": 1,
+      "sourceRow": 3,
+      "sourceFile": "2025年京山市网球赛事计划表.xlsx",
+      "sourceSheet": "0415",
+      "name": "京山市“迎新春”网球交流赛（单打）",
+      "monthText": "1月",
+      "dateText": "1月25日",
+      "startDate": "2025-01-25",
+      "endDate": "2025-01-25",
+      "months": [
+        1
+      ],
+      "datePrecision": "day",
+      "host": "京山文旅局",
+      "organizer": "京山市网球运动管理中心",
+      "participants": 147,
+      "category": "赛事",
+      "level": "群众",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        1,
+        "1月",
+        "京山市“迎新春”网球交流赛（单打）",
+        "京山文旅局",
+        "京山市网球运动管理中心",
+        147,
+        "1月25日"
+      ]
+    },
+    {
+      "id": "plan-2025-02",
+      "year": 2025,
+      "sequence": 2,
+      "sourceRow": 4,
+      "sourceFile": "2025年京山市网球赛事计划表.xlsx",
+      "sourceSheet": "0415",
+      "name": "京山市“迎新春”网球交流赛（双打）",
+      "monthText": "2月",
+      "dateText": "2月9日",
+      "startDate": "2025-02-09",
+      "endDate": "2025-02-09",
+      "months": [
+        2
+      ],
+      "datePrecision": "day",
+      "host": "京山文旅局",
+      "organizer": "京山市网球运动管理中心",
+      "participants": 147,
+      "category": "赛事",
+      "level": "群众",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        2,
+        "2月",
+        "京山市“迎新春”网球交流赛（双打）",
+        "京山文旅局",
+        "京山市网球运动管理中心",
+        147,
+        "2月9日"
+      ]
+    },
+    {
+      "id": "plan-2025-03",
+      "year": 2025,
+      "sequence": 3,
+      "sourceRow": 5,
+      "sourceFile": "2025年京山市网球赛事计划表.xlsx",
+      "sourceSheet": "0415",
+      "name": "“李宁京山杯”青少年网球积分赛第一站(CTJ-B500)",
+      "monthText": "3月",
+      "dateText": "3月22-23日",
+      "startDate": "2025-03-22",
+      "endDate": "2025-03-23",
+      "months": [
+        3
+      ],
+      "datePrecision": "day",
+      "host": "中国网球协会",
+      "organizer": "京山市体育局",
+      "participants": 487,
+      "category": "赛事",
+      "level": "无",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        3,
+        "3月",
+        "“李宁京山杯”青少年网球\n积分赛第一站(CTJ-B500)",
+        "中国网球协会",
+        "京山市体育局",
+        487,
+        "3月22-\n23日"
+      ]
+    },
+    {
+      "id": "plan-2025-04",
+      "year": 2025,
+      "sequence": 4,
+      "sourceRow": 6,
+      "sourceFile": "2025年京山市网球赛事计划表.xlsx",
+      "sourceSheet": "0415",
+      "name": "中国小网球·京山之星挑战赛（CTS250）",
+      "monthText": "4月",
+      "dateText": "4月5-6日",
+      "startDate": "2025-04-05",
+      "endDate": "2025-04-06",
+      "months": [
+        4
+      ],
+      "datePrecision": "day",
+      "host": "中国网球协会中国学生体育联合会",
+      "organizer": "京山市体育局",
+      "participants": 109,
+      "category": "赛事",
+      "level": "全国",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        4,
+        "4月",
+        "中国小网球·京山之星挑战赛（CTS250）",
+        "中国网球协会\n中国学生体育联合会",
+        "京山市体育局",
+        109,
+        "4月5-\n6日"
+      ]
+    },
+    {
+      "id": "plan-2025-05",
+      "year": 2025,
+      "sequence": 5,
+      "sourceRow": 7,
+      "sourceFile": "2025年京山市网球赛事计划表.xlsx",
+      "sourceSheet": "0415",
+      "name": "第二十七届“华贝杯”网球赛暨2025年京山市春季网球联赛",
+      "monthText": "4月",
+      "dateText": "4月12-13日",
+      "startDate": "2025-04-12",
+      "endDate": "2025-04-13",
+      "months": [
+        4
+      ],
+      "datePrecision": "day",
+      "host": "京山文旅局、京山网球协会",
+      "organizer": "无",
+      "participants": 318,
+      "category": "赛事",
+      "level": "群众",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        5,
+        "4月",
+        "第二十七届“华贝杯”网球赛暨\n2025年京山市春季网球联赛",
+        "京山文旅局、京山网球协会",
+        null,
+        318,
+        "4月12-\n13日"
+      ]
+    },
+    {
+      "id": "plan-2025-06",
+      "year": 2025,
+      "sequence": 6,
+      "sourceRow": 8,
+      "sourceFile": "2025年京山市网球赛事计划表.xlsx",
+      "sourceSheet": "0415",
+      "name": "“李宁京山杯”青少年网球积分赛第二站(CTJ-B500)",
+      "monthText": "4月",
+      "dateText": "4月19-20日",
+      "startDate": "2025-04-19",
+      "endDate": "2025-04-20",
+      "months": [
+        4
+      ],
+      "datePrecision": "day",
+      "host": "中国网球协会",
+      "organizer": "京山市体育局",
+      "participants": 488,
+      "category": "赛事",
+      "level": "无",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        6,
+        "4月",
+        "“李宁京山杯”青少年网球\n积分赛第二站(CTJ-B500)",
+        "中国网球协会",
+        "京山市体育局",
+        488,
+        "4月19-\n20日"
+      ]
+    },
+    {
+      "id": "plan-2025-07",
+      "year": 2025,
+      "sequence": 7,
+      "sourceRow": 9,
+      "sourceFile": "2025年京山市网球赛事计划表.xlsx",
+      "sourceSheet": "0415",
+      "name": "中国小网球·京山之星挑战赛（CTS250）",
+      "monthText": "4月",
+      "dateText": "4月26-27日",
+      "startDate": "2025-04-26",
+      "endDate": "2025-04-27",
+      "months": [
+        4
+      ],
+      "datePrecision": "day",
+      "host": "中国网球协会中国学生体育联合会",
+      "organizer": "京山市体育局",
+      "participants": 63,
+      "category": "赛事",
+      "level": "全国",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        7,
+        "4月",
+        "中国小网球·京山之星挑战赛（CTS250）",
+        "中国网球协会\n中国学生体育联合会",
+        "京山市体育局",
+        63,
+        "4月26-\n27日"
+      ]
+    },
+    {
+      "id": "plan-2025-08",
+      "year": 2025,
+      "sequence": 8,
+      "sourceRow": 10,
+      "sourceFile": "2025年京山市网球赛事计划表.xlsx",
+      "sourceSheet": "0415",
+      "name": "湖北省青少年网球巡回赛第一站（U8）",
+      "monthText": "5月",
+      "dateText": "5月1-2日",
+      "startDate": "2025-05-01",
+      "endDate": "2025-05-02",
+      "months": [
+        5
+      ],
+      "datePrecision": "day",
+      "host": "湖北省体育局、湖北省教育厅",
+      "organizer": "京山市网球运动管理中心",
+      "participants": 152,
+      "category": "赛事",
+      "level": "省级",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        8,
+        "5月",
+        "湖北省青少年网球巡回赛第一站（U8）",
+        "湖北省体育局、湖北省教育厅",
+        "京山市网球运动管理中心",
+        152,
+        "5月1-2日"
+      ]
+    },
+    {
+      "id": "plan-2025-09",
+      "year": 2025,
+      "sequence": 9,
+      "sourceRow": 11,
+      "sourceFile": "2025年京山市网球赛事计划表.xlsx",
+      "sourceSheet": "0415",
+      "name": "湖北省青少年网球巡回赛第二站（U10）",
+      "monthText": "5月",
+      "dateText": "5月3-4日",
+      "startDate": "2025-05-03",
+      "endDate": "2025-05-04",
+      "months": [
+        5
+      ],
+      "datePrecision": "day",
+      "host": "湖北省体育局、湖北省教育厅",
+      "organizer": "京山市网球运动管理中心",
+      "participants": 190,
+      "category": "赛事",
+      "level": "省级",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        9,
+        "5月",
+        "湖北省青少年网球巡回赛第二站（U10）",
+        "湖北省体育局、湖北省教育厅",
+        "京山市网球运动管理中心",
+        190,
+        "5月3-4日"
+      ]
+    },
+    {
+      "id": "plan-2025-10",
+      "year": 2025,
+      "sequence": 10,
+      "sourceRow": 12,
+      "sourceFile": "2025年京山市网球赛事计划表.xlsx",
+      "sourceSheet": "0415",
+      "name": "中国青少年网球巡回赛U12-A2000第9站",
+      "monthText": "5月",
+      "dateText": "5月9-16日",
+      "startDate": "2025-05-09",
+      "endDate": "2025-05-16",
+      "months": [
+        5
+      ],
+      "datePrecision": "day",
+      "host": "国家体育总局网球运动管理中心、中国网球协会",
+      "organizer": "京山市网球运动管理中心",
+      "participants": 240,
+      "category": "赛事",
+      "level": "全国",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        10,
+        "5月",
+        "中国青少年网球巡回赛U12-A2000第9站",
+        "国家体育总局网球运动管理中心、中国网球协会",
+        "京山市网球运动管理中心",
+        240,
+        "5月9-\n16日"
+      ]
+    },
+    {
+      "id": "plan-2025-11",
+      "year": 2025,
+      "sequence": 11,
+      "sourceRow": 13,
+      "sourceFile": "2025年京山市网球赛事计划表.xlsx",
+      "sourceSheet": "0415",
+      "name": "中国青少年网球巡回赛U12-A2000第10站",
+      "monthText": "5月",
+      "dateText": "5月16-23日",
+      "startDate": "2025-05-16",
+      "endDate": "2025-05-23",
+      "months": [
+        5
+      ],
+      "datePrecision": "day",
+      "host": "国家体育总局网球运动管理中心、中国网球协会",
+      "organizer": "京山市网球运动管理中心",
+      "participants": 281,
+      "category": "赛事",
+      "level": "全国",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        11,
+        "5月",
+        "中国青少年网球巡回赛U12-A2000第10站",
+        "国家体育总局网球运动管理中心、中国网球协会",
+        "京山市网球运动管理中心",
+        281,
+        "5月16-\n23日"
+      ]
+    },
+    {
+      "id": "plan-2025-12",
+      "year": 2025,
+      "sequence": 12,
+      "sourceRow": 14,
+      "sourceFile": "2025年京山市网球赛事计划表.xlsx",
+      "sourceSheet": "0415",
+      "name": "ITF国际网球大师赛（MT100）",
+      "monthText": "5月",
+      "dateText": "5月22-25日",
+      "startDate": "2025-05-22",
+      "endDate": "2025-05-25",
+      "months": [
+        5
+      ],
+      "datePrecision": "day",
+      "host": "国际网球联合会、中国网球协会",
+      "organizer": "京山市网球运动管理中心",
+      "participants": 419,
+      "category": "赛事",
+      "level": "国际",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        12,
+        "5月",
+        "ITF国际网球大师赛（MT100）",
+        "国际网球联合会、中国网球协会",
+        "京山市网球运动管理中心",
+        419,
+        "5月22-\n25日"
+      ]
+    },
+    {
+      "id": "plan-2025-13",
+      "year": 2025,
+      "sequence": 13,
+      "sourceRow": 15,
+      "sourceFile": "2025年京山市网球赛事计划表.xlsx",
+      "sourceSheet": "0415",
+      "name": "中国小网球·京山之星挑战赛（CTS250）",
+      "monthText": "5月",
+      "dateText": "5月30日",
+      "startDate": "2025-05-30",
+      "endDate": "2025-05-30",
+      "months": [
+        5
+      ],
+      "datePrecision": "day",
+      "host": "中国网球协会中国学生体育联合会",
+      "organizer": "京山市体育局",
+      "participants": 144,
+      "category": "赛事",
+      "level": "全国",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        13,
+        "5月",
+        "中国小网球·京山之星挑战赛（CTS250）",
+        "中国网球协会\n中国学生体育联合会",
+        "京山市体育局",
+        144,
+        "5月30日"
+      ]
+    },
+    {
+      "id": "plan-2025-14",
+      "year": 2025,
+      "sequence": 14,
+      "sourceRow": 16,
+      "sourceFile": "2025年京山市网球赛事计划表.xlsx",
+      "sourceSheet": "0415",
+      "name": "“奔跑吧少年”京山市网球萌宝趣味赛暨运动小健将挑战赛",
+      "monthText": "5月",
+      "dateText": "5月30日",
+      "startDate": "2025-05-30",
+      "endDate": "2025-05-30",
+      "months": [
+        5
+      ],
+      "datePrecision": "day",
+      "host": "京山文旅局、京山教育局",
+      "organizer": "无",
+      "participants": 1000,
+      "category": "活动",
+      "level": "群众",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        14,
+        "5月",
+        "“奔跑吧少年”京山市网球萌宝\n趣味赛暨运动小健将挑战赛",
+        "京山文旅局、京山教育局",
+        null,
+        1000,
+        "5月30日"
+      ]
+    },
+    {
+      "id": "plan-2025-15",
+      "year": 2025,
+      "sequence": 15,
+      "sourceRow": 17,
+      "sourceFile": "2025年京山市网球赛事计划表.xlsx",
+      "sourceSheet": "0415",
+      "name": "中国网球协会D级导师培训班",
+      "monthText": "6月",
+      "dateText": "6月13-16日",
+      "startDate": "2025-06-13",
+      "endDate": "2025-06-16",
+      "months": [
+        6
+      ],
+      "datePrecision": "day",
+      "host": "中国网球协会",
+      "organizer": "京山市网球运动管理中心",
+      "participants": 35,
+      "category": "培训",
+      "level": "全国",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        15,
+        "6月",
+        "中国网球协会D级导师培训班",
+        "中国网球协会",
+        "京山市网球运动管理中心",
+        35,
+        "6月13-16日"
+      ]
+    },
+    {
+      "id": "plan-2025-16",
+      "year": 2025,
+      "sequence": 16,
+      "sourceRow": 18,
+      "sourceFile": "2025年京山市网球赛事计划表.xlsx",
+      "sourceSheet": "0415",
+      "name": "2025年湖北省青少年网球冠军赛（CTJ-G1200）",
+      "monthText": "6月",
+      "dateText": "6月14-17日",
+      "startDate": "2025-06-14",
+      "endDate": "2025-06-17",
+      "months": [
+        6
+      ],
+      "datePrecision": "day",
+      "host": "湖北省体育局、湖北省教育厅",
+      "organizer": "京山市网球运动管理中心",
+      "participants": 491,
+      "category": "赛事",
+      "level": "省级",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        16,
+        "6月",
+        "2025年湖北省青少年网球冠军赛\n（CTJ-G1200）",
+        "湖北省体育局、湖北省教育厅",
+        "京山市网球运动管理中心",
+        491,
+        "6月14-\n17日"
+      ]
+    },
+    {
+      "id": "plan-2025-17",
+      "year": 2025,
+      "sequence": 17,
+      "sourceRow": 19,
+      "sourceFile": "2025年京山市网球赛事计划表.xlsx",
+      "sourceSheet": "0415",
+      "name": "中国小网球·京山之星挑战赛（CTS250）",
+      "monthText": "6月",
+      "dateText": "6月21-22日",
+      "startDate": "2025-06-21",
+      "endDate": "2025-06-22",
+      "months": [
+        6
+      ],
+      "datePrecision": "day",
+      "host": "中国网球协会中国学生体育联合会",
+      "organizer": "京山市体育局",
+      "participants": 56,
+      "category": "赛事",
+      "level": "全国",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        17,
+        "6月",
+        "中国小网球·京山之星挑战赛（CTS250）",
+        "中国网球协会\n中国学生体育联合会",
+        "京山市体育局",
+        56,
+        "6月21-\n22日"
+      ]
+    },
+    {
+      "id": "plan-2025-18",
+      "year": 2025,
+      "sequence": 18,
+      "sourceRow": 20,
+      "sourceFile": "2025年京山市网球赛事计划表.xlsx",
+      "sourceSheet": "0415",
+      "name": "中国青少年网球周末赛A1000第一站",
+      "monthText": "6月",
+      "dateText": "6月28-29日",
+      "startDate": "2025-06-28",
+      "endDate": "2025-06-29",
+      "months": [
+        6
+      ],
+      "datePrecision": "day",
+      "host": "中国网球协会",
+      "organizer": "京山市体育局",
+      "participants": 367,
+      "category": "赛事",
+      "level": "全国",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        18,
+        "6月",
+        "中国青少年网球周末赛A1000第一站",
+        "中国网球协会",
+        "京山市体育局",
+        367,
+        "6月28-\n29日"
+      ]
+    },
+    {
+      "id": "plan-2025-19",
+      "year": 2025,
+      "sequence": 19,
+      "sourceRow": 21,
+      "sourceFile": "2025年京山市网球赛事计划表.xlsx",
+      "sourceSheet": "0415",
+      "name": "“小网球工程”暨京山市第七届“雏鹰”网球训练营",
+      "monthText": "7月",
+      "dateText": "7月1-4日",
+      "startDate": "2025-07-01",
+      "endDate": "2025-07-04",
+      "months": [
+        7
+      ],
+      "datePrecision": "day",
+      "host": "京山教育局、京山文旅局",
+      "organizer": "无",
+      "participants": 288,
+      "category": "培训",
+      "level": "群众",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        19,
+        "7月",
+        "“小网球工程”暨京山市第七届“雏鹰”网球训练营",
+        "京山教育局、京山文旅局",
+        null,
+        288,
+        "7月1-\n4日"
+      ]
+    },
+    {
+      "id": "plan-2025-20",
+      "year": 2025,
+      "sequence": 20,
+      "sourceRow": 22,
+      "sourceFile": "2025年京山市网球赛事计划表.xlsx",
+      "sourceSheet": "0415",
+      "name": "ITF国际网联青少年U18巡回赛",
+      "monthText": "7月",
+      "dateText": "7月5-13日",
+      "startDate": "2025-07-05",
+      "endDate": "2025-07-13",
+      "months": [
+        7
+      ],
+      "datePrecision": "day",
+      "host": "国际网球联合会中国网球协会",
+      "organizer": "京山市网球运动管理中心",
+      "participants": 147,
+      "category": "赛事",
+      "level": "国际",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        20,
+        "7月",
+        "ITF国际网联青少年U18巡回赛",
+        "国际网球联合会\n中国网球协会",
+        "京山市网球运动管理中心",
+        147,
+        "7月5-\n13日"
+      ]
+    },
+    {
+      "id": "plan-2025-21",
+      "year": 2025,
+      "sequence": 21,
+      "sourceRow": 23,
+      "sourceFile": "2025年京山市网球赛事计划表.xlsx",
+      "sourceSheet": "0415",
+      "name": "“李宁京山杯”青少年网球积分团体赛第一站（CTJ-G1200）",
+      "monthText": "7月",
+      "dateText": "7月16-18日",
+      "startDate": "2025-07-16",
+      "endDate": "2025-07-18",
+      "months": [
+        7
+      ],
+      "datePrecision": "day",
+      "host": "湖北省网球协会",
+      "organizer": "京山市体育局",
+      "participants": 287,
+      "category": "赛事",
+      "level": "无",
+      "venueNames": [
+        "文峰网球主题公园"
+      ],
+      "assessment": false,
+      "sources": [
+        {
+          "title": "京山网球：2025团体赛第一站",
+          "url": "https://jswq.net/?m319pageno=13",
+          "fields": [
+            "场馆"
+          ]
+        }
+      ],
+      "notes": [],
+      "original": [
+        21,
+        "7月",
+        "“李宁京山杯”青少年网球积分\n团体赛第一站（CTJ-G1200）",
+        "湖北省网球协会",
+        "京山市体育局",
+        287,
+        "7月16-\n18日"
+      ]
+    },
+    {
+      "id": "plan-2025-22",
+      "year": 2025,
+      "sequence": 22,
+      "sourceRow": 24,
+      "sourceFile": "2025年京山市网球赛事计划表.xlsx",
+      "sourceSheet": "0415",
+      "name": "“李宁京山杯”青少年网球积分赛第三站(CTJ-B500)",
+      "monthText": "7月",
+      "dateText": "7月19-20日",
+      "startDate": "2025-07-19",
+      "endDate": "2025-07-20",
+      "months": [
+        7
+      ],
+      "datePrecision": "day",
+      "host": "中国网球协会",
+      "organizer": "京山市体育局",
+      "participants": 440,
+      "category": "赛事",
+      "level": "无",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        22,
+        "7月",
+        "“李宁京山杯”青少年网球\n积分赛第三站(CTJ-B500)",
+        "中国网球协会",
+        "京山市体育局",
+        440,
+        "7月19-\n20日"
+      ]
+    },
+    {
+      "id": "plan-2025-23",
+      "year": 2025,
+      "sequence": 23,
+      "sourceRow": 25,
+      "sourceFile": "2025年京山市网球赛事计划表.xlsx",
+      "sourceSheet": "0415",
+      "name": "2025京山市夏季网球联赛",
+      "monthText": "7月",
+      "dateText": "7月-8月",
+      "startDate": null,
+      "endDate": null,
+      "months": [
+        7,
+        8
+      ],
+      "datePrecision": "month",
+      "host": "京山市文化和旅游局",
+      "organizer": "无",
+      "participants": 180,
+      "category": "赛事",
+      "level": "群众",
+      "venueNames": [
+        "文峰网球主题公园"
+      ],
+      "assessment": false,
+      "sources": [
+        {
+          "title": "京山网球：2025夜炼夜训夜赛活动公告",
+          "url": "https://jswq.net/h-nd-434.html",
+          "fields": [
+            "场馆",
+            "具体日期补充"
+          ]
+        }
+      ],
+      "notes": [
+        "原表未提供具体日，不推定起止日期。",
+        "公开活动公告给出7月25日至8月20日；原表仅写7月—8月，赛历保留原表月份精度，具体时间见来源。"
+      ],
+      "original": [
+        23,
+        "7月",
+        "2025京山市夏季网球联赛",
+        "京山市文化和旅游局",
+        null,
+        180,
+        "7月-8月"
+      ]
+    },
+    {
+      "id": "plan-2025-24",
+      "year": 2025,
+      "sequence": 24,
+      "sourceRow": 26,
+      "sourceFile": "2025年京山市网球赛事计划表.xlsx",
+      "sourceSheet": "0415",
+      "name": "中国小网球·京山之星挑战赛（CTS500）",
+      "monthText": "8月",
+      "dateText": "8月2-3日",
+      "startDate": "2025-08-02",
+      "endDate": "2025-08-03",
+      "months": [
+        8
+      ],
+      "datePrecision": "day",
+      "host": "中国网球协会中国学生体育联合会",
+      "organizer": "京山市体育局",
+      "participants": 96,
+      "category": "赛事",
+      "level": "全国",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        24,
+        "8月",
+        "中国小网球·京山之星挑战赛（CTS500）",
+        "中国网球协会\n中国学生体育联合会",
+        "京山市体育局",
+        96,
+        "8月2-3日"
+      ]
+    },
+    {
+      "id": "plan-2025-25",
+      "year": 2025,
+      "sequence": 25,
+      "sourceRow": 27,
+      "sourceFile": "2025年京山市网球赛事计划表.xlsx",
+      "sourceSheet": "0415",
+      "name": "李宁杯·第二届中国青少年网球城市挑战赛大区赛（中部）",
+      "monthText": "8月",
+      "dateText": "8月10-16日",
+      "startDate": "2025-08-10",
+      "endDate": "2025-08-16",
+      "months": [
+        8
+      ],
+      "datePrecision": "day",
+      "host": "中国网球协会中国学生体育联合会",
+      "organizer": "京山市网球运动管理中心",
+      "participants": 123,
+      "category": "赛事",
+      "level": "全国",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        25,
+        "8月",
+        "李宁杯·第二届中国青少年网球城市挑战赛大区赛（中部）",
+        "中国网球协会\n中国学生体育联合会",
+        "京山市网球运动管理中心",
+        123,
+        "8月10-16日"
+      ]
+    },
+    {
+      "id": "plan-2025-26",
+      "year": 2025,
+      "sequence": 26,
+      "sourceRow": 28,
+      "sourceFile": "2025年京山市网球赛事计划表.xlsx",
+      "sourceSheet": "0415",
+      "name": "第28届中国大学生网球锦标赛（总决赛）",
+      "monthText": "8月",
+      "dateText": "8月16-23日",
+      "startDate": "2025-08-16",
+      "endDate": "2025-08-23",
+      "months": [
+        8
+      ],
+      "datePrecision": "day",
+      "host": "中国学生体育联合会",
+      "organizer": "京山市网球产业发展有限公司",
+      "participants": 1500,
+      "category": "赛事",
+      "level": "全国",
+      "venueNames": [
+        "京山网球训练基地"
+      ],
+      "assessment": false,
+      "sources": [
+        {
+          "title": "同济大学：2025大学生网球锦标赛总决赛",
+          "url": "https://sports.tongji.edu.cn/info/1046/2876.htm",
+          "fields": [
+            "场馆"
+          ]
+        }
+      ],
+      "notes": [],
+      "original": [
+        26,
+        "8月",
+        "第28届中国大学生网球锦标赛（总决赛）",
+        "中国学生体育联合会",
+        "京山市网球产业发展有限公司",
+        1500,
+        "8月16-23日"
+      ]
+    },
+    {
+      "id": "plan-2025-27",
+      "year": 2025,
+      "sequence": 27,
+      "sourceRow": 29,
+      "sourceFile": "2025年京山市网球赛事计划表.xlsx",
+      "sourceSheet": "0415",
+      "name": "第23届中国高校“校长杯”网球赛",
+      "monthText": "8月",
+      "dateText": "8月20-23日",
+      "startDate": "2025-08-20",
+      "endDate": "2025-08-23",
+      "months": [
+        8
+      ],
+      "datePrecision": "day",
+      "host": "中国学生体育联合会",
+      "organizer": "京山市网球产业发展有限公司",
+      "participants": 154,
+      "category": "赛事",
+      "level": "全国",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        27,
+        "8月",
+        "第23届中国高校“校长杯”网球赛",
+        "中国学生体育联合会",
+        "京山市网球产业发展有限公司",
+        154,
+        "8月20-23日"
+      ]
+    },
+    {
+      "id": "plan-2025-28",
+      "year": 2025,
+      "sequence": 28,
+      "sourceRow": 30,
+      "sourceFile": "2025年京山市网球赛事计划表.xlsx",
+      "sourceSheet": "0415",
+      "name": "中国小网球·京山之星年度总决赛（CTS1000/CTJ-A600）",
+      "monthText": "8月",
+      "dateText": "8月23-24日",
+      "startDate": "2025-08-23",
+      "endDate": "2025-08-24",
+      "months": [
+        8
+      ],
+      "datePrecision": "day",
+      "host": "中国网球协会中国学生体育联合会",
+      "organizer": "京山市体育局",
+      "participants": 181,
+      "category": "赛事",
+      "level": "全国",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        28,
+        "8月",
+        "中国小网球·京山之星年度总决赛（CTS1000/CTJ-A600）",
+        "中国网球协会\n中国学生体育联合会",
+        "京山市体育局",
+        181,
+        "8月23-\n24日"
+      ]
+    },
+    {
+      "id": "plan-2025-29",
+      "year": 2025,
+      "sequence": 29,
+      "sourceRow": 31,
+      "sourceFile": "2025年京山市网球赛事计划表.xlsx",
+      "sourceSheet": "0415",
+      "name": "网球二级裁判员培训班",
+      "monthText": "8月",
+      "dateText": "8月26-27日",
+      "startDate": "2025-08-26",
+      "endDate": "2025-08-27",
+      "months": [
+        8
+      ],
+      "datePrecision": "day",
+      "host": "湖北省网球协会",
+      "organizer": "京山市体育局",
+      "participants": 48,
+      "category": "培训",
+      "level": "无",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        29,
+        "8月",
+        "网球二级裁判员培训班",
+        "湖北省网球协会",
+        "京山市体育局",
+        48,
+        "8月26-27日"
+      ]
+    },
+    {
+      "id": "plan-2025-30",
+      "year": 2025,
+      "sequence": 30,
+      "sourceRow": 32,
+      "sourceFile": "2025年京山市网球赛事计划表.xlsx",
+      "sourceSheet": "0415",
+      "name": "ITF国际网球大师赛（MT200）",
+      "monthText": "9月",
+      "dateText": "9月5-8日",
+      "startDate": "2025-09-05",
+      "endDate": "2025-09-08",
+      "months": [
+        9
+      ],
+      "datePrecision": "day",
+      "host": "国际网球联合会、中国网球协会",
+      "organizer": "京山市网球运动管理中心",
+      "participants": 433,
+      "category": "赛事",
+      "level": "国际",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        30,
+        "9月",
+        "ITF国际网球大师赛（MT200）",
+        "国际网球联合会、中国网球协会",
+        "京山市网球运动管理中心",
+        433,
+        "9月5-\n8日"
+      ]
+    },
+    {
+      "id": "plan-2025-31",
+      "year": 2025,
+      "sequence": 31,
+      "sourceRow": 33,
+      "sourceFile": "2025年京山市网球赛事计划表.xlsx",
+      "sourceSheet": "0415",
+      "name": "“郑洁杯”青少年网球巡回赛",
+      "monthText": "9月",
+      "dateText": "9月6日-7日",
+      "startDate": "2025-09-06",
+      "endDate": "2025-09-07",
+      "months": [
+        9
+      ],
+      "datePrecision": "day",
+      "host": "京山网球产业发展有限公司",
+      "organizer": "无",
+      "participants": 222,
+      "category": "赛事",
+      "level": "全国（CTJ-B600）",
+      "venueNames": [
+        "京山网球训练基地"
+      ],
+      "assessment": false,
+      "sources": [
+        {
+          "title": "中国体育报：2025郑洁杯京山站收拍（新浪转载）",
+          "url": "https://finance.sina.com.cn/jjxw/2025-09-07/doc-infpstrw8234562.shtml",
+          "fields": [
+            "场馆",
+            "赛事级别"
+          ]
+        }
+      ],
+      "notes": [],
+      "original": [
+        31,
+        "9月",
+        "“郑洁杯”青少年网球巡回赛",
+        "京山网球产业发展有限公司",
+        null,
+        222,
+        "9月6日-7日"
+      ]
+    },
+    {
+      "id": "plan-2025-32",
+      "year": 2025,
+      "sequence": 32,
+      "sourceRow": 34,
+      "sourceFile": "2025年京山市网球赛事计划表.xlsx",
+      "sourceSheet": "0415",
+      "name": "“李宁·京山杯”青少年网球积分赛第四站(CTJ-B500)",
+      "monthText": "9月",
+      "dateText": "9月13-14日",
+      "startDate": "2025-09-13",
+      "endDate": "2025-09-14",
+      "months": [
+        9
+      ],
+      "datePrecision": "day",
+      "host": "中国网球协会",
+      "organizer": "京山市体育局",
+      "participants": 398,
+      "category": "赛事",
+      "level": "无",
+      "venueNames": [
+        "文峰网球主题公园"
+      ],
+      "assessment": false,
+      "sources": [
+        {
+          "title": "京山网球：2025李宁京山杯第四站",
+          "url": "https://jswq.net/h-col-107.html?m466pageno=3",
+          "fields": [
+            "场馆"
+          ]
+        }
+      ],
+      "notes": [],
+      "original": [
+        32,
+        "9月",
+        "“李宁·京山杯”青少年网球\n积分赛第四站(CTJ-B500)",
+        "中国网球协会",
+        "京山市体育局",
+        398,
+        "9月13-14日"
+      ]
+    },
+    {
+      "id": "plan-2025-33",
+      "year": 2025,
+      "sequence": 33,
+      "sourceRow": 35,
+      "sourceFile": "2025年京山市网球赛事计划表.xlsx",
+      "sourceSheet": "0415",
+      "name": "2025年京山市“京兰集团杯”网球赛",
+      "monthText": "9月",
+      "dateText": "9月20-21日",
+      "startDate": "2025-09-20",
+      "endDate": "2025-09-21",
+      "months": [
+        9
+      ],
+      "datePrecision": "day",
+      "host": "京山市网球协会",
+      "organizer": "无",
+      "participants": 196,
+      "category": "赛事",
+      "level": "群众",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        33,
+        "9月",
+        "2025年京山市“京兰集团杯”网球赛",
+        "京山市网球协会",
+        null,
+        196,
+        "9月20-21日"
+      ]
+    },
+    {
+      "id": "plan-2025-34",
+      "year": 2025,
+      "sequence": 34,
+      "sourceRow": 36,
+      "sourceFile": "2025年京山市网球赛事计划表.xlsx",
+      "sourceSheet": "0415",
+      "name": "京山网球公开赛（WTA125巡回赛）",
+      "monthText": "9月",
+      "dateText": "9月21-28日",
+      "startDate": "2025-09-21",
+      "endDate": "2025-09-28",
+      "months": [
+        9
+      ],
+      "datePrecision": "day",
+      "host": "国家体育总局网球运动管理中心、湖北省体育局、荆门市人民政府",
+      "organizer": "京山市网球产业发展有限公司",
+      "participants": 70,
+      "category": "赛事",
+      "level": "国际",
+      "venueNames": [
+        "京山网球训练基地"
+      ],
+      "assessment": false,
+      "sources": [
+        {
+          "title": "国家体育总局：2025京山网球公开赛开幕",
+          "url": "https://www.sport.gov.cn/n20001280/n20067662/n20067613/c29076795/content.html",
+          "fields": [
+            "场馆"
+          ]
+        }
+      ],
+      "notes": [],
+      "original": [
+        34,
+        "9月",
+        "京山网球公开赛（WTA125巡回赛）",
+        "国家体育总局网球运动管理中心、湖北省体育局、荆门市人民政府",
+        "京山市网球产业发展有限公司",
+        70,
+        "9月21-28日"
+      ]
+    },
+    {
+      "id": "plan-2025-35",
+      "year": 2025,
+      "sequence": 35,
+      "sourceRow": 37,
+      "sourceFile": "2025年京山市网球赛事计划表.xlsx",
+      "sourceSheet": "0415",
+      "name": "京山网球公开赛（ATP100积分挑战赛）",
+      "monthText": "9月",
+      "dateText": "9月21-28日",
+      "startDate": "2025-09-21",
+      "endDate": "2025-09-28",
+      "months": [
+        9
+      ],
+      "datePrecision": "day",
+      "host": "国家体育总局网球运动管理中心、湖北省体育局、荆门市人民政府",
+      "organizer": "京山市网球产业发展有限公司",
+      "participants": 70,
+      "category": "赛事",
+      "level": "国际",
+      "venueNames": [
+        "京山网球训练基地"
+      ],
+      "assessment": false,
+      "sources": [
+        {
+          "title": "国家体育总局：2025京山网球公开赛开幕",
+          "url": "https://www.sport.gov.cn/n20001280/n20067662/n20067613/c29076795/content.html",
+          "fields": [
+            "场馆"
+          ]
+        }
+      ],
+      "notes": [],
+      "original": [
+        35,
+        "9月",
+        "京山网球公开赛（ATP100积分挑战赛）",
+        "国家体育总局网球运动管理中心、湖北省体育局、荆门市人民政府",
+        "京山市网球产业发展有限公司",
+        70,
+        "9月21-28日"
+      ]
+    },
+    {
+      "id": "plan-2025-36",
+      "year": 2025,
+      "sequence": 36,
+      "sourceRow": 38,
+      "sourceFile": "2025年京山市网球赛事计划表.xlsx",
+      "sourceSheet": "0415",
+      "name": "“李宁京山杯”青少年网球积分团体赛第二站（CTJ-G1200）",
+      "monthText": "10月",
+      "dateText": "10月6-8日",
+      "startDate": "2025-10-06",
+      "endDate": "2025-10-08",
+      "months": [
+        10
+      ],
+      "datePrecision": "day",
+      "host": "湖北省网球协会",
+      "organizer": "京山市体育局",
+      "participants": 368,
+      "category": "赛事",
+      "level": "无",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        36,
+        "10月",
+        "“李宁京山杯”青少年网球积分\n团体赛第二站（CTJ-G1200）",
+        "湖北省网球协会",
+        "京山市体育局",
+        368,
+        "10月6-\n8日"
+      ]
+    },
+    {
+      "id": "plan-2025-37",
+      "year": 2025,
+      "sequence": 37,
+      "sourceRow": 39,
+      "sourceFile": "2025年京山市网球赛事计划表.xlsx",
+      "sourceSheet": "0415",
+      "name": "中国青少年网球周末赛A1000第二站",
+      "monthText": "10月",
+      "dateText": "10月25-26日",
+      "startDate": "2025-10-25",
+      "endDate": "2025-10-26",
+      "months": [
+        10
+      ],
+      "datePrecision": "day",
+      "host": "中国网球协会",
+      "organizer": "京山市体育局",
+      "participants": 377,
+      "category": "赛事",
+      "level": "全国",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        37,
+        "10月",
+        "中国青少年网球周末赛A1000第二站",
+        "中国网球协会",
+        "京山市体育局",
+        377,
+        "10月25-26日"
+      ]
+    },
+    {
+      "id": "plan-2025-38",
+      "year": 2025,
+      "sequence": 38,
+      "sourceRow": 40,
+      "sourceFile": "2025年京山市网球赛事计划表.xlsx",
+      "sourceSheet": "0415",
+      "name": "中国（京山）绿林网球·英雄会",
+      "monthText": "11月",
+      "dateText": "11月1-2日",
+      "startDate": "2025-11-01",
+      "endDate": "2025-11-02",
+      "months": [
+        11
+      ],
+      "datePrecision": "day",
+      "host": "中国网球协会、湖北省体育局",
+      "organizer": "京山市网球产业发展有限公司",
+      "participants": 416,
+      "category": "赛事",
+      "level": "全国",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        38,
+        "11月",
+        "中国（京山）绿林网球·英雄会",
+        "中国网球协会、湖北省体育局",
+        "京山市网球产业发展有限公司",
+        416,
+        "11月1-2日"
+      ]
+    },
+    {
+      "id": "plan-2025-39",
+      "year": 2025,
+      "sequence": 39,
+      "sourceRow": 41,
+      "sourceFile": "2025年京山市网球赛事计划表.xlsx",
+      "sourceSheet": "0415",
+      "name": "中国网球协会社区运动会总决赛——中国村网（京山）",
+      "monthText": "11月",
+      "dateText": "11月1-2日",
+      "startDate": "2025-11-01",
+      "endDate": "2025-11-02",
+      "months": [
+        11
+      ],
+      "datePrecision": "day",
+      "host": "中国网球协会",
+      "organizer": "京山网球协会京山市温泉街道文峰村村委会",
+      "participants": 256,
+      "category": "赛事",
+      "level": "全国",
+      "venueNames": [
+        "文峰网球主题公园"
+      ],
+      "assessment": false,
+      "sources": [
+        {
+          "title": "国家体育总局：2025中国村网京山总决赛收拍",
+          "url": "https://www.sport.gov.cn/n20001280/n20001265/n20067706/c29175720/content.html",
+          "fields": [
+            "场馆"
+          ]
+        },
+        {
+          "title": "湖北日报：京山村网入选全国典型案例",
+          "url": "https://news.hubeidaily.net/pc/c_5000797.html",
+          "fields": [
+            "同期系列活动成效"
+          ],
+          "note": "游客及消费为同期系列活动口径，不作为单场比赛观众和消费数。"
+        }
+      ],
+      "notes": [
+        "湖北日报报道同期系列活动接待游客2.5万人次、带动相关消费超2375万元；此为同期活动口径，不等同于本场比赛观众或消费。"
+      ],
+      "original": [
+        39,
+        "11月",
+        "中国网球协会社区运动会总决赛——\n中国村网（京山）",
+        "中国网球协会",
+        "京山网球协会\n京山市温泉街道文峰村村委会",
+        256,
+        "11月1-2日"
+      ]
+    },
+    {
+      "id": "plan-2025-40",
+      "year": 2025,
+      "sequence": 40,
+      "sourceRow": 42,
+      "sourceFile": "2025年京山市网球赛事计划表.xlsx",
+      "sourceSheet": "0415",
+      "name": "中国网球协会C级教练员培训班",
+      "monthText": "11月",
+      "dateText": "11月3-9日",
+      "startDate": "2025-11-03",
+      "endDate": "2025-11-09",
+      "months": [
+        11
+      ],
+      "datePrecision": "day",
+      "host": "中国网球协会",
+      "organizer": "京山市网球运动管理中心",
+      "participants": 56,
+      "category": "培训",
+      "level": "全国",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        40,
+        "11月",
+        "中国网球协会C级教练员培训班",
+        "中国网球协会",
+        "京山市网球运动管理中心",
+        56,
+        "11月3-\n9日"
+      ]
+    },
+    {
+      "id": "plan-2025-41",
+      "year": 2025,
+      "sequence": 41,
+      "sourceRow": 43,
+      "sourceFile": "2025年京山市网球赛事计划表.xlsx",
+      "sourceSheet": "0415",
+      "name": "“李宁京山杯”青少年网球积分赛总决赛(CTJ-B600)",
+      "monthText": "11月",
+      "dateText": "11月8-9日",
+      "startDate": "2025-11-08",
+      "endDate": "2025-11-09",
+      "months": [
+        11
+      ],
+      "datePrecision": "day",
+      "host": "中国网球协会",
+      "organizer": "京山市体育局",
+      "participants": 438,
+      "category": "赛事",
+      "level": "无",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        41,
+        "11月",
+        "“李宁京山杯”青少年网球\n积分赛总决赛(CTJ-B600)",
+        "中国网球协会",
+        "京山市体育局",
+        438,
+        "11月8-9日"
+      ]
+    },
+    {
+      "id": "plan-2025-42",
+      "year": 2025,
+      "sequence": 42,
+      "sourceRow": 44,
+      "sourceFile": "2025年京山市网球赛事计划表.xlsx",
+      "sourceSheet": "0415",
+      "name": "第七届京山市“园丁杯”网球赛",
+      "monthText": "11月",
+      "dateText": "11月15日",
+      "startDate": "2025-11-15",
+      "endDate": "2025-11-15",
+      "months": [
+        11
+      ],
+      "datePrecision": "day",
+      "host": "京山教育局",
+      "organizer": "无",
+      "participants": 348,
+      "category": "赛事",
+      "level": "群众",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        42,
+        "11月",
+        "第七届京山市“园丁杯”网球赛",
+        "京山教育局",
+        null,
+        348,
+        "11月15日"
+      ]
+    },
+    {
+      "id": "plan-2025-43",
+      "year": 2025,
+      "sequence": 43,
+      "sourceRow": 45,
+      "sourceFile": "2025年京山市网球赛事计划表.xlsx",
+      "sourceSheet": "0415",
+      "name": "2025年中国中学生（青少年）网球精英赛",
+      "monthText": "11月",
+      "dateText": "11月24-29日",
+      "startDate": "2025-11-24",
+      "endDate": "2025-11-29",
+      "months": [
+        11
+      ],
+      "datePrecision": "day",
+      "host": "中国学生体育联合会、中国网球协会",
+      "organizer": "京山市网球产业发展有限公司",
+      "participants": 119,
+      "category": "赛事",
+      "level": "全国",
+      "venueNames": [
+        "京山网球训练基地"
+      ],
+      "assessment": false,
+      "sources": [
+        {
+          "title": "湖北日报：2025中国中学生网球精英赛",
+          "url": "https://news.cnhubei.com/content/2025-11/26/content_19690004.html",
+          "fields": [
+            "场馆",
+            "竞赛资料"
+          ]
+        }
+      ],
+      "notes": [],
+      "original": [
+        43,
+        "11月",
+        "2025年中国中学生（青少年）网球精英赛",
+        "中国学生体育联合会、中国网球协会",
+        "京山市网球产业发展有限公司",
+        119,
+        "11月24-29日"
+      ]
+    },
+    {
+      "id": "plan-2025-44",
+      "year": 2025,
+      "sequence": 44,
+      "sourceRow": 46,
+      "sourceFile": "2025年京山市网球赛事计划表.xlsx",
+      "sourceSheet": "0415",
+      "name": "李宁杯青少年网球赛总决赛",
+      "monthText": "11月",
+      "dateText": "11月29-30日",
+      "startDate": "2025-11-29",
+      "endDate": "2025-11-30",
+      "months": [
+        11
+      ],
+      "datePrecision": "day",
+      "host": "李宁（中国）体育用品有限公司",
+      "organizer": "京山市体育局",
+      "participants": 229,
+      "category": "赛事",
+      "level": "无",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        44,
+        "11月",
+        "李宁杯青少年网球赛总决赛",
+        "李宁（中国）体育用品有限公司",
+        "京山市体育局",
+        229,
+        "11月29-30日"
+      ]
+    },
+    {
+      "id": "plan-2025-45",
+      "year": 2025,
+      "sequence": 45,
+      "sourceRow": 47,
+      "sourceFile": "2025年京山市网球赛事计划表.xlsx",
+      "sourceSheet": "0415",
+      "name": "2025年中国网球协会E级（小网球）教练员培训班",
+      "monthText": "12月",
+      "dateText": "12月1-4日",
+      "startDate": "2025-12-01",
+      "endDate": "2025-12-04",
+      "months": [
+        12
+      ],
+      "datePrecision": "day",
+      "host": "中国网球协会",
+      "organizer": "京山市网球运动管理中心",
+      "participants": 30,
+      "category": "培训",
+      "level": "全国",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        45,
+        "12月",
+        "2025年中国网球协会E级（小网球）教练员培训班",
+        "中国网球协会",
+        "京山市网球运动管理中心",
+        30,
+        "12月1-4日"
+      ]
+    },
+    {
+      "id": "plan-2025-46",
+      "year": 2025,
+      "sequence": 46,
+      "sourceRow": 48,
+      "sourceFile": "2025年京山市网球赛事计划表.xlsx",
+      "sourceSheet": "0415",
+      "name": "京山市网球联赛总决赛",
+      "monthText": "12月",
+      "dateText": "12月6-8日",
+      "startDate": "2025-12-06",
+      "endDate": "2025-12-08",
+      "months": [
+        12
+      ],
+      "datePrecision": "day",
+      "host": "京山文旅局、京山网球协会",
+      "organizer": "京山市网球运动管理中心",
+      "participants": 525,
+      "category": "赛事",
+      "level": "群众",
+      "venueNames": [
+        "文峰网球主题公园"
+      ],
+      "assessment": false,
+      "sources": [
+        {
+          "title": "京山网球：2025京山市网球联赛总决赛",
+          "url": "https://jswq.net/h-nd-473.html",
+          "fields": [
+            "场馆",
+            "承办单位"
+          ]
+        }
+      ],
+      "notes": [],
+      "original": [
+        46,
+        "12月",
+        "京山市网球联赛总决赛",
+        "京山文旅局、京山网球协会",
+        null,
+        525,
+        "12月6-8日"
+      ]
+    },
+    {
+      "id": "plan-2025-47",
+      "year": 2025,
+      "sequence": 47,
+      "sourceRow": 49,
+      "sourceFile": "2025年京山市网球赛事计划表.xlsx",
+      "sourceSheet": "0415",
+      "name": "京山市网球俱乐部联赛",
+      "monthText": "12月",
+      "dateText": "12月27日",
+      "startDate": "2025-12-27",
+      "endDate": "2025-12-27",
+      "months": [
+        12
+      ],
+      "datePrecision": "day",
+      "host": "京山网球协会",
+      "organizer": "无",
+      "participants": 110,
+      "category": "赛事",
+      "level": "群众",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        47,
+        "12月",
+        "京山市网球俱乐部联赛",
+        "京山网球协会",
+        null,
+        110,
+        "12月27日"
+      ]
+    },
+    {
+      "id": "plan-2025-48",
+      "year": 2025,
+      "sequence": 48,
+      "sourceRow": 50,
+      "sourceFile": "2025年京山市网球赛事计划表.xlsx",
+      "sourceSheet": "0415",
+      "name": "京山市网球裁判员培训班",
+      "monthText": "12月",
+      "dateText": "12月12-13日",
+      "startDate": "2025-12-12",
+      "endDate": "2025-12-13",
+      "months": [
+        12
+      ],
+      "datePrecision": "day",
+      "host": "京山网球协会",
+      "organizer": "京山市网球运动管理中心",
+      "participants": 39,
+      "category": "培训",
+      "level": "群众",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        48,
+        "12月",
+        "京山市网球裁判员培训班",
+        "京山网球协会",
+        "京山市网球运动管理中心",
+        39,
+        "12月12-13日"
+      ]
+    },
+    {
+      "id": "plan-2026-01",
+      "year": 2026,
+      "sequence": 1,
+      "sourceRow": 3,
+      "sourceFile": "2026年京山网球赛事活动计划(.xlsx",
+      "sourceSheet": "0831",
+      "name": "京山市“迎新春”网球交流赛",
+      "monthText": "2月",
+      "dateText": "2月21-23日",
+      "startDate": "2026-02-21",
+      "endDate": "2026-02-23",
+      "months": [
+        2
+      ],
+      "datePrecision": "day",
+      "host": "京山文旅局",
+      "organizer": "京山市网球运动管理中心",
+      "participants": 278,
+      "category": "赛事",
+      "level": "群众",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        1,
+        "2月",
+        "京山市“迎新春”网球交流赛",
+        "京山文旅局",
+        "京山市网球运动管理中心",
+        278,
+        "2月21-23日"
+      ]
+    },
+    {
+      "id": "plan-2026-02",
+      "year": 2026,
+      "sequence": 2,
+      "sourceRow": 4,
+      "sourceFile": "2026年京山网球赛事活动计划(.xlsx",
+      "sourceSheet": "0831",
+      "name": "湖北省青少年网球巡回赛U8站",
+      "monthText": "3月",
+      "dateText": "3月7-8日",
+      "startDate": "2026-03-07",
+      "endDate": "2026-03-08",
+      "months": [
+        3
+      ],
+      "datePrecision": "day",
+      "host": "湖北省体育局湖北省教育厅",
+      "organizer": "京山市网球运动管理中心",
+      "participants": 192,
+      "category": "赛事",
+      "level": "省级",
+      "venueNames": [
+        "文峰网球主题公园"
+      ],
+      "assessment": false,
+      "sources": [
+        {
+          "title": "京山网球：2026春季赛事活动公告",
+          "url": "https://www.jswq.net/h-col-107.html",
+          "fields": [
+            "场馆"
+          ],
+          "note": "仅匹配2026年U8首站、华贝杯、李宁第一站及小网球4月25日站，不外推到同名其他站。"
+        }
+      ],
+      "notes": [],
+      "original": [
+        2,
+        "3月",
+        "湖北省青少年网球巡回赛U8站",
+        "湖北省体育局\n湖北省教育厅",
+        "京山市网球运动管理中心",
+        192,
+        "3月7-8日"
+      ]
+    },
+    {
+      "id": "plan-2026-03",
+      "year": 2026,
+      "sequence": 3,
+      "sourceRow": 5,
+      "sourceFile": "2026年京山网球赛事活动计划(.xlsx",
+      "sourceSheet": "0831",
+      "name": "“李宁·京山杯”青少年网球积分赛第一站(CTJ-B500)",
+      "monthText": "3月",
+      "dateText": "4月4-5日",
+      "startDate": "2026-04-04",
+      "endDate": "2026-04-05",
+      "months": [
+        4
+      ],
+      "datePrecision": "day",
+      "host": "京山文旅局",
+      "organizer": "京山市网球运动管理中心",
+      "participants": 487,
+      "category": "赛事",
+      "level": "无",
+      "venueNames": [
+        "文峰网球主题公园"
+      ],
+      "assessment": false,
+      "sources": [
+        {
+          "title": "京山网球：2026春季赛事活动公告",
+          "url": "https://www.jswq.net/h-col-107.html",
+          "fields": [
+            "场馆"
+          ],
+          "note": "仅匹配2026年U8首站、华贝杯、李宁第一站及小网球4月25日站，不外推到同名其他站。"
+        }
+      ],
+      "notes": [
+        "原表月份与具体日期不一致；赛历按具体日期归月。"
+      ],
+      "original": [
+        3,
+        "3月",
+        "“李宁·京山杯”青少年网球\n积分赛第一站(CTJ-B500)",
+        "京山文旅局",
+        "京山市网球运动管理中心",
+        487,
+        "4月4-5日"
+      ]
+    },
+    {
+      "id": "plan-2026-04",
+      "year": 2026,
+      "sequence": 4,
+      "sourceRow": 6,
+      "sourceFile": "2026年京山网球赛事活动计划(.xlsx",
+      "sourceSheet": "0831",
+      "name": "第28届“华贝杯”网球赛暨2026年京山市春季网球联赛",
+      "monthText": "4月",
+      "dateText": "4月10-12日",
+      "startDate": "2026-04-10",
+      "endDate": "2026-04-12",
+      "months": [
+        4
+      ],
+      "datePrecision": "day",
+      "host": "京山文旅局京山网球协会",
+      "organizer": "无",
+      "participants": 303,
+      "category": "赛事",
+      "level": "群众",
+      "venueNames": [
+        "文峰网球主题公园"
+      ],
+      "assessment": false,
+      "sources": [
+        {
+          "title": "京山网球：2026春季赛事活动公告",
+          "url": "https://www.jswq.net/h-col-107.html",
+          "fields": [
+            "场馆"
+          ],
+          "note": "仅匹配2026年U8首站、华贝杯、李宁第一站及小网球4月25日站，不外推到同名其他站。"
+        }
+      ],
+      "notes": [],
+      "original": [
+        4,
+        "4月",
+        "第28届“华贝杯”网球赛暨\n2026年京山市春季网球联赛",
+        "京山文旅局\n京山网球协会",
+        null,
+        303,
+        "4月10-12日"
+      ]
+    },
+    {
+      "id": "plan-2026-05",
+      "year": 2026,
+      "sequence": 5,
+      "sourceRow": 7,
+      "sourceFile": "2026年京山网球赛事活动计划(.xlsx",
+      "sourceSheet": "0831",
+      "name": "中国小网球·京山之星挑战赛（CTS250）",
+      "monthText": "4月",
+      "dateText": "4月25日",
+      "startDate": "2026-04-25",
+      "endDate": "2026-04-25",
+      "months": [
+        4
+      ],
+      "datePrecision": "day",
+      "host": "中国网球协会中国学生体育联合会",
+      "organizer": "京山市体育局",
+      "participants": 91,
+      "category": "赛事",
+      "level": "全国",
+      "venueNames": [
+        "文峰网球主题公园"
+      ],
+      "assessment": false,
+      "sources": [
+        {
+          "title": "京山网球：2026春季赛事活动公告",
+          "url": "https://www.jswq.net/h-col-107.html",
+          "fields": [
+            "场馆"
+          ],
+          "note": "仅匹配2026年U8首站、华贝杯、李宁第一站及小网球4月25日站，不外推到同名其他站。"
+        }
+      ],
+      "notes": [],
+      "original": [
+        5,
+        "4月",
+        "中国小网球·京山之星挑战赛（CTS250）",
+        "中国网球协会\n中国学生体育联合会",
+        "京山市体育局",
+        91,
+        "4月25日"
+      ]
+    },
+    {
+      "id": "plan-2026-06",
+      "year": 2026,
+      "sequence": 6,
+      "sourceRow": 8,
+      "sourceFile": "2026年京山网球赛事活动计划(.xlsx",
+      "sourceSheet": "0831",
+      "name": "2026年全国体育单招考试（网球专项）",
+      "monthText": "4月",
+      "dateText": "4月15-24日",
+      "startDate": "2026-04-15",
+      "endDate": "2026-04-24",
+      "months": [
+        4
+      ],
+      "datePrecision": "day",
+      "host": "国家体育总局科教司",
+      "organizer": "无",
+      "participants": 876,
+      "category": "考试",
+      "level": "全国",
+      "venueNames": [
+        "京山网球训练基地"
+      ],
+      "assessment": false,
+      "sources": [
+        {
+          "title": "国家体育总局：2026体育单招考试安排",
+          "url": "https://www.sport.gov.cn/kjs/n5076/c29488121/part/29488131.pdf",
+          "fields": [
+            "考点"
+          ]
+        }
+      ],
+      "notes": [],
+      "original": [
+        6,
+        "4月",
+        "2026年全国体育单招考试（网球专项）",
+        "国家体育总局科教司",
+        null,
+        876,
+        "4月15-24日"
+      ]
+    },
+    {
+      "id": "plan-2026-07",
+      "year": 2026,
+      "sequence": 7,
+      "sourceRow": 9,
+      "sourceFile": "2026年京山网球赛事活动计划(.xlsx",
+      "sourceSheet": "0831",
+      "name": "ITF国际网球大师赛MT400京山站",
+      "monthText": "4月",
+      "dateText": "4月26-30日",
+      "startDate": "2026-04-26",
+      "endDate": "2026-04-30",
+      "months": [
+        4
+      ],
+      "datePrecision": "day",
+      "host": "国际网球联合会中国网球协会",
+      "organizer": "京山市网球运动管理中心",
+      "participants": 187,
+      "category": "赛事",
+      "level": "国际",
+      "venueNames": [
+        "文峰网球主题公园",
+        "京山网球训练基地"
+      ],
+      "assessment": false,
+      "sources": [
+        {
+          "title": "京山网球：MT400京山站补充通知",
+          "url": "https://www.jswq.net/h-nd-558.html",
+          "fields": [
+            "场馆",
+            "接驳",
+            "住宿推荐",
+            "竞赛资料"
+          ]
+        }
+      ],
+      "notes": [],
+      "original": [
+        7,
+        "4月",
+        "ITF国际网球大师赛MT400京山站",
+        "国际网球联合会\n中国网球协会",
+        "京山市网球运动管理中心",
+        187,
+        "4月26-30日"
+      ]
+    },
+    {
+      "id": "plan-2026-08",
+      "year": 2026,
+      "sequence": 8,
+      "sourceRow": 10,
+      "sourceFile": "2026年京山网球赛事活动计划(.xlsx",
+      "sourceSheet": "0831",
+      "name": "中国青少年网球巡回赛U12-A2000（第11站）",
+      "monthText": "5月",
+      "dateText": "5月9-15日",
+      "startDate": "2026-05-09",
+      "endDate": "2026-05-15",
+      "months": [
+        5
+      ],
+      "datePrecision": "day",
+      "host": "国家体育总局网球运动管理中心、中国网球协会",
+      "organizer": "京山市网球运动管理中心",
+      "participants": 91,
+      "category": "赛事",
+      "level": "全国",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        8,
+        "5月",
+        "中国青少年网球巡回赛U12-A2000（第11站）",
+        "国家体育总局网球运动管理中心、中国网球协会",
+        "京山市网球运动管理中心",
+        91,
+        "5月9-15日"
+      ]
+    },
+    {
+      "id": "plan-2026-09",
+      "year": 2026,
+      "sequence": 9,
+      "sourceRow": 11,
+      "sourceFile": "2026年京山网球赛事活动计划(.xlsx",
+      "sourceSheet": "0831",
+      "name": "中国青少年网球巡回赛U12-A2000（第12站）",
+      "monthText": "5月",
+      "dateText": "5月16-22日",
+      "startDate": "2026-05-16",
+      "endDate": "2026-05-22",
+      "months": [
+        5
+      ],
+      "datePrecision": "day",
+      "host": "国家体育总局网球运动管理中心、中国网球协会",
+      "organizer": "京山市网球运动管理中心",
+      "participants": 77,
+      "category": "赛事",
+      "level": "全国",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        9,
+        "5月",
+        "中国青少年网球巡回赛U12-A2000（第12站）",
+        "国家体育总局网球运动管理中心、中国网球协会",
+        "京山市网球运动管理中心",
+        77,
+        "5月16-22日"
+      ]
+    },
+    {
+      "id": "plan-2026-10",
+      "year": 2026,
+      "sequence": 10,
+      "sourceRow": 12,
+      "sourceFile": "2026年京山网球赛事活动计划(.xlsx",
+      "sourceSheet": "0831",
+      "name": "网球三级裁判员培训班",
+      "monthText": "5月",
+      "dateText": "5月21-22日",
+      "startDate": "2026-05-21",
+      "endDate": "2026-05-22",
+      "months": [
+        5
+      ],
+      "datePrecision": "day",
+      "host": "湖北省网球协会",
+      "organizer": "京山市网球运动管理中心",
+      "participants": 90,
+      "category": "培训",
+      "level": "无",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        10,
+        "5月",
+        "网球三级裁判员培训班",
+        "湖北省网球协会",
+        "京山市网球运动管理中心",
+        90,
+        "5月21-22日"
+      ]
+    },
+    {
+      "id": "plan-2026-11",
+      "year": 2026,
+      "sequence": 11,
+      "sourceRow": 13,
+      "sourceFile": "2026年京山网球赛事活动计划(.xlsx",
+      "sourceSheet": "0831",
+      "name": "ITF国际青少年网球巡回赛（U18）",
+      "monthText": "5月",
+      "dateText": "5月24-30日",
+      "startDate": "2026-05-24",
+      "endDate": "2026-05-30",
+      "months": [
+        5
+      ],
+      "datePrecision": "day",
+      "host": "国家体育总局网球运动管理中心、中国网球协会",
+      "organizer": "京山市网球运动管理中心",
+      "participants": 107,
+      "category": "赛事",
+      "level": "国际",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        11,
+        "5月",
+        "ITF国际青少年网球巡回赛（U18）",
+        "国家体育总局网球运动管理中心、中国网球协会",
+        "京山市网球运动管理中心",
+        107,
+        "5月24-30日"
+      ]
+    },
+    {
+      "id": "plan-2026-12",
+      "year": 2026,
+      "sequence": 12,
+      "sourceRow": 14,
+      "sourceFile": "2026年京山网球赛事活动计划(.xlsx",
+      "sourceSheet": "0831",
+      "name": "中国小网球·京山之星挑战赛（CTS250）",
+      "monthText": "5月",
+      "dateText": "5月30-31日",
+      "startDate": "2026-05-30",
+      "endDate": "2026-05-31",
+      "months": [
+        5
+      ],
+      "datePrecision": "day",
+      "host": "中国网球协会中国学生体育联合会",
+      "organizer": "京山市体育局",
+      "participants": 76,
+      "category": "赛事",
+      "level": "全国",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        12,
+        "5月",
+        "中国小网球·京山之星挑战赛（CTS250）",
+        "中国网球协会\n中国学生体育联合会",
+        "京山市体育局",
+        76,
+        "5月30-31日"
+      ]
+    },
+    {
+      "id": "plan-2026-13",
+      "year": 2026,
+      "sequence": 13,
+      "sourceRow": 15,
+      "sourceFile": "2026年京山网球赛事活动计划(.xlsx",
+      "sourceSheet": "0831",
+      "name": "HEAD超新星网球冠军赛京山站CTJ-B500",
+      "monthText": "5月",
+      "dateText": "5月30-31日",
+      "startDate": "2026-05-30",
+      "endDate": "2026-05-31",
+      "months": [
+        5
+      ],
+      "datePrecision": "day",
+      "host": "上海羚目体育赛事管理有限公司",
+      "organizer": "京山市网球产业发展有限公司",
+      "participants": 189,
+      "category": "赛事",
+      "level": "无",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        13,
+        "5月",
+        "HEAD超新星网球冠军赛京山站CTJ-B500",
+        "上海羚目体育赛事管理有限公司",
+        "京山市网球产业发展有限公司",
+        189,
+        "5月30-31日"
+      ]
+    },
+    {
+      "id": "plan-2026-14",
+      "year": 2026,
+      "sequence": 14,
+      "sourceRow": 16,
+      "sourceFile": "2026年京山网球赛事活动计划(.xlsx",
+      "sourceSheet": "0831",
+      "name": "中国网球协会“小网球工程”六一国际儿童节全国推广活动（京山站）暨京山市“体教融合”杯运动小健将挑战赛",
+      "monthText": "5月",
+      "dateText": "5月30日",
+      "startDate": "2026-05-30",
+      "endDate": "2026-05-30",
+      "months": [
+        5
+      ],
+      "datePrecision": "day",
+      "host": "京山文旅局京山教育局",
+      "organizer": "无",
+      "participants": 1152,
+      "category": "活动",
+      "level": "全国",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        14,
+        "5月",
+        "中国网球协会“小网球工程”六一国际儿童节全国推广活动（京山站）暨京山市“体教融合”杯运动小健将挑战赛",
+        "京山文旅局\n京山教育局",
+        null,
+        1152,
+        "5月30日"
+      ]
+    },
+    {
+      "id": "plan-2026-15",
+      "year": 2026,
+      "sequence": 15,
+      "sourceRow": 17,
+      "sourceFile": "2026年京山网球赛事活动计划(.xlsx",
+      "sourceSheet": "0831",
+      "name": "“李宁·京山杯”青少年网球积分赛第二站(CTJ-B500)",
+      "monthText": "6月",
+      "dateText": "6月6-7日",
+      "startDate": "2026-06-06",
+      "endDate": "2026-06-07",
+      "months": [
+        6
+      ],
+      "datePrecision": "day",
+      "host": "京山文旅局",
+      "organizer": "京山市网球运动管理中心",
+      "participants": 275,
+      "category": "赛事",
+      "level": "无",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        15,
+        "6月",
+        "“李宁·京山杯”青少年网球\n积分赛第二站(CTJ-B500)",
+        "京山文旅局",
+        "京山市网球运动管理中心",
+        275,
+        "6月6-7日"
+      ]
+    },
+    {
+      "id": "plan-2026-16",
+      "year": 2026,
+      "sequence": 16,
+      "sourceRow": 18,
+      "sourceFile": "2026年京山网球赛事活动计划(.xlsx",
+      "sourceSheet": "0831",
+      "name": "“郑洁杯”青少年网球巡回赛京山站",
+      "monthText": "6月",
+      "dateText": "6月13-14日",
+      "startDate": "2026-06-13",
+      "endDate": "2026-06-14",
+      "months": [
+        6
+      ],
+      "datePrecision": "day",
+      "host": "北京自由翱翔体育经纪有限公司",
+      "organizer": "京山市网球产业发展有限公司",
+      "participants": 276,
+      "category": "赛事",
+      "level": "全国",
+      "venueNames": [
+        "京山网球训练基地"
+      ],
+      "introduction": "郑洁发起的全国青少年网球巡回赛在京山设站，面向8至14岁选手，设男女单打项目。本站属于CTJ-B600青少年积分赛。",
+      "assessment": false,
+      "sources": [
+        {
+          "title": "郑洁杯官网：2026京山站竞赛规程",
+          "url": "https://www.zhengjiebei.com/leaguedetail?leagueid=89",
+          "fields": [
+            "场馆",
+            "CTJ-B600",
+            "竞赛资料"
+          ],
+          "note": "报名页人数不等同于原表规模，不覆盖原表。"
+        }
+      ],
+      "notes": [],
+      "original": [
+        16,
+        "6月",
+        "“郑洁杯”青少年网球巡回赛京山站",
+        "北京自由翱翔体育经纪有限公司",
+        "京山市网球产业发展有限公司",
+        276,
+        "6月13-14日"
+      ]
+    },
+    {
+      "id": "plan-2026-17",
+      "year": 2026,
+      "sequence": 17,
+      "sourceRow": 19,
+      "sourceFile": "2026年京山网球赛事活动计划(.xlsx",
+      "sourceSheet": "0831",
+      "name": "中国小网球·京山之星挑战赛（CTS250）",
+      "monthText": "7月",
+      "dateText": "7月4-5日",
+      "startDate": "2026-07-04",
+      "endDate": "2026-07-05",
+      "months": [
+        7
+      ],
+      "datePrecision": "day",
+      "host": "中国网球协会中国学生体育联合会",
+      "organizer": "京山市体育局",
+      "participants": 200,
+      "category": "赛事",
+      "level": "全国",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        17,
+        "7月",
+        "中国小网球·京山之星挑战赛（CTS250）",
+        "中国网球协会\n中国学生体育联合会",
+        "京山市体育局",
+        200,
+        "7月4-5日"
+      ]
+    },
+    {
+      "id": "plan-2026-18",
+      "year": 2026,
+      "sequence": 18,
+      "sourceRow": 20,
+      "sourceFile": "2026年京山网球赛事活动计划(.xlsx",
+      "sourceSheet": "0831",
+      "name": "“李宁·京山杯”青少年网球积分赛第四站(CTJ-B500)",
+      "monthText": "7月",
+      "dateText": "7月16-17日",
+      "startDate": "2026-07-16",
+      "endDate": "2026-07-17",
+      "months": [
+        7
+      ],
+      "datePrecision": "day",
+      "host": "京山文旅局",
+      "organizer": "京山市网球运动管理中心",
+      "participants": 165,
+      "category": "赛事",
+      "level": "无",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        18,
+        "7月",
+        "“李宁·京山杯”青少年网球\n积分赛第四站(CTJ-B500)",
+        "京山文旅局",
+        "京山市网球运动管理中心",
+        165,
+        "7月16-17日"
+      ]
+    },
+    {
+      "id": "plan-2026-19",
+      "year": 2026,
+      "sequence": 19,
+      "sourceRow": 21,
+      "sourceFile": "2026年京山网球赛事活动计划(.xlsx",
+      "sourceSheet": "0831",
+      "name": "“李宁·京山杯”青少年网球积分赛团体赛第一站（CTJ-G1200）",
+      "monthText": "7月",
+      "dateText": "7月18-19日",
+      "startDate": "2026-07-18",
+      "endDate": "2026-07-19",
+      "months": [
+        7
+      ],
+      "datePrecision": "day",
+      "host": "湖北省网球协会",
+      "organizer": "京山市网球运动管理中心",
+      "participants": 219,
+      "category": "赛事",
+      "level": "无",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        19,
+        "7月",
+        "“李宁·京山杯”青少年网球积分赛\n团体赛第一站（CTJ-G1200）",
+        "湖北省网球协会",
+        "京山市网球运动管理中心",
+        219,
+        "7月18-19日"
+      ]
+    },
+    {
+      "id": "plan-2026-20",
+      "year": 2026,
+      "sequence": 20,
+      "sourceRow": 22,
+      "sourceFile": "2026年京山网球赛事活动计划(.xlsx",
+      "sourceSheet": "0831",
+      "name": "“李宁·京山杯”青少年网球积分赛第三站(CTJ-B500)",
+      "monthText": "7月",
+      "dateText": "7月21-22日",
+      "startDate": "2026-07-21",
+      "endDate": "2026-07-22",
+      "months": [
+        7
+      ],
+      "datePrecision": "day",
+      "host": "京山文旅局",
+      "organizer": "京山市网球运动管理中心",
+      "participants": 166,
+      "category": "赛事",
+      "level": "无",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        20,
+        "7月",
+        "“李宁·京山杯”青少年网球\n积分赛第三站(CTJ-B500)",
+        "京山文旅局",
+        "京山市网球运动管理中心",
+        166,
+        "7月21-22日"
+      ]
+    },
+    {
+      "id": "plan-2026-21",
+      "year": 2026,
+      "sequence": 21,
+      "sourceRow": 23,
+      "sourceFile": "2026年京山网球赛事活动计划(.xlsx",
+      "sourceSheet": "0831",
+      "name": "中国小网球·京山之星挑战赛（CTS250）",
+      "monthText": "7月",
+      "dateText": "7月23-24日",
+      "startDate": "2026-07-23",
+      "endDate": "2026-07-24",
+      "months": [
+        7
+      ],
+      "datePrecision": "day",
+      "host": "中国网球协会中国学生体育联合会",
+      "organizer": "京山市体育局",
+      "participants": 200,
+      "category": "赛事",
+      "level": "全国",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        21,
+        "7月",
+        "中国小网球·京山之星挑战赛（CTS250）",
+        "中国网球协会\n中国学生体育联合会",
+        "京山市体育局",
+        200,
+        "7月23-24日"
+      ]
+    },
+    {
+      "id": "plan-2026-22",
+      "year": 2026,
+      "sequence": 22,
+      "sourceRow": 24,
+      "sourceFile": "2026年京山网球赛事活动计划(.xlsx",
+      "sourceSheet": "0831",
+      "name": "“李宁·京山杯”青少年网球积分赛第五站(CTJ-B500)",
+      "monthText": "8月",
+      "dateText": "8月3-4日",
+      "startDate": "2026-08-03",
+      "endDate": "2026-08-04",
+      "months": [
+        8
+      ],
+      "datePrecision": "day",
+      "host": "京山文旅局",
+      "organizer": "京山市网球运动管理中心",
+      "participants": 500,
+      "category": "赛事",
+      "level": "无",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        22,
+        "8月",
+        "“李宁·京山杯”青少年网球\n积分赛第五站(CTJ-B500)",
+        "京山文旅局",
+        "京山市网球运动管理中心",
+        500,
+        "8月3-4日"
+      ]
+    },
+    {
+      "id": "plan-2026-23",
+      "year": 2026,
+      "sequence": 23,
+      "sourceRow": 25,
+      "sourceFile": "2026年京山网球赛事活动计划(.xlsx",
+      "sourceSheet": "0831",
+      "name": "“李宁·京山杯”青少年网球积分赛第六站(CTJ-B500)",
+      "monthText": "8月",
+      "dateText": "8月5-6日",
+      "startDate": "2026-08-05",
+      "endDate": "2026-08-06",
+      "months": [
+        8
+      ],
+      "datePrecision": "day",
+      "host": "京山文旅局",
+      "organizer": "京山市网球运动管理中心",
+      "participants": 500,
+      "category": "赛事",
+      "level": "无",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        23,
+        "8月",
+        "“李宁·京山杯”青少年网球\n积分赛第六站(CTJ-B500)",
+        "京山文旅局",
+        "京山市网球运动管理中心",
+        500,
+        "8月5-6日"
+      ]
+    },
+    {
+      "id": "plan-2026-24",
+      "year": 2026,
+      "sequence": 24,
+      "sourceRow": 26,
+      "sourceFile": "2026年京山网球赛事活动计划(.xlsx",
+      "sourceSheet": "0831",
+      "name": "“李宁·京山杯”青少年网球积分赛团体赛第二站（CTJ-G1200）",
+      "monthText": "8月",
+      "dateText": "8月7-9日",
+      "startDate": "2026-08-07",
+      "endDate": "2026-08-09",
+      "months": [
+        8
+      ],
+      "datePrecision": "day",
+      "host": "湖北省网球协会",
+      "organizer": "京山市网球运动管理中心",
+      "participants": 77,
+      "category": "赛事",
+      "level": "无",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        24,
+        "8月",
+        "“李宁·京山杯”青少年网球积分赛\n团体赛第二站（CTJ-G1200）",
+        "湖北省网球协会",
+        "京山市网球运动管理中心",
+        77,
+        "8月7-9日"
+      ]
+    },
+    {
+      "id": "plan-2026-25",
+      "year": 2026,
+      "sequence": 25,
+      "sourceRow": 27,
+      "sourceFile": "2026年京山网球赛事活动计划(.xlsx",
+      "sourceSheet": "0831",
+      "name": "李宁杯·第三届中国青少年网球城市挑战赛（中部）大区赛",
+      "monthText": "8月",
+      "dateText": "8月15-20日",
+      "startDate": "2026-08-15",
+      "endDate": "2026-08-20",
+      "months": [
+        8
+      ],
+      "datePrecision": "day",
+      "host": "中国网球协会中国学生体育联合会",
+      "organizer": "京山市网球运动管理中心",
+      "participants": 81,
+      "category": "赛事",
+      "level": "全国",
+      "venueNames": [
+        "京山网球训练基地"
+      ],
+      "assessment": false,
+      "sources": [
+        {
+          "title": "京山市融媒体中心：城市挑战赛中部大区赛",
+          "url": "https://www.jrjingshan.com/m/a/sz/2026/0818/77536.html",
+          "fields": [
+            "场馆",
+            "主办单位"
+          ]
+        }
+      ],
+      "notes": [],
+      "original": [
+        25,
+        "8月",
+        "李宁杯·第三届中国青少年网球\n城市挑战赛（中部）大区赛",
+        "中国网球协会\n中国学生体育联合会",
+        "京山市网球运动管理中心",
+        81,
+        "8月15-20日"
+      ]
+    },
+    {
+      "id": "plan-2026-26",
+      "year": 2026,
+      "sequence": 26,
+      "sourceRow": 28,
+      "sourceFile": "2026年京山网球赛事活动计划(.xlsx",
+      "sourceSheet": "0831",
+      "name": "中国小网球·京山之星挑战赛（CTS500）",
+      "monthText": "8月",
+      "dateText": "8月22-23日",
+      "startDate": "2026-08-22",
+      "endDate": "2026-08-23",
+      "months": [
+        8
+      ],
+      "datePrecision": "day",
+      "host": "中国网球协会中国学生体育联合会",
+      "organizer": "京山市体育局",
+      "participants": 80,
+      "category": "赛事",
+      "level": "全国",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        26,
+        "8月",
+        "中国小网球·京山之星挑战赛（CTS500）",
+        "中国网球协会\n中国学生体育联合会",
+        "京山市体育局",
+        80,
+        "8月22-23日"
+      ]
+    },
+    {
+      "id": "plan-2026-27",
+      "year": 2026,
+      "sequence": 27,
+      "sourceRow": 29,
+      "sourceFile": "2026年京山网球赛事活动计划(.xlsx",
+      "sourceSheet": "0831",
+      "name": "湖北省青少年网球巡回赛总决赛CTJ-B600",
+      "monthText": "8月",
+      "dateText": "8月28-30日",
+      "startDate": "2026-08-28",
+      "endDate": "2026-08-30",
+      "months": [
+        8
+      ],
+      "datePrecision": "day",
+      "host": "湖北省网球协会",
+      "organizer": "京山市网球运动管理中心",
+      "participants": 320,
+      "category": "赛事",
+      "level": "省级",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        27,
+        "8月",
+        "湖北省青少年网球巡回赛\n总决赛CTJ-B600",
+        "湖北省网球协会",
+        "京山市网球运动管理中心",
+        320,
+        "8月28-30日"
+      ]
+    },
+    {
+      "id": "plan-2026-29",
+      "year": 2026,
+      "sequence": 29,
+      "sourceRow": 30,
+      "sourceFile": "2026年京山网球赛事活动计划(.xlsx",
+      "sourceSheet": "0831",
+      "name": "中国小网球·城市之星挑战赛京山之星年度总决赛（CTS1000/CTJ-A600）",
+      "monthText": "9月",
+      "dateText": "9月5-6日",
+      "startDate": "2026-09-05",
+      "endDate": "2026-09-06",
+      "months": [
+        9
+      ],
+      "datePrecision": "day",
+      "host": "中国网球协会中国学生体育联合会",
+      "organizer": "京山市体育局",
+      "participants": 96,
+      "category": "赛事",
+      "level": "全国",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        29,
+        "9月",
+        "中国小网球·城市之星挑战赛京山之星年度总决赛（CTS1000/CTJ-A600）",
+        "中国网球协会\n中国学生体育联合会",
+        "京山市体育局",
+        96,
+        "9月5-6日"
+      ]
+    },
+    {
+      "id": "plan-2026-30",
+      "year": 2026,
+      "sequence": 30,
+      "sourceRow": 31,
+      "sourceFile": "2026年京山网球赛事活动计划(.xlsx",
+      "sourceSheet": "0831",
+      "name": "“李宁·京山杯”青少年网球积分赛第七站(CTJ-B500)",
+      "monthText": "9月",
+      "dateText": "9月12-13日",
+      "startDate": "2026-09-12",
+      "endDate": "2026-09-13",
+      "months": [
+        9
+      ],
+      "datePrecision": "day",
+      "host": "京山文旅局",
+      "organizer": "京山市网球运动管理中心",
+      "participants": 282,
+      "category": "赛事",
+      "level": "无",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        30,
+        "9月",
+        "“李宁·京山杯”青少年网球\n积分赛第七站(CTJ-B500)",
+        "京山文旅局",
+        "京山市网球运动管理中心",
+        282,
+        "9月12-13日"
+      ]
+    },
+    {
+      "id": "plan-2026-31",
+      "year": 2026,
+      "sequence": 31,
+      "sourceRow": 32,
+      "sourceFile": "2026年京山网球赛事活动计划(.xlsx",
+      "sourceSheet": "0831",
+      "name": "2026年中国青少年网球积分赛红土周末赛(CTJ-A1000)",
+      "monthText": "9月",
+      "dateText": "9月19-20日",
+      "startDate": "2026-09-19",
+      "endDate": "2026-09-20",
+      "months": [
+        9
+      ],
+      "datePrecision": "day",
+      "host": "国家体育总局网球运动管理中心、中国网球协会",
+      "organizer": "京山市网球产业发展有限公司",
+      "participants": 27,
+      "category": "赛事",
+      "level": "全国",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        31,
+        "9月",
+        "2026年中国青少年网球积分赛红土周末赛(CTJ-A1000)",
+        "国家体育总局网球运动管理中心、中国网球协会",
+        "京山市网球产业发展有限公司",
+        27,
+        "9月19-20日"
+      ]
+    },
+    {
+      "id": "plan-2026-32",
+      "year": 2026,
+      "sequence": 32,
+      "sourceRow": 33,
+      "sourceFile": "2026年京山网球赛事活动计划(.xlsx",
+      "sourceSheet": "0831",
+      "name": "李宁杯青少年网球挑战赛京山站",
+      "monthText": "9月",
+      "dateText": "9月26-27日",
+      "startDate": "2026-09-26",
+      "endDate": "2026-09-27",
+      "months": [
+        9
+      ],
+      "datePrecision": "day",
+      "host": "李宁（中国）体育用品有限公司",
+      "organizer": "京山市体育局",
+      "participants": 99,
+      "category": "赛事",
+      "level": "无",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        32,
+        "9月",
+        "李宁杯青少年网球挑战赛京山站",
+        "李宁（中国）体育用品有限公司",
+        "京山市体育局",
+        99,
+        "9月26-27日"
+      ]
+    },
+    {
+      "id": "plan-2026-33",
+      "year": 2026,
+      "sequence": 33,
+      "sourceRow": 34,
+      "sourceFile": "2026年京山网球赛事活动计划(.xlsx",
+      "sourceSheet": "0831",
+      "name": "2026年中国青少年网球积分赛红土周末赛(CTJ-A1000)",
+      "monthText": "9月",
+      "dateText": "9月26-27日",
+      "startDate": "2026-09-26",
+      "endDate": "2026-09-27",
+      "months": [
+        9
+      ],
+      "datePrecision": "day",
+      "host": "国家体育总局网球运动管理中心、中国网球协会",
+      "organizer": "京山市网球产业发展有限公司",
+      "participants": 16,
+      "category": "赛事",
+      "level": "全国",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        33,
+        "9月",
+        "2026年中国青少年网球积分赛红土周末赛(CTJ-A1000)",
+        "国家体育总局网球运动管理中心、中国网球协会",
+        "京山市网球产业发展有限公司",
+        16,
+        "9月26-27日"
+      ]
+    },
+    {
+      "id": "plan-2026-34",
+      "year": 2026,
+      "sequence": 34,
+      "sourceRow": 35,
+      "sourceFile": "2026年京山网球赛事活动计划(.xlsx",
+      "sourceSheet": "0831",
+      "name": "京山网球公开赛（WTA125巡回赛/ATP100积分挑战赛）",
+      "monthText": "9月",
+      "dateText": "9月26-10月4日",
+      "startDate": "2026-09-26",
+      "endDate": "2026-10-04",
+      "months": [
+        9,
+        10
+      ],
+      "datePrecision": "day",
+      "host": "国家体育总局网球运动管理中心、中国网球协会",
+      "organizer": "京山市网球产业发展有限公司",
+      "participants": 120,
+      "category": "赛事",
+      "level": "国际",
+      "venueNames": [
+        "京山国际网球赛事中心"
+      ],
+      "introduction": "京山网球公开赛同期举办WTA125女子赛事和ATP100男子挑战赛，设置男女单打、双打项目。2026年赛事与武汉网球公开赛开展双城联动。",
+      "assessment": false,
+      "sources": [
+        {
+          "title": "国家体育总局：2026京山网球公开赛",
+          "url": "https://www.sport.gov.cn/n14471/n14488/n14525/c30028478/content.html",
+          "fields": [
+            "场馆",
+            "赛事级别"
+          ]
+        }
+      ],
+      "notes": [
+        "表内日期含预赛，保留9月26日至10月4日；不替换为正赛日期。"
+      ],
+      "original": [
+        34,
+        "9月",
+        "京山网球公开赛（WTA125巡回赛/ATP100积分挑战赛）",
+        "国家体育总局网球运动管理中心、中国网球协会",
+        "京山市网球产业发展有限公司",
+        120,
+        "9月26-10月4日"
+      ]
+    },
+    {
+      "id": "plan-2026-35",
+      "year": 2026,
+      "sequence": 35,
+      "sourceRow": 36,
+      "sourceFile": "2026年京山网球赛事活动计划(.xlsx",
+      "sourceSheet": "0831",
+      "name": "2026年湖北省烟草商议系统“知行杯”乒羽网台联赛网球比赛",
+      "monthText": "10月",
+      "dateText": "10月8-11日",
+      "startDate": "2026-10-08",
+      "endDate": "2026-10-11",
+      "months": [
+        10
+      ],
+      "datePrecision": "day",
+      "host": "中国烟草总公司湖北省公司",
+      "organizer": "京山市网球产业发展有限公司",
+      "participants": 312,
+      "category": "赛事",
+      "level": "省级",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        35,
+        "10月",
+        "2026年湖北省烟草商议系统“知行杯”乒羽网台联赛网球比赛",
+        "中国烟草总公司湖北省公司",
+        "京山市网球产业发展有限公司",
+        312,
+        "10月8-11日"
+      ]
+    },
+    {
+      "id": "plan-2026-36",
+      "year": 2026,
+      "sequence": 36,
+      "sourceRow": 37,
+      "sourceFile": "2026年京山网球赛事活动计划(.xlsx",
+      "sourceSheet": "0831",
+      "name": "2026武汉网球公开赛系列赛城市俱乐部巡回赛（京山站）",
+      "monthText": "10月",
+      "dateText": "10月11日",
+      "startDate": "2026-10-11",
+      "endDate": "2026-10-11",
+      "months": [
+        10
+      ],
+      "datePrecision": "day",
+      "host": "武汉网球公开赛组委会",
+      "organizer": "京山市网球产业发展有限公司",
+      "participants": 122,
+      "category": "赛事",
+      "level": "无",
+      "venueNames": [
+        "京山网球训练基地"
+      ],
+      "assessment": false,
+      "sources": [
+        {
+          "title": "武汉网球公开赛官网：2026城市俱乐部巡回赛",
+          "url": "https://wuhanopentennis.com/Registration/CityClubCompetition",
+          "fields": [
+            "场馆"
+          ]
+        }
+      ],
+      "notes": [],
+      "original": [
+        36,
+        "10月",
+        "2026武汉网球公开赛系列赛城市俱乐部巡回赛（京山站）",
+        "武汉网球公开赛组委会",
+        "京山市网球产业发展有限公司",
+        122,
+        "10月11日"
+      ]
+    },
+    {
+      "id": "plan-2026-37",
+      "year": 2026,
+      "sequence": 37,
+      "sourceRow": 38,
+      "sourceFile": "2026年京山网球赛事活动计划(.xlsx",
+      "sourceSheet": "0831",
+      "name": "“李宁·京山杯”青少年网球积分赛第八站(CTJ-B500)",
+      "monthText": "10月",
+      "dateText": "10月10-11日",
+      "startDate": "2026-10-10",
+      "endDate": "2026-10-11",
+      "months": [
+        10
+      ],
+      "datePrecision": "day",
+      "host": "京山文旅局",
+      "organizer": "京山市网球运动管理中心",
+      "participants": 213,
+      "category": "赛事",
+      "level": "无",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        37,
+        "10月",
+        "“李宁·京山杯”青少年网球\n积分赛第八站(CTJ-B500)",
+        "京山文旅局",
+        "京山市网球运动管理中心",
+        213,
+        "10月10-11日"
+      ]
+    },
+    {
+      "id": "plan-2026-38",
+      "year": 2026,
+      "sequence": 38,
+      "sourceRow": 39,
+      "sourceFile": "2026年京山网球赛事活动计划(.xlsx",
+      "sourceSheet": "0831",
+      "name": "2026年中国青少年网球积分赛红土周末赛(CTJ-A1000)",
+      "monthText": "10月",
+      "dateText": "10月17-18日",
+      "startDate": "2026-10-17",
+      "endDate": "2026-10-18",
+      "months": [
+        10
+      ],
+      "datePrecision": "day",
+      "host": "国家体育总局网球运动管理中心、中国网球协会",
+      "organizer": "京山市网球产业发展有限公司",
+      "participants": 13,
+      "category": "赛事",
+      "level": "全国",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        38,
+        "10月",
+        "2026年中国青少年网球积分赛红土周末赛(CTJ-A1000)",
+        "国家体育总局网球运动管理中心、中国网球协会",
+        "京山市网球产业发展有限公司",
+        13,
+        "10月17-18日"
+      ]
+    },
+    {
+      "id": "plan-2026-39",
+      "year": 2026,
+      "sequence": 39,
+      "sourceRow": 40,
+      "sourceFile": "2026年京山网球赛事活动计划(.xlsx",
+      "sourceSheet": "0831",
+      "name": "2026年京山市“京兰集团杯”网球赛",
+      "monthText": "10月",
+      "dateText": "10月24-25日",
+      "startDate": "2026-10-24",
+      "endDate": "2026-10-25",
+      "months": [
+        10
+      ],
+      "datePrecision": "day",
+      "host": "京山网球协会",
+      "organizer": "无",
+      "participants": 289,
+      "category": "赛事",
+      "level": "群众",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        39,
+        "10月",
+        "2026年京山市“京兰集团杯”网球赛",
+        "京山网球协会",
+        null,
+        289,
+        "10月24-25日"
+      ]
+    },
+    {
+      "id": "plan-2026-40",
+      "year": 2026,
+      "sequence": 40,
+      "sourceRow": 41,
+      "sourceFile": "2026年京山网球赛事活动计划(.xlsx",
+      "sourceSheet": "0831",
+      "name": "2026年中国青少年网球积分赛红土周末赛(CTJ-A1000)",
+      "monthText": "10月",
+      "dateText": "10月24-25日",
+      "startDate": "2026-10-24",
+      "endDate": "2026-10-25",
+      "months": [
+        10
+      ],
+      "datePrecision": "day",
+      "host": "国家体育总局网球运动管理中心、中国网球协会",
+      "organizer": "京山市网球产业发展有限公司",
+      "participants": 15,
+      "category": "赛事",
+      "level": "全国",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        40,
+        "10月",
+        "2026年中国青少年网球积分赛红土周末赛(CTJ-A1000)",
+        "国家体育总局网球运动管理中心、中国网球协会",
+        "京山市网球产业发展有限公司",
+        15,
+        "10月24-25日"
+      ]
+    },
+    {
+      "id": "plan-2026-41",
+      "year": 2026,
+      "sequence": 41,
+      "sourceRow": 42,
+      "sourceFile": "2026年京山网球赛事活动计划(.xlsx",
+      "sourceSheet": "0831",
+      "name": "第五届世界青少年软式网球锦标赛",
+      "monthText": "11月",
+      "dateText": "10月26日-11月1日",
+      "startDate": "2026-10-26",
+      "endDate": "2026-11-01",
+      "months": [
+        10,
+        11
+      ],
+      "datePrecision": "day",
+      "host": "国际软式网球联合会中国网球协会",
+      "organizer": "京山市网球产业发展有限公司",
+      "participants": 194,
+      "category": "赛事",
+      "level": "国际",
+      "venueNames": [
+        "京山网球训练基地"
+      ],
+      "introduction": "继2024年第四届赛事后，世界青少年软式网球锦标赛再次落户京山，为多个国家和地区的青少年运动员提供国际比赛机会。",
+      "assessment": false,
+      "sources": [
+        {
+          "title": "经济日报：湖北京山五赛一会",
+          "url": "https://www.jingjiribao.cn/static/detail.jsp?id=677406",
+          "fields": [
+            "场馆",
+            "参赛组别"
+          ],
+          "note": "网上预计规模与表格规模口径不同，保留表格人数。"
+        }
+      ],
+      "notes": [
+        "原表月份与具体日期不一致；赛历按具体日期归月。"
+      ],
+      "original": [
+        41,
+        "11月",
+        "第五届世界青少年软式网球锦标赛",
+        "国际软式网球联合会\n中国网球协会",
+        "京山市网球产业发展有限公司",
+        194,
+        "10月26日-\n11月1日"
+      ]
+    },
+    {
+      "id": "plan-2026-42",
+      "year": 2026,
+      "sequence": 42,
+      "sourceRow": 43,
+      "sourceFile": "2026年京山网球赛事活动计划(.xlsx",
+      "sourceSheet": "0831",
+      "name": "中国网球协会社区运动会全国总决赛暨中国村网（京山）",
+      "monthText": "11月",
+      "dateText": "10月31日-11月1日",
+      "startDate": "2026-10-31",
+      "endDate": "2026-11-01",
+      "months": [
+        10,
+        11
+      ],
+      "datePrecision": "day",
+      "host": "国家体育总局网球运动管理中心、中国网球协会",
+      "organizer": "京山市人民政府",
+      "participants": 215,
+      "category": "赛事",
+      "level": "全国",
+      "venueNames": [
+        "文峰网球主题公园"
+      ],
+      "assessment": false,
+      "sources": [
+        {
+          "title": "经济日报：湖北京山五赛一会",
+          "url": "https://www.jingjiribao.cn/static/detail.jsp?id=677406",
+          "fields": [
+            "场馆",
+            "参赛组别"
+          ],
+          "note": "网上预计规模与表格规模口径不同，保留表格人数。"
+        }
+      ],
+      "notes": [
+        "原表月份与具体日期不一致；赛历按具体日期归月。"
+      ],
+      "original": [
+        42,
+        "11月",
+        "中国网球协会社区运动会全国总决赛暨\n中国村网（京山）",
+        "国家体育总局网球运动管理中心、中国网球协会",
+        "京山市人民政府",
+        215,
+        "10月31日-\n11月1日"
+      ]
+    },
+    {
+      "id": "plan-2026-43",
+      "year": 2026,
+      "sequence": 43,
+      "sourceRow": 44,
+      "sourceFile": "2026年京山网球赛事活动计划(.xlsx",
+      "sourceSheet": "0831",
+      "name": "中国（京山）绿林网球·英雄会",
+      "monthText": "11月",
+      "dateText": "11月6-8日",
+      "startDate": "2026-11-06",
+      "endDate": "2026-11-08",
+      "months": [
+        11
+      ],
+      "datePrecision": "day",
+      "host": "湖北省网球协会",
+      "organizer": "京山市网球产业发展有限公司",
+      "participants": 408,
+      "category": "赛事",
+      "level": "全国",
+      "venueNames": [
+        "京山网球训练基地"
+      ],
+      "assessment": false,
+      "sources": [
+        {
+          "title": "澎湃新闻媒体号：2026京山网球英雄会",
+          "url": "https://www.thepaper.cn/newsDetail_forward_34410933",
+          "fields": [
+            "场馆"
+          ]
+        }
+      ],
+      "notes": [],
+      "original": [
+        43,
+        "11月",
+        "中国（京山）绿林网球·英雄会",
+        "湖北省网球协会",
+        "京山市网球产业发展有限公司",
+        408,
+        "11月6-8日"
+      ]
+    },
+    {
+      "id": "plan-2026-44",
+      "year": 2026,
+      "sequence": 44,
+      "sourceRow": 45,
+      "sourceFile": "2026年京山网球赛事活动计划(.xlsx",
+      "sourceSheet": "0831",
+      "name": "中国网球协会D级教练员培训班",
+      "monthText": "11月",
+      "dateText": "11月9-16日",
+      "startDate": "2026-11-09",
+      "endDate": "2026-11-16",
+      "months": [
+        11
+      ],
+      "datePrecision": "day",
+      "host": "湖北省网球协会",
+      "organizer": "京山市网球运动管理中心",
+      "participants": 60,
+      "category": "培训",
+      "level": "全国",
+      "venueNames": [],
+      "assessment": false,
+      "sources": [],
+      "notes": [],
+      "original": [
+        44,
+        "11月",
+        "中国网球协会D级教练员培训班",
+        "湖北省网球协会",
+        "京山市网球运动管理中心",
+        60,
+        "11月9-16日"
+      ]
+    },
+    {
+      "id": "plan-2026-48",
+      "year": 2026,
+      "sequence": 48,
+      "sourceRow": 49,
+      "sourceFile": "京山市网球赛事整合表.xlsx",
+      "sourceSheet": "网球赛事整合",
+      "name": "在华世界500强企业网球邀请赛",
+      "monthText": "11月",
+      "dateText": "11月27-29日",
+      "startDate": "2026-11-27",
+      "endDate": "2026-11-29",
+      "months": [
+        11
+      ],
+      "datePrecision": "day",
+      "host": "国家体育总局对外体育交流中心、湖北省体育局",
+      "organizer": "京山市人民政府",
+      "participants": 200,
+      "category": "赛事",
+      "level": "全国",
+      "venueNames": [
+        "京山网球训练基地"
+      ],
+      "introduction": "在华世界500强企业的业余球员以企业为单位组队参赛。京山将这项邀请赛列入2026京网黄金赛季，通过网球促进企业间交流。",
+      "assessment": true,
+      "sources": [
+        {
+          "title": "京山市网球产业发展促进会：京网黄金赛季倡议书（今日京山发布）",
+          "url": "https://finance.sina.com.cn/wm/2026-09-18/doc-inishenx0209405.shtml",
+          "fields": [
+            "列入京网黄金赛季的赛事"
+          ]
+        },
+        {
+          "title": "国家体育总局对外体育交流中心",
+          "url": "https://www.sport.gov.cn/jlzx/",
+          "fields": [
+            "整合表所列主办单位的机构全称"
+          ]
+        }
+      ],
+      "notes": [
+        "计划申报级别为国际，整合表记录级别为国家级，详情采用记录级别。赛期与计划规模取自整合表。"
+      ],
+      "original": [
+        48,
+        "在华世界500强企业网球邀请赛",
+        "11月27-29日",
+        "国际",
+        200,
+        "国家级",
+        "京山网球训练基地",
+        "业余网球爱好者",
+        "国家体育总局对外交流中心",
+        "国家体育总局对外交流中心、湖北省体育局",
+        "京山市人民政府",
+        "京山市网球产业发展有限公司、华体武汉体育有限责任公司",
+        "面向全国在华世界500强企业的网球爱好者开放报名，以企业为单位组队。以网球为纽带，搭建在华 500 强交流平台，赋能经贸，彰显营商活力。"
+      ]
+    },
+    {
+      "id": "plan-2026-50",
+      "year": 2026,
+      "sequence": 50,
+      "sourceRow": 51,
+      "sourceFile": "京山市网球赛事整合表.xlsx",
+      "sourceSheet": "网球赛事整合",
+      "name": "2026年中国青少年网球积分赛红土周末赛(CTJ-A1000)",
+      "monthText": "11月",
+      "dateText": "11月28-29日",
+      "startDate": "2026-11-28",
+      "endDate": "2026-11-29",
+      "months": [
+        11
+      ],
+      "datePrecision": "day",
+      "host": "国家体育总局网球运动管理中心、中国网球协会",
+      "organizer": "京山市网球产业发展有限公司",
+      "participants": 32,
+      "category": "赛事",
+      "level": "全国（CTJ-A1000）",
+      "venueNames": [
+        "京山网球训练基地"
+      ],
+      "introduction": "面向U12、U14青少年球员的红土积分赛，安排在周末举行，方便选手兼顾学习和比赛。本站计划规模32人，比赛成绩计入青少年网球积分排名。",
+      "assessment": true,
+      "sources": [
+        {
+          "title": "国家体育总局：青少年红土赛季与周末赛设置",
+          "url": "https://www.sport.gov.cn/n20001280/n20067626/n20067766/c28486466/content.html",
+          "fields": [
+            "红土周末赛设置背景"
+          ]
+        }
+      ],
+      "notes": [
+        "整合表的场地栏填写京山网球训练基地，简介提及京山国际网球赛事中心。平台采用场地栏，具体场馆待本站竞赛通知确认。"
+      ],
+      "original": [
+        50,
+        "2026年中国青少年网球积分赛红土周末赛(CTJ-A1000)",
+        "11月28-29日",
+        "国家",
+        32,
+        "国家级",
+        "京山网球训练基地",
+        "12-14岁青少年",
+        "国家体育总局网球运动管理中心、中国网球协会",
+        "国家体育总局网球运动管理中心、中国网球协会",
+        "京山市网球产业发展有限公司",
+        null,
+        "2026 中国青少年网球积分赛红土周末赛（CTJ-A1000）湖北京山站，由中国网球协会主办，京山市网球产业发展有限公司承办，落地京山国际网球赛事中心红土场地。赛事为红土专项 CTJ-A1000 积分赛，采用周末短赛制，设置 U12、U14 组别，面向全国青少年网球选手开放报名，成绩计入全国青少年网球官方积分排名，是运动员积累红土赛场经验、提升积分、申报运动等级的重要平台。赛事依托京山红土场地资源，丰富国内青少年红土赛事供给，助力网球后备人才培养，持续擦亮京山 “中国网球特色城市” 名片。"
+      ]
+    },
+    {
+      "id": "plan-2026-51",
+      "year": 2026,
+      "sequence": 51,
+      "sourceRow": 52,
+      "sourceFile": "京山市网球赛事整合表.xlsx",
+      "sourceSheet": "网球赛事整合",
+      "name": "2026年湖北省直机关（大型企业）网球团体联赛",
+      "monthText": "12月",
+      "dateText": "12月6日",
+      "startDate": "2026-12-06",
+      "endDate": "2026-12-06",
+      "months": [
+        12
+      ],
+      "datePrecision": "day",
+      "host": "中共湖北省委直属机关工作委员会、湖北省总工会、湖北省体育局",
+      "organizer": "无",
+      "participants": 60,
+      "category": "赛事",
+      "level": "省级",
+      "venueNames": [],
+      "introduction": "面向湖北省直机关和大型企业的网球团体联赛，计划于12月6日举行，参赛规模60人。",
+      "assessment": true,
+      "sources": [],
+      "notes": [
+        "尚未查到本届联赛的具体场馆和承办单位。"
+      ],
+      "original": [
+        51,
+        "2026年湖北省直机关（大型企业）网球团体联赛",
+        "12月6日",
+        "省",
+        60,
+        null,
+        null,
+        null,
+        "中共湖北省委直属机关工作委员会、湖北省总工会、湖北省体育局",
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  ]
+}

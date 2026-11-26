@@ -1,0 +1,16 @@
+.git
+.codex
+.agents
+.local
+.npm-cache
+.npmrc
+node_modules
+dist
+public/cesium
+.env
+.env.*
+docker.env
+windows.env
+*.zip
+*.tar
+*.log

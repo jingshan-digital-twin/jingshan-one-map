@@ -1,0 +1,302 @@
+[
+  {
+    "sequence": 1,
+    "position": [
+      113.070194,
+      31.319239
+    ],
+    "precision": "入口",
+    "town": "绿林镇",
+    "source": "百度地图 · 绿林山风景区-游客中心（BD09MC 转 WGS84）",
+    "sourceUrl": "https://api.map.baidu.com/place/detail?uid=8de9ee7c6f1463cf1b94c607&output=html&src=webapp.jingshan.tennis"
+  },
+  {
+    "sequence": 2,
+    "position": [
+      112.898835,
+      30.922037
+    ],
+    "precision": "入口",
+    "town": "石龙镇",
+    "source": "百度地图 · 太子山生态旅游区-游客服务中心（BD09MC 转 WGS84）",
+    "sourceUrl": "https://api.map.baidu.com/place/detail?uid=e4a13d09f44ce7c04107c166&output=html&src=webapp.jingshan.tennis"
+  },
+  {
+    "sequence": 3,
+    "position": [
+      113.261517,
+      30.996598
+    ],
+    "precision": "入口",
+    "town": "曹武镇",
+    "source": "百度地图 · 花台山景区地上停车场-出入口（BD09MC 转 WGS84）",
+    "sourceUrl": "https://api.map.baidu.com/place/detail?uid=82a43ed090ce0f7340024567&output=html&src=webapp.jingshan.tennis"
+  },
+  {
+    "sequence": 4,
+    "position": [
+      112.895593,
+      31.011922
+    ],
+    "precision": "场所",
+    "town": "石龙镇",
+    "source": "百度地图 · 潼泉湖休闲旅游区（BD09MC 转 WGS84）",
+    "sourceUrl": "https://api.map.baidu.com/place/detail?uid=c88a0cb36d81e0e00bf5ebfe&output=html&src=webapp.jingshan.tennis"
+  },
+  {
+    "sequence": 5,
+    "position": [
+      112.919697,
+      30.94669
+    ],
+    "precision": "停车场",
+    "town": "石龙镇",
+    "source": "百度地图 · 仙女紫薇园-东门地上停车场（BD09MC 转 WGS84）",
+    "sourceUrl": "https://api.map.baidu.com/place/detail?uid=1cc770d08f75add29de32133&output=html&src=webapp.jingshan.tennis"
+  },
+  {
+    "sequence": 6,
+    "position": [
+      112.843709,
+      30.934007
+    ],
+    "precision": "入口",
+    "town": "石龙镇",
+    "source": "百度地图 · 太子山月季园-东门（BD09MC 转 WGS84）",
+    "sourceUrl": "https://api.map.baidu.com/place/detail?uid=11f8fea5c39d0921adb22a91&output=html&src=webapp.jingshan.tennis"
+  },
+  {
+    "sequence": 7,
+    "position": [
+      112.855156,
+      30.953442
+    ],
+    "precision": "入口",
+    "town": "石龙镇",
+    "source": "百度地图 · 湖北太子山狩猎文化主题乐园-游客服务中心（BD09MC 转 WGS84）",
+    "sourceUrl": "https://api.map.baidu.com/place/detail?uid=2a096163ea69564004026f0f&output=html&src=webapp.jingshan.tennis"
+  },
+  {
+    "sequence": 8,
+    "position": [
+      112.934979,
+      31.28243
+    ],
+    "precision": "停车场",
+    "town": "杨集镇",
+    "source": "百度地图 · 京山农场-地上停车场（BD09MC 转 WGS84）",
+    "sourceUrl": "https://api.map.baidu.com/place/detail?uid=5c02d0fe7e793af3c909f093&output=html&src=webapp.jingshan.tennis"
+  },
+  {
+    "sequence": 9,
+    "position": [
+      113.143069,
+      30.973968
+    ],
+    "precision": "入口",
+    "town": "温泉街道",
+    "verifiedAddress": "京山市温泉街道青龙山景区停车场出入口",
+    "source": "百度地图 · 青龙山景区地上停车场-出入口（BD09MC 转 WGS84）",
+    "sourceUrl": "https://api.map.baidu.com/place/detail?uid=778172162aeaec8ae81e9797&output=html&src=webapp.jingshan.tennis"
+  },
+  {
+    "sequence": 10,
+    "position": [
+      113.035062,
+      30.976448
+    ],
+    "precision": "入口",
+    "town": "钱场镇",
+    "source": "百度地图 · 空山洞景区-入口售票处（BD09MC 转 WGS84）",
+    "sourceUrl": "https://api.map.baidu.com/place/detail?uid=d6da0e394c3965e82cb90801&output=html&src=webapp.jingshan.tennis"
+  },
+  {
+    "sequence": 11,
+    "position": [
+      113.165011,
+      30.988418
+    ],
+    "precision": "停车场",
+    "town": "永兴街道",
+    "verifiedAddress": "京山市景观大道东侧岭尚山河院内",
+    "source": "百度地图 · 京山玉珑温泉-西侧地上停车场（BD09MC 转 WGS84）",
+    "sourceUrl": "https://api.map.baidu.com/place/detail?uid=f5c78187d3322e7f49fc8d9a&output=html&src=webapp.jingshan.tennis"
+  },
+  {
+    "sequence": 12,
+    "position": [
+      113.145502,
+      30.972223
+    ],
+    "precision": "停车场",
+    "town": "温泉街道",
+    "source": "京山市已发布充电设施 · 天沐温泉酒店停车场慢充站",
+    "sourceUrl": "https://zhuanti.mct.gov.cn/mmyghcyt2023/hjgn/detail/5007.html"
+  },
+  {
+    "sequence": 13,
+    "position": [
+      113.002736,
+      31.094967
+    ],
+    "precision": "场所",
+    "town": "孙桥镇",
+    "verifiedAddress": "京山市孙桥镇青树岭村与孙桥村交界处",
+    "source": "百度地图 · 京山对节白蜡旅游区（BD09MC 转 WGS84）",
+    "sourceUrl": "https://api.map.baidu.com/place/detail?uid=24e1d014be5266a17adbd2b5&output=html&src=webapp.jingshan.tennis",
+    "supportingUrl": "https://news.hubeidaily.net/pc/1145419.html"
+  },
+  {
+    "sequence": 14,
+    "position": [
+      113.027282,
+      31.097658
+    ],
+    "precision": "入口",
+    "town": "孙桥镇",
+    "source": "百度地图 · 花苑台游客服务中心（BD09MC 转 WGS84）",
+    "sourceUrl": "https://api.map.baidu.com/place/detail?uid=572e64ffadf951619122e07b&output=html&src=webapp.jingshan.tennis",
+    "supportingUrl": "https://nyt.hubei.gov.cn/bmdt/ztzl/zxzt/sdgjz/cyjzfp/202607/t20260717_5979205.shtml"
+  },
+  {
+    "sequence": 15,
+    "position": [
+      113.14093,
+      30.994116
+    ],
+    "precision": "场所",
+    "town": "温泉街道",
+    "source": "百度地图 · 文峰网球特色村（BD09MC 转 WGS84）",
+    "sourceUrl": "https://api.map.baidu.com/place/detail?uid=f149aeefd847fec8e5e965b6&output=html&src=webapp.jingshan.tennis"
+  },
+  {
+    "sequence": 16,
+    "position": [
+      112.90008,
+      31.076724
+    ],
+    "precision": "入口",
+    "town": "孙桥镇",
+    "source": "百度地图 · 虎爪山国家森林公园-东门（BD09MC 转 WGS84）",
+    "sourceUrl": "https://api.map.baidu.com/place/detail?uid=5b252210e1654e0f3904b1dd&output=html&src=webapp.jingshan.tennis"
+  },
+  {
+    "sequence": 17,
+    "position": [
+      113.105728,
+      31.058337
+    ],
+    "precision": "入口",
+    "town": "新市街道",
+    "source": "百度地图 · 白谷烟树售票亭（BD09MC 转 WGS84）",
+    "sourceUrl": "https://api.map.baidu.com/place/detail?uid=2ffeabb1ac54007440ab9acc&output=html&src=webapp.jingshan.tennis"
+  },
+  {
+    "sequence": 18,
+    "position": [
+      113.33445,
+      31.060131
+    ],
+    "precision": "入口",
+    "town": "罗店镇",
+    "source": "百度地图 · 京山秋满园葡萄种植专业合作社-西门（BD09MC 转 WGS84）",
+    "sourceUrl": "https://api.map.baidu.com/place/detail?uid=c7ca02a8e90c70836d20b96e&output=html&src=webapp.jingshan.tennis",
+    "supportingUrl": "https://hb.cri.cn/2022-09-17/ba59d353-67ec-c488-293a-f45d48c0e29f.html"
+  },
+  {
+    "sequence": 19,
+    "position": [
+      113.446666,
+      31.05712
+    ],
+    "precision": "场所",
+    "town": "罗店镇",
+    "source": "百度地图 · 马岭游乐园（BD09MC 转 WGS84）",
+    "sourceUrl": "https://api.map.baidu.com/place/detail?uid=6acc917c01ad09d9ebe58221&output=html&src=webapp.jingshan.tennis",
+    "supportingUrl": "https://nyt.hubei.gov.cn/bmdt/yw/mtksn/202306/t20230627_4723169.shtml"
+  },
+  {
+    "sequence": 20,
+    "position": [
+      113.044243,
+      31.082328
+    ],
+    "precision": "村级参考",
+    "town": "孙桥镇",
+    "verifiedAddress": "京山市孙桥镇梭罗河村",
+    "source": "京山市民政局村社区行政区划服务 · 孙桥镇梭罗河村行政区代表点",
+    "sourceUrl": "https://wlt.hubei.gov.cn/bmdt/dtyw/202209/t20220928_4324896.shtml"
+  },
+  {
+    "sequence": 21,
+    "position": [
+      113.086712,
+      31.071927
+    ],
+    "precision": "村级参考",
+    "town": "新市街道",
+    "verifiedAddress": "京山市新市街道荷花堰村",
+    "source": "京山市民政局村社区行政区划服务 · 新市街道荷花堰村行政区代表点",
+    "sourceUrl": "https://news.cnhubei.com/content/2023-07/17/content_16216367.html"
+  },
+  {
+    "sequence": 22,
+    "position": [
+      113.067434,
+      31.077629
+    ],
+    "precision": "村级参考",
+    "town": "新市街道",
+    "verifiedAddress": "京山市新市街道丁家塝村",
+    "source": "京山市民政局村社区行政区划服务 · 新市街道丁家塝村行政区代表点",
+    "sourceUrl": "https://hb.cri.cn/n/20200605/a75a787c-a566-7867-b1e0-532ae6c8fb9c.html"
+  },
+  {
+    "sequence": 23,
+    "position": [
+      112.99384,
+      31.114701
+    ],
+    "precision": "场所",
+    "town": "孙桥镇",
+    "verifiedAddress": "京山市孙桥镇青树岭村谢家湾",
+    "source": "百度地图 · 张文秋故居（BD09MC 转 WGS84）",
+    "sourceUrl": "https://api.map.baidu.com/place/detail?uid=1f4e3f15a2f99cb43a13fd34&output=html&src=webapp.jingshan.tennis",
+    "supportingUrl": "https://nyt.hubei.gov.cn/bmdt/ztzl/zxzt/sdgjz/cyjzfp/202607/t20260717_5979205.shtml"
+  },
+  {
+    "sequence": 24,
+    "position": [
+      112.965365,
+      31.124313
+    ],
+    "precision": "场所",
+    "town": "孙桥镇",
+    "source": "百度地图 · 桥米源（BD09MC 转 WGS84）",
+    "sourceUrl": "https://api.map.baidu.com/place/detail?uid=2699f4f11b429527abf729d7&output=html&src=webapp.jingshan.tennis",
+    "supportingUrl": "https://zscqj.hubei.gov.cn/fbjd/dtyw/202508/t20250828_5757793.shtml"
+  },
+  {
+    "sequence": 25,
+    "position": [
+      113.241829,
+      31.03122
+    ],
+    "precision": "场所",
+    "town": "永兴街道",
+    "verifiedAddress": "京山市永兴街道汀河村汀河水库东北侧",
+    "source": "百度地图 · 栖栖汀屿轻奢营地（BD09MC 转 WGS84）",
+    "sourceUrl": "https://api.map.baidu.com/place/detail?uid=f27741635ea3cc6f734b87d8&output=html&src=webapp.jingshan.tennis"
+  },
+  {
+    "sequence": 26,
+    "position": [
+      112.866035,
+      31.019819
+    ],
+    "precision": "场所",
+    "town": "石龙镇",
+    "source": "百度地图 · 丹峰生态农业园（BD09MC 转 WGS84）",
+    "sourceUrl": "https://api.map.baidu.com/place/detail?uid=43e78f235bf0068fd13ce32a&output=html&src=webapp.jingshan.tennis"
+  }
+]

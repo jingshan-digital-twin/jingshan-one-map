@@ -1,0 +1,147 @@
+/* MasterGo V1.4, 1072:55666. The map tool strip, header and footer already use the cockpit artwork. */
+.v14-panorama .chain-analysis-view { --scene-footer-height: 0px; }
+.v14-panorama .chain-analysis-view > .live-map { visibility: hidden; pointer-events: none; }
+.v14-panorama .chain-analysis-view > .toggle-right[aria-expanded="true"] { display: none; }
+.jt-screen.v14-panorama {
+  --panorama-weak: #ff945c;
+  --v14-heading-image: url('/jingshan/ui/panorama-v14/heading-dark.png');
+  --panorama-map-surface: rgb(13 29 72 / 80%);
+  --panorama-map-field: #0d1d48;
+}
+.jt-screen.v14-panorama.cockpit-light {
+  --panorama-weak: #a43f09;
+  --v14-heading-image: url('/jingshan/ui/panorama-v14/heading-light.png');
+  --panorama-map-surface: rgb(226 242 255 / 70%);
+  --panorama-map-field: #eaf6ff;
+}
+.v14-panorama :is(.panorama-left, .panorama-right) {
+  --v14-heading-image: url('/jingshan/ui/panel-heading.svg');
+}
+.v14-panorama.cockpit-light :is(.panorama-left, .panorama-right) {
+  --v14-heading-image: url('/jingshan/ui/light-panel-heading.svg');
+}
+:is(.v14-panorama,.event-region-control) .home-region-keyword svg { display: none; }
+:is(.v14-panorama,.event-region-control) .home-region-keyword::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  flex: none;
+  background: var(--v14-ink);
+  mask: url('/jingshan/ui/panorama-v14/search.svg') center / contain no-repeat;
+}
+.jt-screen.v14-panorama :is(.map-popover, .map-detail, .home-region-popover),
+.jt-screen .event-region-control .home-region-popover {
+  padding: 12px;
+  border: 1px solid var(--v14-list-line);
+  border-radius: 4px;
+  background: var(--panorama-map-surface);
+  color: var(--v14-ink);
+  box-shadow: var(--side-shadow);
+  backdrop-filter: blur(12px);
+  font: 400 16px/24px var(--v14-font);
+  scrollbar-color: var(--v14-scroll-thumb) transparent;
+}
+.jt-screen.v14-panorama .map-scene > :is(.map-popover:not(.scene-assistant-panel), .map-detail) {
+  width: min(400px, calc(100% - var(--map-toolbar-width) - 8px));
+  right: calc(var(--map-toolbar-width) + 8px);
+}
+.v14-panorama :is(.map-popover, .map-detail) .popover-header,
+:is(.v14-panorama,.event-region-control) .home-region-popover-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 46px;
+  margin: -12px -12px 12px;
+  padding: 4px 12px;
+  color: var(--v14-heading-color);
+  background: var(--v14-heading-image) center / 100% 100% no-repeat;
+}
+.v14-panorama .popover-header h3,
+:is(.v14-panorama,.event-region-control) .home-region-popover-header h3 {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+  margin: 0;
+  overflow-wrap: anywhere;
+  font: 700 18px/26px var(--v14-font);
+}
+.v14-panorama .popover-header h3::before,
+:is(.v14-panorama,.event-region-control) .home-region-popover-header h3::before {
+  content: "";
+  flex: 0 0 24px;
+  height: 24px;
+  background: var(--v14-heading-icon) center / contain no-repeat;
+}
+.v14-panorama .popover-header small,
+.v14-panorama .map-legend small,
+.v14-panorama .map-detail dt { color: var(--v14-muted); font: 400 14px/22px var(--v14-font); }
+.jt-screen.v14-panorama .popover-header button,
+.jt-screen .event-region-control .home-region-popover-header button,
+.jt-screen.v14-panorama .home-region-popover-header button {
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  flex: none;
+  padding: 0;
+  color: var(--v14-ink);
+  border: 0;
+  border-radius: 2px;
+  background: transparent;
+  box-shadow: none;
+  font: 400 20px/24px var(--v14-font);
+}
+.jt-screen.v14-panorama .map-popover :is(.segments, .map-tool-list, .home-popup-content) { gap: 4px; }
+.jt-screen.v14-panorama .map-popover :is(.segments button, .map-tool-list button, .home-popup-content button),
+.jt-screen.v14-panorama .map-detail .mini {
+  padding: 4px 8px;
+  min-height: 32px;
+  color: var(--v14-ink);
+  border: 1px solid var(--v14-edge);
+  border-radius: 2px;
+  background: var(--v14-tab);
+  font: 400 14px/22px var(--v14-font);
+}
+.jt-screen.v14-panorama .map-popover .segments button { min-height: 34px; }
+.jt-screen.v14-panorama .map-popover button[aria-pressed="true"] {
+  color: #f9fcff;
+  border-color: var(--v14-list-line);
+  background: var(--v14-tab-active);
+  box-shadow: inset 0 -2px #ffae00;
+}
+.v14-panorama .map-popover details {
+  padding: 4px 0;
+  border-bottom: 1px solid var(--v14-edge);
+}
+.v14-panorama .map-popover summary {
+  padding: 4px 0;
+  color: var(--v14-ink);
+  font: 700 16px/24px var(--v14-font);
+}
+.v14-panorama .map-popover .catalog-row { gap: 8px; min-height: 32px; padding: 4px 8px; }
+.v14-panorama .map-popover input[type="checkbox"] { width: 16px; height: 16px; accent-color: var(--v14-metric); }
+.v14-panorama .home-popup-content input[type="search"] {
+  min-height: 40px;
+  padding: 8px 12px;
+  color: var(--v14-ink);
+  background: var(--panorama-map-field);
+  border: 1px solid var(--v14-list-line);
+  border-radius: 2px;
+  font: 400 16px/22px var(--v14-font);
+}
+.v14-panorama .map-detail dl {
+  display: grid;
+  grid-template-columns: minmax(4em, 35%) minmax(0, 1fr);
+  gap: 0;
+  margin: 8px 0 12px;
+  border: 1px solid var(--v14-list-line);
+  background: var(--panorama-map-field);
+}
+.v14-panorama .map-detail :is(dd,dt) { margin: 0; padding: 6px 8px; overflow-wrap: anywhere; }
+.v14-panorama .map-detail dd { color: var(--v14-ink); font-weight: 700; }
+.v14-panorama .map-scene :is(button, input, summary, select):focus-visible {
+  outline: 2px solid var(--v14-list-line);
+  outline-offset: -2px;
+}

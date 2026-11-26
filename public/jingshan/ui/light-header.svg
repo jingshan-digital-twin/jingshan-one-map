@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1468 68" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="header-fill" x2="0" y2="1">
+      <stop stop-color="#bfdef8"/>
+      <stop offset=".57" stop-color="#d3e9fa"/>
+      <stop offset="1" stop-color="#e3f2fd"/>
+    </linearGradient>
+    <linearGradient id="header-lip" x2="0" y2="1">
+      <stop stop-color="#aacde9"/>
+      <stop offset="1" stop-color="#a6cce7" stop-opacity=".88"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#header-lip)" d="M0 0H1468V31H1141C1095 31 1090 65 1020 65H776L766 58H702L692 65H448C378 65 373 31 327 31H0Z"/>
+  <path fill="url(#header-fill)" d="M0 0H1468V20H1151C1100 20 1088 55 1021 55H447C380 55 368 20 317 20H0Z"/>
+  <path fill="#e4f4ff" fill-opacity=".55" d="M0 19H317C368 19 380 54 447 54H1021C1088 54 1100 19 1151 19H1468V21H1151C1100 21 1088 57 1021 57H447C380 57 368 21 317 21H0Z"/>
+  <path fill="#31517d" d="M0 0H1468V1H0Z"/>
+  <path fill="#f1c627" d="M703 63H765L769 68H699Z"/>
+</svg>

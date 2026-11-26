@@ -1,0 +1,249 @@
+/* MasterGo V1.4 · 服务能力 */
+.v14-services { --service-page-fill: #164387; }
+.v14-services.cockpit-light { --service-page-fill: #eaf6ff; }
+
+#service-map-navigation > .service-scene-tabs {
+  display: grid;
+  grid-template-columns: repeat(3,minmax(0,1fr));
+  gap: 4px;
+  width: min(100%,464px);
+  margin-inline: auto;
+}
+#service-map-navigation .service-scene-tabs > button {
+  padding: 4px 12px;
+  min-width: 0;
+  min-height: 40px;
+  border: 1px solid var(--v14-list-line);
+  border-radius: 3px;
+  color: var(--v14-ink);
+  background: var(--v14-tab);
+  font: 700 18px/26px var(--v14-font);
+  white-space: nowrap;
+}
+#service-map-navigation .service-scene-tabs > button[aria-pressed="true"] {
+  background: var(--v14-tab-active);
+  color: #fff;
+  box-shadow: inset 0 -2px #ffae00;
+}
+.v14-services .industry-rail {
+  --industry-gap: 12px;
+}
+.v14-services .industry-module .v14-overview-heading {
+  min-height: 46px;
+  flex-wrap: nowrap;
+  padding: 4px 12px;
+}
+.v14-services .industry-module-body { gap: 8px; padding: 12px; grid-auto-rows: max-content; grid-template-columns: minmax(0,1fr); }
+.v14-services .industry-actions { gap: 8px; padding: 8px 12px 12px; }
+.v14-services .industry-rail button,
+.v14-services .industry-rail :is(input,select,textarea) { font-family: var(--v14-font); }
+.v14-services .industry-rail .industry-button,
+.v14-services .industry-rail :is(select,input:not([type=checkbox],[type=radio])) {
+  min-height: 36px;
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.v14-services .industry-module .v14-overview-heading > button { min-width: 32px; min-height: 32px; padding: 0; }
+.v14-services .industry-rail .industry-tabs { gap: 4px; }
+.v14-services .industry-rail .industry-tabs > button {
+  min-width: 0;
+  min-height: 32px;
+  padding: 3px 4px;
+  border-radius: 2px;
+  font: 700 16px/24px var(--v14-font);
+  white-space: nowrap;
+}
+
+.v14-services .industry-rail input:is([type=date],[type=time]) { min-height: 32px; padding-block: 2px; }
+.v14-services .industry-filters { gap: 8px; }
+.v14-services .venue-filters { grid-template-columns: repeat(2,minmax(0,1fr)); }
+.v14-services .venue-filters > select:first-child { grid-column:1 / -1; }
+.v14-services .venue-directory-pager { flex-wrap:wrap; }
+.v14-services .industry-rail .venue-categories { display:grid; grid-auto-flow:column; grid-auto-columns:minmax(0,1fr); gap:4px; }
+.v14-services .industry-rail .venue-categories > button { min-width:0; padding:4px 2px; white-space:nowrap; }
+.v14-services .service-list-subtitle { display:block; color:var(--v14-muted); font-size:16px; line-height:24px; }
+.v14-services .service-state-dot { display:inline-block; width:7px; height:7px; background:#e6aa54; border-radius:50%; margin-right:4px; vertical-align:middle; }
+.v14-services .service-state-dot.open { background:#49bd8f; }
+.v14-services .svc-preview-title, .v14-services .service-trend-x { display:flex; align-items:center; justify-content:space-between; gap:8px; }
+.v14-services .svc-preview-title :is(h3,p),.v14-services .service-trend p { margin:0; }
+.v14-services .service-trend { display:grid; gap:8px; }
+.v14-services .service-trend svg { display:block; width:100%; height:96px; }
+.v14-services .service-trend-key { display:flex; justify-content:flex-end; gap:12px; }
+.v14-services .service-trend-key i { display:inline-block; width:14px; height:4px; margin-right:5px; vertical-align:middle; }
+.v14-services .service-trend-x { color:var(--v14-muted); font-size:16px; }
+.v14-services .service-search-box { position: relative; min-width: 0; display: block; }
+.v14-services .service-search-box::before {
+  content: ''; position: absolute; left: 12px; top: 50%; transform: translateY(-50%);
+  width: 20px; height: 20px; pointer-events: none; background: var(--v14-icon);
+  mask: url('/jingshan/ui/panorama-v14/search.svg') center / contain no-repeat;
+}
+.v14-services .industry-rail .service-search-box input { padding-inline-start: 40px; background: var(--v14-tab); }
+.v14-services .service-section-title, .v14-services .service-identity h3 { border-inline-start: 4px solid var(--v14-metric); padding-inline-start: 8px; }
+.v14-services .service-identity { padding: 8px 12px; background: var(--v14-list); border: 1px solid var(--industry-table-line); }
+.v14-services .industry-table { border-radius: 2px; font: 400 16px/24px var(--v14-font); font-variant-numeric: tabular-nums; }
+.v14-services .industry-table :is(th,td) { padding: 4px 8px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.v14-services .industry-table tbody td { height: 40px; box-sizing: border-box; }
+.v14-services .industry-table .industry-row-action { display:block; max-width:100%; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; font: inherit; text-align:start; cursor: pointer; }
+.v14-services .industry-table td[colspan] { white-space:normal; }
+.v14-services .industry-table .selected .industry-row-action { font-weight: 700; }
+.v14-services .industry-kv { grid-template-columns: max(96px,24%) minmax(0,1fr); }
+.v14-services .industry-kv :is(dt,dd) { padding: 8px 12px; }
+@container (min-width: 464px) {
+  .v14-services .right-panel .service-profile-fields { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .v14-services .service-profile-fields > div { display:grid;grid-template-columns:78px minmax(0,1fr); }
+  .v14-services .service-profile-fields :is(dt,dd) {min-width:0;padding:4px 6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .v14-services .service-profile-fields > div:last-child:nth-child(odd) { grid-column: 1 / -1; }
+}
+.v14-services .right-panel .venue-profile-grid { grid-template-columns: minmax(0,1fr); }
+.v14-services .venue-profile-grid > div { display:grid; grid-template-columns: 6.1em minmax(0,1fr); }
+.jt-screen.v14-services .right-panel .industry-kv.venue-profile-grid :is(dt,dd) { min-width:0; padding: 5px 8px; white-space: normal; overflow-wrap: anywhere; line-height: 1.4; }
+.v14-services .venue-breakdown { display:flex; flex-wrap:wrap; align-items:baseline; gap: 2px 14px; }
+.v14-services .venue-breakdown span { white-space:nowrap; }
+.v14-services .venue-breakdown b { color:var(--v14-metric); }
+.v14-services .venue-schedules { display:grid; gap:2px; }
+.v14-services .venue-schedule-row { display:flex; align-items:baseline; gap:8px; min-width:0; }
+.v14-services .venue-schedule-row + .venue-schedule-row { border-top:1px solid var(--industry-table-line); padding-top:3px; }
+.v14-services .venue-schedules small { flex:none; color:var(--v14-metric); font-size:inherit; }
+.v14-services .venue-time-slots { display:flex; min-width:0; flex-wrap:wrap; gap:2px 10px; }
+.v14-services .venue-time-slots > span { max-width:100%; }
+.v14-services .venue-court-record h4 { white-space:normal; overflow-wrap:anywhere; }
+@container (min-width: 440px) {
+  .v14-services .right-panel .venue-profile-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .v14-services .venue-profile-grid > .venue-wide { grid-column:1 / -1; }
+}
+.v14-services .industry-card { padding: 12px; }
+.v14-services .service-file-metrics {
+  display: grid;
+  grid-template-columns: repeat(3,minmax(0,1fr));
+  gap: 8px;
+  margin: 0;
+}
+.service-file-metrics > div { padding: 8px 12px; border: 1px solid var(--industry-table-line); background: var(--v14-list); }
+.service-file-metrics dt { color: var(--v14-ink); white-space: nowrap; }
+.service-file-metrics dd { margin: 0; color: var(--v14-metric); white-space: nowrap; }
+.service-file-metrics b { font: 400 20px/30px "Cockpit Bebas", var(--v14-font); }
+.v14-services .right-panel .service-detail-tabs {
+  grid-template-columns: repeat(4,minmax(0,1fr));
+}
+@container (max-width: 440px) {
+  .v14-services .right-panel .service-detail-tabs { grid-template-columns: repeat(4,minmax(66px,1fr)); overflow-x:auto; }
+}
+@container (max-width: 320px) {
+  .v14-services .industry-tabs[aria-label="服务对象"] > button { padding-inline: 2px; font-size: 16px; }
+  .v14-services .service-file-metrics { grid-template-columns: 1fr; gap: 4px; }
+  .v14-services .service-file-metrics > div {
+    display: flex; justify-content: space-between; align-items: center; padding: 4px 8px;
+  }
+}
+.v14-services .industry-rail :is(button,summary):focus-visible { outline: 2px solid var(--v14-metric); outline-offset: -2px; }
+.v14-services .industry-rail button:disabled { opacity: .48; cursor: default; }
+
+.v14-services .industry-rail:has(> .industry-module:only-child) { overflow: hidden; }
+.v14-services .industry-rail > .industry-module-fill:only-child { flex: 1 1 0; min-height: 0; }
+.v14-services .industry-rail > .industry-module-fill:not(:only-child) { flex: 1 0 auto; min-height: 0; }
+.v14-services .industry-module-fill:only-child > .industry-module-body {
+  min-height: 0;
+  overflow: auto;
+  overscroll-behavior: contain;
+}
+.v14-services .industry-module-fill > :is(header,footer) { flex-shrink: 0; }
+@media (max-width: 960px) {
+  .jt-screen.v14-services { height: 100dvh; min-height: 0; overflow: hidden; }
+  .jt-screen.v14-services .jt-body.overview-rail-layout {
+    position: relative;
+    flex: 1 1 0;
+    min-height: 0;
+    grid-template: "map" minmax(0,1fr) / minmax(0,1fr);
+    padding: 8px;
+  }
+  .v14-services .jt-body > .live-map { position: absolute; inset: 0; height: auto; min-height: 0; }
+  .v14-services .jt-body .jt-map { height: 100%; min-height: 0; }
+  .v14-services .jt-body > .industry-rail { position: absolute; top: 8px; bottom: 8px; min-height: 0; max-height: none; grid-area: auto; }
+  .v14-services .left-panel.industry-rail { left: 8px; width: min(320px,calc(100% - 32px)); }
+  .v14-services .jt-body > .panel-toggle { position: absolute; grid-area: auto; left: 8px; top: 40%; }
+  .v14-services .jt-body > .toggle-left[aria-expanded="true"] { top: 12px; left: min(242px,calc(100% - 108px)); }
+  .v14-services .jt-body > .toggle-right { left: auto; right: 8px; margin: 0; }
+  .v14-services .jt-body:not(.right-collapsed):not(.map-only) > .toggle-left { visibility: hidden; }
+}
+@media (max-width: 876px) {
+  .v14-services .jt-body:not(.right-collapsed):not(.map-only) > .left-panel { visibility: hidden; }
+}
+@media (max-width: 600px) {
+  .v14-services .service-file-metrics > div { padding-inline: 8px; }
+}
+
+/* MasterGo V1.4: 彩色标签 472:43394 (44×26), 地图树 946:19211 (40), 表头 332:19296 (32). */
+.v14-services .svc-tag {
+  --tag-color: #2371f7;
+  display:inline-flex;align-items:center;justify-content:center;gap:4px;
+  flex:none;min-width:44px;height:26px;box-sizing:border-box;padding:0 6px;
+  border:1px solid color-mix(in srgb,var(--tag-color) 70%,transparent);border-radius:3px;
+  color:var(--v14-ink);background:color-mix(in srgb,var(--tag-color) 38%,var(--service-page-fill));
+  font:400 16px/24px var(--v14-font);white-space:nowrap;
+}
+.v14-services [data-type="food"],.v14-services [data-type="coaches"],.v14-services [data-type="补时段"] { --tag-color:#a535fa; }
+.v14-services [data-type="medical"],.v14-services [data-type="received"],.v14-services [data-type="补容量"] { --tag-color:#20b0f3; }
+.v14-services [data-type="charging"],.v14-services [data-type="closed"] { --tag-color:#11ca14; }
+.v14-services [data-type="withdrawn"] { --tag-color:var(--v14-muted); }
+.v14-services [data-type="partners"],.v14-services [data-type="review"] { --tag-color:#ffae00; }
+.v14-services [data-type="overdue"] { --tag-color:#ff4f52; }
+.v14-services .svc-tag-line {display:flex;align-items:center;gap:4px;min-width:0;overflow-x:auto;}
+.v14-services .svc-provider-heading {display:flex;align-items:center;gap:12px;padding:8px;border-bottom:1px solid var(--industry-table-line)}
+.v14-services .svc-provider-heading > svg {width:64px;height:64px;background:var(--v14-tab);border:1px solid var(--v14-list-line);border-radius:4px}
+.v14-services .svc-provider-heading > div,.v14-services .svc-name-cell > div {min-width:0}
+.v14-services .svc-provider-heading h3 {overflow:hidden;text-overflow:ellipsis;white-space:nowrap;margin:0 0 4px;font:700 22px/30px var(--v14-font)}
+.v14-services .svc-provider-metrics {grid-template-columns:repeat(auto-fit,minmax(min(100%,112px),1fr))}
+.v14-services .svc-provider-metrics dd {font-size:20px;font-weight:700}
+.v14-services .svc-provider-fields {grid-template-columns:max-content minmax(0,1fr)}
+.v14-services .svc-provider-fields :is(dt,dd) {padding:6px 10px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.v14-services .svc-provider-fields .industry-row-action {max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.v14-services .svc-provider-evidence summary {cursor:pointer;color:var(--v14-metric);font:700 16px/26px var(--v14-font)}
+.v14-services .svc-provider-evidence .svc-provider-fields {margin:6px 0 0}
+.v14-services .svc-provider-evidence dd {overflow-x:auto;text-overflow:clip}
+.v14-services .svc-name-cell {display:flex;align-items:center;gap:6px;min-width:0}
+.v14-services .svc-name-cell > div {flex:1}
+.v14-services .svc-name-cell > svg {width:24px;height:24px;flex:none}
+.v14-services .svc-name-cell .svc-tag {margin-top:2px}
+.v14-services .svc-venue-directory {display:grid;gap:2px;min-width:0}
+.v14-services .svc-venue-row {
+  display:grid;box-sizing:border-box;width:100%;min-width:0;padding:2px 10px;
+  border:1px solid var(--industry-table-line);border-radius:2px;background:var(--v14-list);
+  text-align:start;color:var(--v14-ink);font:400 16px/24px var(--v14-font);cursor:pointer;
+}
+.v14-services .svc-venue-row:is(:hover,:focus-visible) {border-color:var(--v14-edge)}
+.jt-screen.v14-services .svc-venue-row[aria-current="true"] {border-color:var(--v14-list-line);background:var(--v14-tab-active);color:#fff}
+.v14-services .svc-venue-name {display:block;min-width:0;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.v14-services .svc-venue-meta {display:flex;align-items:center;gap:8px;min-width:0;white-space:nowrap}
+.v14-services .svc-venue-count {margin-inline-start:auto;font-variant-numeric:tabular-nums}
+.v14-services .svc-tariff-table { width:100%; table-layout:auto; }
+.v14-services .svc-tariff-table :is(th,td):not(:first-child) { text-align:right; }
+.v14-services .svc-served-table th:nth-child(2),.v14-services .svc-served-table th:nth-child(3) {width:92px}
+.v14-services .industry-rail .industry-module .svc-back {padding:2px 8px;white-space:nowrap}
+.v14-services .svc-directory-row {display:block;box-sizing:border-box;width:100%;min-height:34px;padding:4px 12px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:start;color:var(--v14-ink);background:var(--v14-list);border:1px solid transparent;font:400 16px/24px var(--v14-font)}
+.v14-services .svc-directory-row[aria-current=true] {background:var(--v14-tab-active);border-color:var(--v14-list-line);color:#fff}
+.v14-services .svc-preview-title .industry-row-action {height:28px;padding:0 8px;border:1px solid var(--v14-list-line);border-radius:3px;color:var(--v14-ink);background:var(--v14-tab);font:400 16px/24px var(--v14-font);white-space:nowrap;cursor:pointer}
+.v14-services .svc-provider-list {display:grid;gap:4px}
+.v14-services .svc-provider-list .svc-directory-row {display:flex;gap:8px;align-items:center;height:40px;padding:4px 10px;border:1px solid var(--industry-table-line)}
+.jt-screen.v14-services .industry-rail .svc-provider-list .svc-directory-row[aria-current="true"] {color:#fff;border-color:var(--v14-list-line)}
+.v14-services .svc-provider-list .svc-directory-row > svg {width:24px;height:24px;flex:none}
+.v14-services .svc-provider-list .svc-provider-name {flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.v14-services .svc-provider-list .svc-directory-row > i {width:16px;height:16px;margin-inline-start:auto;flex:none;background:currentColor;mask:url('/jingshan/ui/panorama-v14/chevron-right.svg') center/contain no-repeat}
+.v14-services .industry-rail .support-categories {display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:4px}
+.v14-services .industry-rail .support-categories > button {min-width:0;padding-inline:0;white-space:nowrap}
+@container (max-width: 230px) {
+  .v14-services .industry-rail .support-categories {grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+.v14-services .svc-mobile-return {display:none}
+@media (min-width:961px) and (max-width:1359px) {
+  .jt-screen.v14-services .jt-body.overview-rail-layout:has(.support-categories) {
+    --left-panel-width:min(336px,calc(50vw - var(--industry-subnav-width) / 2 - 24 * var(--v14-unit)));
+  }
+}
+@media (min-width:1200px) {
+  .jt-screen.v14-services .jt-body.overview-rail-layout:has(.plan-courts,.opening-task-list) {--left-panel-width:min(30.5vw,650px)}
+}
+@media (max-width:960px) {
+  .v14-services .industry-module-body > .svc-mobile-return {display:inline-flex;justify-self:start}
+}

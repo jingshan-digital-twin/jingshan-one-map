@@ -1,0 +1,5 @@
+[
+  {"key":"urban","name":"城镇开发边界","color":"#00D9FF","halo":"#084163","pattern":"solid"},
+  {"key":"ecology","name":"生态保护红线","color":"#FF3988","halo":"#65143B","pattern":"hatch"},
+  {"key":"farmland","name":"永久基本农田（2024）","color":"#FFE346","halo":"#68511B","pattern":"dots"}
+]

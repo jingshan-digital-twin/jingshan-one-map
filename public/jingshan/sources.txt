@@ -1,0 +1,32 @@
+数智京山网旅产业一张图 · 底图与区划数据
+
+卫星影像
+Sentinel-2 cloudless — EOX IT Services GmbH（包含经处理的 Copernicus Sentinel 2016 & 2017 数据）
+数据许可：CC BY 4.0 https://creativecommons.org/licenses/by/4.0/
+提供者：https://cloudless.eox.at/
+WMS：https://tiles.maps.eox.at/map?service=WMS&request=GetCapabilities
+图层 s2cloudless，WGS84，经纬度顺序西南东北。
+eox2016.jpg（2048×2400）：112.65, 30.55, 113.66, 31.62
+eox2016-city.jpg（1800×1300）：113.06, 30.974, 113.205, 31.077
+影像用于离线预览，显示时进行了亮度、对比度及饱和度调整。
+
+行政区边界
+© OpenStreetMap 贡献者，ODbL 1.0 https://www.openstreetmap.org/copyright
+本系统提供的边界 GeoJSON：./administration.json
+京山市： https://www.openstreetmap.org/relation/3219962
+街镇：8230005, 8230007, 8230010, 8230019, 8230021, 8230033, 8230037,
+8230040, 8230041, 8230044, 8230051, 8230058, 8230062, 8230084, 8230090。
+每项要素保留原 relation 链接、源名称和显示名称。将 OSM relation 成员拼接成 WGS84 面，
+经 PostGIS 校验和拓扑整理。新市镇、永兴镇采用当前街道显示名，几何仍为开源参考边界。
+边界用于地图参考，正式应用请接入经核验的行政区数据。
+
+道路参考图层
+© OpenMapTiles，数据来自 © OpenStreetMap 贡献者。
+数据许可：ODbL 1.0 https://www.openstreetmap.org/copyright
+瓦片提供者：OpenFreeMap https://openfreemap.org/
+快照：2026-11-01，https://tiles.openfreemap.org/planet/20261101_080013_pt/{z}/{x}/{y}.pbf
+本系统提供的 GeoJSON：./roads.json
+从 OpenMapTiles 的 transportation 与 transportation_name 图层提取，京山全域使用第 13 级、城区使用第 14 级。
+按本项目京山市参考边界裁剪，保留源数据已有路名和编号。几何为道路中心线，widthM 为按等级估算的显示宽度。
+
+网球场地、人口、赛事及相关专题业务数据均为测试数据。

@@ -1,0 +1,89 @@
+.fusion-dashboard-rail { --industry-gap: 12px; }
+.fusion-dashboard-rail .industry-module-body { padding: 12px; }
+.fusion-dashboard-rail .industry-module-body > *,
+.fusion-dashboard-rail .fusion-fields > * { min-width: 0; }
+.fusion-dashboard-rail p { margin: 0; }
+.fusion-dashboard-rail :is(button, select, input, small, summary) { font: inherit; font-size: 16px; }
+.fusion-heading, .fusion-ticket > div:first-child {
+  display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 4px 8px;
+}
+.fusion-heading h3 {
+  margin: 0; border-left: 3px solid var(--v14-metric); padding-left: 8px;
+  color: var(--v14-ink); font: 700 18px/24px var(--v14-font);
+}
+.fusion-heading > span, .fusion-muted, .fusion-ticket small, .fusion-place-meta,
+.fusion-dashboard-rail .fusion-amount small { color: var(--v14-muted); }
+.fusion-dashboard-rail :is(.fusion-section,.fusion-fields,.fusion-package-content,.fusion-ticket) {
+  display: grid; align-content: start; min-width: 0; gap: 8px;
+}
+.fusion-field { display: grid; grid-template-columns: auto minmax(0,1fr); align-items: center; gap: 10px; }
+.fusion-field > span { color: var(--v14-muted); }
+.fusion-dashboard-rail :is(input, select) {
+  min-height: 36px; height: 36px; min-width: 0; padding: 4px 8px; max-width: 100%; text-overflow: ellipsis;
+}
+.fusion-metrics { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 8px; }
+.fusion-metric {
+  display: grid; gap: 4px; min-width: 0; padding: 9px 12px; text-align: start;
+  border: 1px solid var(--v14-edge); border-radius: 4px; background: var(--v14-list); color: var(--v14-ink);
+}
+.fusion-metric[aria-pressed="true"] { border-color: var(--v14-list-line); background: var(--industry-selected); }
+.fusion-metric strong { font: 400 clamp(26px,9cqw,34px)/1.15 "Cockpit Bebas",var(--v14-font); white-space: nowrap; font-variant-numeric: tabular-nums; color: var(--v14-metric); }
+.fusion-dashboard-rail .fusion-metric small { color: var(--v14-ink); font: 400 16px/1.25 var(--v14-font); }
+.fusion-trend {
+  display: grid; grid-template-columns: repeat(7,minmax(0,1fr)); gap: 4px; padding: 8px 8px 4px;
+  border: 1px solid var(--v14-edge); background: var(--v14-list); border-radius: 4px;
+}
+.fusion-day { display: grid; gap: 4px; padding: 0; border: 0; background: none; color: var(--v14-muted); }
+.fusion-day.on { color: var(--v14-metric); font-weight: 700; }
+.fusion-bar-track {
+  display: flex; justify-content: center; align-items: end; height: 64px; border-bottom: 1px solid var(--v14-edge);
+  background: repeating-linear-gradient(to top, transparent 0 20px, var(--v14-edge) 20px 21px);
+}
+.fusion-bar-track i { width: min(56%,20px); border-radius: 2px 2px 0 0; background: linear-gradient(0deg,#2377c5,#69d6f8); }
+.fusion-day.on .fusion-bar-track i { background: linear-gradient(0deg,#da921d,#ffc74f); }
+.fusion-origins,.fusion-stop-offers { list-style: none; padding: 0; }
+.fusion-origins li+li { border-top: 1px solid var(--v14-edge); }
+.fusion-origins button {
+  display: grid; grid-template-columns: auto minmax(0,1fr) auto; width: 100%; gap: 10px; padding: 6px;
+  border: 0; align-items: center; background: transparent; text-align: left;
+}
+.fusion-origins button[aria-pressed="true"] { background: var(--industry-selected); box-shadow: inset 3px 0 var(--v14-metric); }
+.fusion-rank { color: var(--v14-metric); font-weight: 700; font-variant-numeric: tabular-nums; }
+.fusion-origin-text,.fusion-amount { display: grid; gap: 2px; }
+.fusion-dashboard-rail .fusion-amount { text-align: right; line-height: 20px; font-variant-numeric: tabular-nums; }
+.fusion-meter { height: 4px; background: var(--v14-edge); border-radius: 4px; }
+.fusion-meter i { display: block; height: 100%; border-radius: inherit; background: var(--v14-metric); }
+.fusion-dashboard-rail .fusion-link {
+  justify-self: start; align-self: start; background: transparent; border: 0; padding: 2px 0; color: var(--v14-metric); font-weight: 700;
+}
+.fusion-trip-tabs.industry-tabs { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 3px; }
+.fusion-trip-tabs.industry-tabs > button { min-width: 0; min-height: 38px; line-height: 22px; font-size: 16px; padding: 4px 1px; }
+.fusion-filter { display: flex; gap: 4px; flex-wrap: wrap; }
+.fusion-filter button {
+  flex: 1 1 auto; min-height: 32px; padding: 2px 6px; border: 1px solid var(--v14-edge); border-radius: 3px;
+  color: var(--v14-ink); background: var(--v14-tab);
+}
+.fusion-filter button[aria-pressed="true"] { background: var(--industry-selected); border-color: var(--v14-list-line); color: var(--v14-metric); }
+.fusion-stop,.fusion-ticket {
+  border: 1px solid var(--v14-edge); border-radius: 4px; background: var(--v14-list); overflow-wrap: anywhere;
+}
+.fusion-stop.on { border-color: var(--v14-list-line); box-shadow: inset 3px 0 #ffae00; }
+.fusion-stop > button { display: grid; width: 100%; gap: 3px; text-align: start; background: transparent; border: 0; padding: 8px 10px; line-height: 22px; }
+.fusion-place-title { display: flex; gap: 6px; align-items: baseline; }
+.fusion-kind,.fusion-dashboard-rail .fusion-badge {
+  display: inline-block; padding: 0 4px; margin: 0; border: 1px solid var(--v14-edge); border-radius: 3px; color: var(--v14-metric); font-size: 16px; line-height: 21px;
+}
+.fusion-kind { flex-shrink: 0; }
+.fusion-kind.hot { color: #ffc16b; }
+.cockpit-light .fusion-kind.hot { color: #9a5700; }
+.fusion-ticket, .fusion-stop-offers { padding: 7px 10px; }
+.fusion-stop-offers { border-top: 1px solid var(--v14-edge); }
+.fusion-dashboard-rail .fusion-packages { border-top: 1px solid var(--v14-edge); padding-top: 8px; }
+.fusion-packages summary { color: var(--v14-metric); font-weight: 700; cursor: pointer; }
+.fusion-package-content { margin-top: 8px; }
+.fusion-ticket ol { padding-inline-start: 20px; }
+.fusion-dashboard-rail .industry-actions { padding: 0 12px 12px; }
+.fusion-dashboard-rail button:disabled, .fusion-merchant-rail button:disabled { opacity: .55; cursor: default; }
+@container (max-width: 270px) {
+  .fusion-dashboard-rail .fusion-field { grid-template-columns: minmax(0,1fr); gap: 2px; }
+}

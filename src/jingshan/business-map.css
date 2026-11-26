@@ -1,0 +1,174 @@
+/* V1.4 cockpit controls sit inside the visible map column. */
+.jt-screen:is(.v14-services,.v14-investment,.v14-fusion) .industry-module {
+  --v14-heading-image: url('/jingshan/ui/panorama-v14/heading-dark.png');
+}
+.jt-screen.cockpit-light:is(.v14-services,.v14-investment,.v14-fusion) .industry-module {
+  --v14-heading-image: url('/jingshan/ui/panorama-v14/heading-light.png');
+}
+.jt-screen:is(.v14-services,.v14-investment,.v14-fusion) .industry-module .v14-overview-heading {
+  box-sizing: border-box;
+  flex-wrap: nowrap;
+  min-height: 46px;
+  padding: 4px 12px;
+}
+.jt-screen:is(.v14-services,.v14-investment,.v14-fusion) .industry-module .v14-overview-heading h2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font: 700 22px/30px var(--v14-font);
+}
+.jt-screen:is(.v14-services,.v14-investment,.v14-fusion) .industry-rail :is(th,dt,.industry-status,.industry-button,.industry-tabs > button) {
+  white-space: nowrap;
+}
+/* Both scenes share the V1.4 rail, table and layer-menu scrollbars. */
+.jt-screen:is(.v14-services, .v14-investment, .v14-fusion) :is(.jt-body *, .jt-header *, [role="dialog"], [role="dialog"] *) {
+  scrollbar-width: thin;
+  scrollbar-color: var(--v14-scroll-thumb) transparent;
+
+  @supports selector(::-webkit-scrollbar) {
+    /* Native thin/color take precedence over a pixel-sized WebKit thumb. */
+    scrollbar-width: auto;
+    scrollbar-color: auto;
+    &::-webkit-scrollbar { width: 2px; height: 2px; }
+    &::-webkit-scrollbar-thumb { border-radius: 1px; background: var(--v14-scroll-thumb); }
+    &::-webkit-scrollbar-track, &::-webkit-scrollbar-corner { background: transparent; }
+    &::-webkit-scrollbar-button { display: none; }
+  }
+}
+.jt-screen:is(.v14-services, .v14-investment, .v14-fusion) .industry-rail .industry-table thead th {
+  box-sizing: border-box;
+  height: 32px;
+  padding-block: 3px;
+}
+#service-map-navigation {
+  position: absolute;
+  z-index: 6;
+  inset: 0 0 auto;
+  display: flex;
+  justify-content: center;
+  pointer-events: none;
+}
+#service-map-navigation > * { max-width: 100%; pointer-events: auto; }
+.v14-services .map-top-controls, .v14-services .map-toolbar { top: 56px; }
+.v14-services .map-popover:not(.scene-assistant-panel) { margin-top: 56px; }
+.business-map-legend {
+  position: absolute;
+  left: 0;
+  bottom: 8px;
+  max-width: calc(100% - clamp(74px, 7vw, 116px));
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 12px;
+  padding: 8px 12px;
+  color: var(--v14-ink);
+  background: var(--v14-panel, #102849);
+  border: 1px solid var(--v14-list-line);
+  font: 400 16px/24px var(--v14-font);
+  pointer-events: none;
+}
+.cockpit-light .business-map-legend { background: rgb(235 247 255 / 94%); }
+.business-map-legend.with-population { padding: 4px 8px; }
+:is(.v14-services,.v14-fusion) .business-map-legend,.business-map-legend.with-population,.business-map-legend.planning-legend {
+  left: 8px;
+  bottom: 8px;
+  display: grid;
+  grid-template-columns: max-content;
+  justify-items: start;
+  gap: 3px;
+  padding: 6px 9px;
+  font-size: 14px;
+  line-height: 19px;
+}
+.business-map-legend span { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; }
+.business-map-legend i[data-planning-pattern] { width:21px; height:12px; box-shadow:0 0 0 1px var(--casing); border:2px solid var(--symbol); }
+.business-map-legend i[data-planning-pattern="hatch"] { background:repeating-linear-gradient(-45deg,var(--symbol) 0 2px,transparent 2px 5px); }
+.business-map-legend i[data-planning-pattern="dots"] { background:radial-gradient(var(--casing) 1px,transparent 1.5px) 0 0/5px 5px, var(--symbol); }
+.legend-location-pin { width:20px; height:22px; flex:none; vertical-align:middle; }
+.business-map-legend i { width: 16px; height: 10px; border: 1px solid var(--symbol); background: color-mix(in srgb, var(--symbol) 50%, transparent); }
+.business-map-legend i:is([data-role="support"],[data-role="venue"],[data-role="task"],[data-role="demand"]) {
+  width: 10px; border-radius: 50%; background: var(--symbol);
+}
+.business-map-legend i[data-role="reserveGroup"] { width:14px; height:14px; border-radius:50%; background:#613b9c; border:2px solid #e5d3ff; }
+.business-map-legend i[data-role="link"] { height: 0; border-width: 2px 0 0; }
+.business-map-legend i[data-role="range"] { border-style: dashed; border-radius: 50%; }
+.business-model-notice {
+  position: absolute;
+  left: 0;
+  bottom: 88px;
+  margin: 0;
+  padding: 4px 8px;
+  border: 1px solid var(--v14-list-line);
+  color: var(--v14-ink);
+  background: var(--v14-list);
+  font: 400 16px/24px var(--v14-font);
+}
+.jt-screen .home-toolbar .model-view-switch {
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--home-tool-reset-edge);
+  color: var(--home-tool-reset-ink);
+  background: var(--home-tool-reset-fill);
+  font: 700 18px/26px var(--v14-font);
+}
+.jt-screen .home-toolbar .model-view-switch::before { content: none; }
+@media (max-width: 960px) {
+  .jt-screen.v14-services .jt-body > .industry-rail { top: 60px; }
+  .jt-screen.v14-services .jt-body > .toggle-left[aria-expanded="true"] { top: 64px; }
+  #service-map-navigation { z-index: 7; }
+  .jt-screen:is(.v14-investment,.v14-fusion) { height: 100dvh; min-height: 0; overflow: hidden; }
+  .jt-screen:is(.v14-investment,.v14-fusion) .jt-body.overview-rail-layout {
+    grid-template: "map" minmax(0, 1fr) / minmax(0, 1fr);
+    position: relative;
+    flex: 1 1 0;
+    min-height: 0;
+    padding: 8px;
+  }
+  :is(.v14-investment,.v14-fusion) .jt-body > .live-map { position: absolute; inset: 0; height: auto; min-height: 0; }
+  :is(.v14-investment,.v14-fusion) .jt-body .jt-map { height: 100%; min-height: 0; }
+  :is(.v14-investment,.v14-fusion) .jt-body > .industry-rail { position: absolute; inset-block: 8px; min-height: 0; max-height: none; grid-area: auto; }
+  :is(.v14-investment,.v14-fusion) .left-panel.industry-rail { left: 8px; width: min(320px,calc(100% - 32px)); }
+  .jt-screen:is(.v14-services,.v14-investment,.v14-fusion) .right-panel.industry-rail {
+    right: 8px; z-index: 5; width: min(320px,calc(100% - 16px));
+  }
+  .jt-screen:is(.v14-services,.v14-investment,.v14-fusion) .right-panel.industry-detail-rail {
+    width: min(540px,calc(100% - 16px));
+  }
+  :is(.v14-investment,.v14-fusion) .jt-body > .panel-toggle { position: absolute; grid-area: auto; top: 40%; left: 8px; }
+  :is(.v14-investment,.v14-fusion) .jt-body > .toggle-left[aria-expanded="true"] { top: 12px; left: min(242px,calc(100% - 108px)); }
+  :is(.v14-investment,.v14-fusion) .jt-body > .toggle-right { right: 8px; left: auto; margin: 0; }
+  .jt-screen:is(.v14-services,.v14-investment,.v14-fusion) .jt-body > .live-map {
+    grid-area: auto;
+    align-self: stretch;
+    inset: 0;
+    height: 100%;
+  }
+}
+@media (max-width: 876px) {
+  :is(.v14-investment,.v14-fusion) .jt-body:not(.right-collapsed):not(.map-only) > :is(.left-panel,.toggle-left) { visibility: hidden; }
+}
+@media (876px < width <= 960px) and (hover: hover) and (pointer: fine) {
+  .jt-screen:is(.v14-services,.v14-investment,.v14-fusion) .right-panel.industry-rail:not(.industry-detail-rail) {
+    width: calc((100% - 24 * var(--v14-unit)) * var(--compact-rail-share));
+  }
+}
+
+.v14-fusion .business-map-legend { font-size: 16px; line-height: 21px; }
+.v14-fusion .business-map-legend i { width: 10px; height: 10px; border-radius: 50%; background: var(--symbol); }
+
+/* Keep the shared rail frame and its actions available during long visitor and coupon lists. */
+.v14-fusion .industry-rail { overflow: hidden; }
+.v14-fusion .industry-rail > .industry-module-fill { flex: 1 1 0; min-height: 0; }
+.v14-fusion .industry-module-fill > .v14-overview-heading,
+.v14-fusion .industry-module-fill > .industry-actions { flex-shrink: 0; }
+.v14-fusion .industry-module-fill > .industry-module-body {
+  flex: 1 1 0; min-height: 0; overflow-y: auto; overflow-x: hidden; overscroll-behavior-y: contain;
+}
+@media (max-width: 960px) {
+  .jt-screen.v14-fusion .jt-body > .industry-rail {
+    background: var(--v14-overlay);
+    backdrop-filter: blur(8px);
+  }
+  .jt-screen.v14-fusion .jt-body > .panel-toggle { z-index: 6; }
+  .jt-screen.v14-fusion .jt-body > .toggle-right[aria-expanded="true"] { top: 22px; right: 24px; }
+}

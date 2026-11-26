@@ -1,0 +1,1007 @@
+/*! Inter Variable · SIL Open Font License 1.1 · /licenses/inter-OFL.txt */
+@font-face {
+  font-family: 'Inter Variable';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('@fontsource-variable/inter/files/inter-latin-wght-normal.woff2') format('woff2');
+}
+
+/* This stylesheet is an entry dependency of the management portal only. */
+:root {
+  color-scheme: light;
+  --portal-canvas: #f4f5fa;
+  --platform-paper: #fff;
+  --platform-soft: #f5f3fa;
+  --platform-ink: #383447;
+  --platform-muted: #666278;
+  --platform-line: #e5e1ec;
+  --platform-accent: #7040d0;
+  --portal-primary: #8c57ff;
+  --portal-primary-button: #7543d8;
+  --portal-on-primary: #fff;
+  --portal-selected: #f0e9ff;
+  --portal-input: #fff;
+  --portal-glass: rgba(244, 245, 250, 0.82);
+  --portal-popover: rgba(255, 255, 255, 0.94);
+  --portal-backdrop: rgba(39, 32, 58, 0.32);
+  --portal-shadow: 0 3px 11px rgba(46, 38, 61, 0.075), 0 1px 3px rgba(46, 38, 61, 0.045);
+  --portal-raised: 0 7px 21px rgba(46, 38, 61, 0.105), 0 2px 5px rgba(46, 38, 61, 0.055);
+  --portal-radius: 16px;
+  --portal-gutter: clamp(20px, 2.1vw, 38px);
+  --portal-font:
+    -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter Variable', Inter, 'PingFang SC',
+    'Microsoft YaHei UI', 'Microsoft YaHei', sans-serif;
+  --portal-spring: 410ms cubic-bezier(0.22, 0.92, 0.22, 1.06);
+  --green: #18745b;
+  --gold: #895600;
+  --red: #af3744;
+  --cyan: var(--platform-accent);
+  --v14-list-line: var(--platform-line);
+  --v14-tab-active: var(--portal-primary-button);
+  --v14-tab: var(--platform-soft);
+  --v14-list: var(--platform-paper);
+  font-family: var(--portal-font);
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--platform-ink);
+  background: var(--portal-canvas);
+  -webkit-font-smoothing: antialiased;
+}
+:root[data-platform-theme='dark'] {
+  color-scheme: dark;
+  --portal-canvas: #28243d;
+  --platform-paper: #322e48;
+  --platform-soft: #3c3751;
+  --platform-ink: #f0edf7;
+  --platform-muted: #c1bcd0;
+  --platform-line: #4b455e;
+  --platform-accent: #c6a8ff;
+  --portal-primary: #ab82ff;
+  --portal-primary-button: #7747d7;
+  --portal-selected: #493a64;
+  --portal-input: #322e48;
+  --portal-glass: rgba(40, 36, 61, 0.84);
+  --portal-popover: rgba(51, 47, 74, 0.95);
+  --portal-backdrop: rgba(10, 7, 22, 0.57);
+  --portal-shadow: 0 3px 11px rgba(12, 10, 20, 0.24), 0 1px 3px rgba(12, 10, 20, 0.14);
+  --portal-raised: 0 7px 22px rgba(12, 10, 20, 0.35);
+  --green: #80d8b5;
+  --gold: #f1cd83;
+  --red: #ffabb2;
+}
+body {
+  background: var(--portal-canvas);
+  color: var(--platform-ink);
+}
+* {
+  scrollbar-width: thin;
+  scrollbar-color: color-mix(in srgb, var(--platform-muted) 37%, transparent) transparent;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: var(--platform-ink);
+  font-weight: 600;
+  letter-spacing: -0.025em;
+}
+h2 {
+  font-size: 19px;
+}
+h3 {
+  font-size: 17px;
+}
+button,
+input,
+textarea,
+select {
+  font-family: inherit;
+}
+button,
+input:not([type='checkbox']):not([type='radio']):not([type='file']),
+select,
+textarea {
+  color: var(--platform-ink);
+  background: var(--portal-input);
+  border: 1px solid var(--platform-line);
+  border-radius: 8px;
+}
+button {
+  font-size: 14px;
+  font-weight: 500;
+  transition:
+    background-color 0.15s,
+    border-color 0.15s,
+    color 0.15s,
+    box-shadow 0.15s,
+    transform var(--portal-spring);
+}
+button:hover:not(:disabled) {
+  background: var(--platform-soft);
+  border-color: color-mix(in srgb, var(--platform-accent) 38%, var(--platform-line));
+}
+button:active:not(:disabled) {
+  transform: scale(0.98);
+}
+button:disabled {
+  opacity: 0.52;
+}
+input::placeholder,
+textarea::placeholder {
+  color: var(--platform-muted);
+  opacity: 0.9;
+}
+:focus-visible {
+  outline: 3px solid var(--portal-primary);
+  outline-offset: 3px;
+}
+input[type='checkbox'],
+input[type='radio'] {
+  accent-color: var(--portal-primary-button);
+}
+::selection {
+  color: var(--platform-ink);
+  background: var(--portal-selected);
+}
+.data-platform {
+  min-height: 100dvh;
+  display: grid;
+  grid-template-columns: clamp(212px, 16.5vw, 260px) minmax(0, 1fr);
+}
+.platform-sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  position: sticky;
+  top: 0;
+  height: 100dvh;
+  overflow: visible;
+  padding: 0 12px 16px 0;
+  background: transparent;
+  color: var(--platform-ink);
+  border: 0;
+  z-index: 25;
+}
+.brand-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0 0 24px;
+  min-height: 82px;
+}
+.platform-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 11px;
+  color: var(--platform-ink);
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+}
+.portal-brand-mark {
+  position: relative;
+  flex: none;
+  width: 37px;
+  height: 37px;
+  border-radius: 11px;
+  background: linear-gradient(145deg, #ae8eff, #8450ec 67%, #6c39cc);
+  box-shadow:
+    0 3px 7px #7649cd36,
+    inset 0 1px 1px #ffffff65;
+}
+.portal-brand-mark::before {
+  content: '';
+  position: absolute;
+  inset: 2px;
+  background: white;
+  mask: url('/jingshan/ui/platform-orbit.svg') center/contain no-repeat;
+}
+.platform-brand b {
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1.24;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+}
+.platform-brand small {
+  font-size: 11px;
+  color: var(--platform-muted);
+  font-weight: 550;
+  letter-spacing: 0.15em;
+  margin-top: 2px;
+}
+.portal-nav-scroll {
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+}
+.has-nav-drawer .portal-nav-scroll { overscroll-behavior: contain; }
+.platform-sidebar nav {
+  position: relative;
+  padding: 0 0 12px;
+  isolation: isolate;
+}
+.platform-sidebar nav section {
+  margin: 0 0 15px;
+}
+.platform-sidebar nav h2 {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  white-space: nowrap;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  font-weight: 550;
+  color: var(--platform-muted);
+  padding: 0 0 0 0;
+  margin: 5px 12px 7px 0;
+  line-height: 1.45;
+}
+.platform-sidebar nav h2::before,
+.platform-sidebar nav h2::after {
+  content: '';
+  height: 1px;
+  background: var(--platform-line);
+}
+.platform-sidebar nav h2::before {
+  width: 16px;
+}
+.platform-sidebar nav h2::after {
+  flex: 1;
+}
+.platform-sidebar nav a {
+  display: flex;
+  position: relative;
+  align-items: center;
+  gap: 13px;
+  min-height: 40px;
+  padding: 7px 16px 7px 24px;
+  margin: 2px 0;
+  border: 0;
+  border-radius: 0 24px 24px 0;
+  font-size: 14px;
+  font-weight: 500;
+  white-space: nowrap;
+  color: var(--platform-ink);
+  text-decoration: none;
+}
+.platform-sidebar nav a:hover {
+  background: color-mix(in srgb, var(--platform-muted) 8%, transparent);
+}
+.platform-sidebar nav a[aria-current='page'] {
+  background: transparent;
+  color: white;
+  border: 0;
+  box-shadow: none;
+  font-weight: 600;
+}
+.platform-sidebar nav a[aria-current='page'] svg {
+  stroke-width: 1.9;
+}
+.platform-sidebar nav a:focus-visible {
+  outline-offset: -3px;
+}
+.portal-nav-marker {
+  position: absolute;
+  inset: 0 0 auto;
+  height: 40px;
+  z-index: -1;
+  border-radius: 0 25px 25px 0;
+  background: linear-gradient(98deg, #8957da 0%, #8853ef 52%, #7b47de 100%);
+  box-shadow: 0 3px 9px #8550dc38;
+  opacity: 0;
+  pointer-events: none;
+}
+.platform-cockpit {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  margin: 8px 5px 0 17px;
+  padding: 11px 9px 2px;
+  border: 0;
+  border-top: 1px solid var(--platform-line);
+  color: var(--platform-muted);
+  font-size: 13px;
+  text-decoration: none;
+}
+.platform-cockpit svg:last-child {
+  margin-left: auto;
+}
+.platform-cockpit:hover {
+  text-decoration: none;
+  color: var(--platform-accent);
+}
+.platform-main {
+  min-width: 0;
+}
+.platform-top {
+  position: sticky;
+  z-index: 18;
+  top: 0;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 66px;
+  padding: 10px var(--portal-gutter);
+  border: 0;
+  background: var(--portal-glass);
+  -webkit-backdrop-filter: blur(18px) saturate(135%);
+  backdrop-filter: blur(18px) saturate(135%);
+}
+.portal-global-search {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: clamp(300px, 36vw, 495px);
+  max-width: 100%;
+  min-width: 0;
+  padding: 3px 6px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+}
+.portal-global-search:focus-within {
+  background: var(--platform-paper);
+  border-color: var(--portal-primary);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--portal-primary) 12%, transparent);
+}
+.portal-global-search .portal-search-submit,
+.portal-global-search select,
+.portal-global-search input[type='search']:not([type='checkbox']):not([type='radio']):not([type='file']) {
+  flex: none;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  outline: 0;
+  padding: 4px 0;
+  color: var(--platform-muted);
+  font-size: 14px;
+}
+.portal-global-search .portal-search-submit {
+  width: 32px;
+  height: 32px;
+  display: grid;
+  place-items: center;
+  color: var(--platform-ink);
+}
+.portal-global-search .portal-search-submit:hover {
+  background: var(--platform-soft);
+}
+.portal-global-search select {
+  max-width: 100px;
+  padding-right: 2px;
+  cursor: pointer;
+}
+.portal-global-search select option {
+  color: var(--platform-ink);
+  background: var(--platform-paper);
+}
+.portal-global-search input[type='search']:not([type='checkbox']):not([type='radio']):not([type='file']) {
+  flex: 1;
+  width: 0;
+  min-width: 0;
+  border-left: 1px solid var(--platform-line);
+  border-radius: 0;
+  padding-left: 10px;
+  color: var(--platform-ink);
+}
+.portal-global-search kbd {
+  font: 500 11px var(--portal-font);
+  color: var(--platform-muted);
+  padding: 2px 5px;
+  border: 1px solid var(--platform-line);
+  border-radius: 4px;
+  white-space: nowrap;
+}
+.portal-session,
+.portal-user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  white-space: nowrap;
+}
+.portal-user {
+  font-size: 13px;
+  color: var(--platform-muted);
+  gap: 8px;
+}
+.portal-icon-button,
+.platform-mobile-menu {
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--platform-ink);
+}
+.portal-icon-button {
+  display: inline-flex;
+}
+.portal-avatar {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  position: relative;
+  color: var(--platform-accent);
+  background: var(--portal-selected);
+}
+.portal-avatar i {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 9px;
+  height: 9px;
+  margin: 0;
+  border-radius: 50%;
+  background: #37ac73;
+  border: 2px solid var(--portal-canvas);
+}
+.drawer-close,
+.platform-mobile-menu,
+.platform-nav-scrim {
+  display: none;
+}
+.platform-page {
+  padding: 12px var(--portal-gutter) 38px;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+.platform-page-title {
+  margin-bottom: 22px;
+  align-items: center;
+  gap: 12px;
+}
+.portal-crumb {
+  color: var(--platform-muted);
+  font-size: 12px;
+  line-height: 1.4;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-bottom: 4px;
+}
+.portal-crumb svg {
+  opacity: 0.65;
+}
+.platform-page-title h1 {
+  font-size: clamp(25px, 2.12vw, 34px);
+  line-height: 1.3;
+  letter-spacing: -0.035em;
+  font-weight: 650;
+}
+.page-heading {
+  animation: portal-arrive var(--portal-spring);
+}
+.portal-config-link,
+.publication-card a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 550;
+  transition:
+    transform var(--portal-spring),
+    box-shadow 0.18s;
+}
+.portal-config-link {
+  padding: 9px 14px;
+  color: var(--platform-accent);
+  border: 1px solid color-mix(in srgb, var(--portal-primary) 35%, var(--platform-line));
+  background: var(--platform-paper);
+}
+.portal-config-link:hover,
+.publication-card a:hover {
+  text-decoration: none;
+  transform: translateY(-1px);
+  box-shadow: var(--portal-shadow);
+}
+.platform-card,
+.data-table,
+.atlas-panel,
+.atlas-cards article,
+.data-platform .local-directory,
+.data-platform .local-assets,
+.data-platform .platform-forms,
+.data-platform .binding-scopes,
+.data-platform .binding-content,
+.data-platform .gis-inspector,
+.data-platform .spatial-table,
+.data-platform .gov-metrics > div {
+  background: var(--platform-paper);
+  color: var(--platform-ink);
+  border: 1px solid color-mix(in srgb, var(--platform-line) 68%, transparent);
+  border-radius: var(--portal-radius);
+  box-shadow: var(--portal-shadow);
+  min-width: 0;
+}
+.platform-content {
+  gap: 20px;
+}
+.platform-toolbar {
+  gap: 8px;
+}
+.platform-toolbar button,
+.platform-toolbar .draft-pill {
+  font-size: 13px;
+}
+.data-platform
+  :is(
+    button.primary,
+    .local-workbench button.local-primary,
+    .platform-forms button.pf-primary,
+    .platform-opening button.primary
+  ),
+.publication-card a {
+  color: var(--portal-on-primary);
+  background: var(--portal-primary-button);
+  border: 1px solid transparent;
+  box-shadow: 0 3px 7px #7543ce36;
+}
+.data-platform
+  :is(button.primary, .local-workbench button.local-primary, .platform-forms button.pf-primary):hover:not(
+    :disabled
+  ),
+.publication-card a:hover {
+  background: color-mix(in srgb, var(--portal-primary-button) 88%, #312041);
+  color: white;
+}
+.data-platform
+  :is(button.primary, .local-workbench button.local-primary, .platform-forms button.pf-primary):disabled {
+  box-shadow: none;
+}
+.draft-pill,
+.count-pill,
+.binding-badge,
+.atlas-label {
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 550;
+}
+.draft-pill {
+  color: var(--green);
+  background: color-mix(in srgb, var(--green) 10%, var(--platform-paper));
+}
+.draft-pill[data-active='true'] {
+  background: color-mix(in srgb, var(--gold) 13%, var(--platform-paper));
+  color: var(--gold);
+}
+.count-pill {
+  color: var(--platform-accent);
+  background: var(--portal-selected);
+}
+.data-platform table {
+  color: var(--platform-ink);
+  font-size: 14px;
+  font-variant-numeric: tabular-nums;
+}
+.data-platform th,
+.data-platform td {
+  border-color: var(--platform-line);
+}
+.data-platform th {
+  color: var(--platform-muted);
+  background: var(--platform-soft);
+  font-weight: 600;
+}
+.data-platform tbody tr:hover {
+  background: color-mix(in srgb, var(--platform-accent) 4%, var(--platform-paper));
+}
+.data-platform .spatial-table tr.chosen,
+.data-platform .pf-scroll tr.chosen {
+  background: var(--portal-selected);
+  color: var(--platform-ink);
+}
+.data-platform .spatial-table td,
+.data-platform .spatial-table th {
+  border-width: 0 0 1px;
+  padding: 8px 11px;
+}
+.data-platform .spatial-table .grid-scroll {
+  border-radius: 8px;
+  border: 1px solid var(--platform-line);
+}
+.data-platform .spatial-table footer {
+  font-size: 13px;
+  color: var(--platform-muted);
+}
+.platform-notice {
+  margin-bottom: 14px;
+}
+.platform-notice button {
+  margin-inline-start: 6px;
+}
+.message,
+.data-platform .local-notice,
+.data-platform .local-preview {
+  border-radius: 10px;
+  color: var(--platform-accent);
+  background: var(--portal-selected);
+  border-color: var(--platform-line);
+}
+.message.error,
+.data-platform .local-error,
+.data-platform .pf-error {
+  background: color-mix(in srgb, var(--red) 9%, var(--platform-paper));
+  color: var(--red);
+  border-color: color-mix(in srgb, var(--red) 30%, var(--platform-line));
+}
+.message.success {
+  background: color-mix(in srgb, var(--green) 9%, var(--platform-paper));
+  color: var(--green);
+  border-color: color-mix(in srgb, var(--green) 26%, var(--platform-line));
+}
+.data-platform .resource-delete,
+.platform-dialog .resource-delete,
+.data-platform .local-danger {
+  color: var(--red);
+}
+.data-platform .gov-metrics > div {
+  padding: 18px 20px;
+}
+.data-platform .gov-item[aria-pressed='true'],
+.data-platform .source-directory-row > button[aria-current='true'] {
+  background: var(--portal-selected);
+  color: var(--platform-accent);
+  border-color: transparent;
+}
+.data-platform .gov-fields pre,
+.data-platform .gov-fields code {
+  background: var(--platform-soft);
+  color: var(--platform-ink);
+  border-color: var(--platform-line);
+}
+.data-platform .granted {
+  color: var(--green);
+}
+.data-platform .platform-selection-bar {
+  font-size: 13px;
+  gap: 8px 12px;
+}
+.data-platform .platform-selection-bar button {
+  padding: 4px 9px;
+}
+.data-platform .platform-selection-bar input,
+.data-platform .catalog-pick input {
+  accent-color: var(--portal-primary-button);
+}
+.table-scroll,
+.service-scroll,
+.pf-scroll,
+.local-table-scroll,
+.binding-table {
+  overscroll-behavior-x: contain;
+}
+.data-platform .local-dialog,
+.data-platform dialog,
+.data-platform .admin-form {
+  color: var(--platform-ink);
+  background: var(--portal-popover);
+  border: 1px solid var(--platform-line);
+  border-radius: 18px;
+  box-shadow: 0 20px 65px #23183138;
+  -webkit-backdrop-filter: blur(14px) saturate(120%);
+  backdrop-filter: blur(14px) saturate(120%);
+}
+.data-platform dialog[open],
+.data-platform .admin-overlay > .admin-form {
+  animation: portal-dialog var(--portal-spring);
+}
+.data-platform dialog::backdrop,
+.data-platform .admin-overlay {
+  background: var(--portal-backdrop);
+  backdrop-filter: blur(3px);
+}
+.whole-resource-confirm {
+  display: grid;
+  gap: 6px;
+  margin: 12px 0;
+}
+.whole-resource-confirm input {
+  width: 100%;
+}
+.platform-confirm footer,
+.catalog-editor > header,
+.catalog-editor footer,
+.folder-order {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.platform-confirm footer,
+.catalog-editor footer {
+  justify-content: flex-end;
+}
+.catalog-editor > header {
+  justify-content: space-between;
+}
+.catalog-editor {
+  width: min(780px, 95vw);
+}
+.folder-resources {
+  max-height: 33vh;
+  overflow: auto;
+  display: grid;
+  gap: 5px;
+}
+.data-platform .gateway-connection {
+  background: var(--platform-soft);
+  border-color: var(--platform-line);
+  border-radius: 10px;
+}
+.data-platform .service-tabs button,
+.data-platform .pf-views button {
+  border-radius: 8px;
+}
+.data-platform .service-tabs [aria-current='true'],
+.data-platform .pf-views [aria-pressed='true'] {
+  color: var(--platform-accent);
+  background: var(--portal-selected);
+  border-color: transparent;
+}
+.data-platform .local-meta > div {
+  background: var(--platform-soft);
+  border-color: transparent;
+  border-radius: 10px;
+}
+.data-platform .source-directory-row > button {
+  border-color: transparent;
+  border-radius: 8px;
+}
+.data-platform .source-directory-row > button span {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.data-platform .source-directory-row > button small {
+  display: block;
+}
+.data-platform .source-directory-row > button b {
+  flex: none;
+  color: var(--platform-muted);
+  font-size: 12px;
+}
+.data-platform .gis-inspector {
+  box-shadow: var(--portal-shadow);
+}
+.data-platform .gis-controls,
+.data-platform .gis-identify,
+.data-platform .gis-status,
+.data-platform .gis-measure {
+  background: var(--portal-popover);
+  border: 1px solid var(--platform-line);
+  color: var(--platform-ink);
+  box-shadow: var(--portal-shadow);
+  backdrop-filter: blur(12px);
+}
+.data-platform .gis-controls button,
+.data-platform .gis-identify button,
+.data-platform .gis-measure button {
+  color: var(--platform-ink);
+}
+.data-platform .gis-controls button:hover,
+.data-platform .gis-controls button[aria-pressed='true'] {
+  color: var(--platform-accent);
+  background: var(--portal-selected);
+}
+.data-platform .gis-identify dt {
+  color: var(--platform-muted);
+}
+.data-platform .gis-status .failed {
+  color: var(--red);
+}
+.data-platform .gis-attribute-toggle {
+  margin: 10px;
+  padding: 8px;
+  background: var(--portal-selected);
+  color: var(--platform-accent);
+  border-color: transparent;
+}
+@keyframes portal-arrive {
+  from {
+    opacity: 0.65;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes portal-dialog {
+  from {
+    opacity: 0;
+    transform: translateY(8px) scale(0.975);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@media (max-width: 1024px) {
+  .data-platform {
+    display: block;
+  }
+  .platform-sidebar {
+    position: fixed;
+    inset: 0 auto 0 0;
+    width: min(283px, 83vw);
+    height: 100dvh;
+    display: flex;
+    align-items: stretch;
+    padding: 0 14px 14px 0;
+    background: var(--portal-popover);
+    backdrop-filter: blur(18px);
+    visibility: hidden;
+    transform: translateX(-105%);
+    transition:
+      transform var(--portal-spring),
+      visibility 0s 0.42s;
+    z-index: 40;
+  }
+  .platform-sidebar.expanded {
+    visibility: visible;
+    transform: translateX(0);
+    transition-delay: 0s;
+    box-shadow: var(--portal-raised);
+  }
+  .has-nav-drawer {
+    height: 100dvh;
+    overflow: hidden;
+  }
+  .platform-sidebar nav,
+  .platform-sidebar.expanded nav {
+    display: block;
+    grid-template-columns: none;
+  }
+  .platform-sidebar .platform-cockpit,
+  .platform-sidebar.expanded .platform-cockpit {
+    display: flex;
+  }
+  .platform-nav-scrim {
+    display: block;
+    position: fixed;
+    inset: 0;
+    z-index: 35;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: var(--portal-backdrop);
+  }
+  .platform-nav-scrim:hover:not(:disabled) {
+    background: var(--portal-backdrop);
+  }
+  .platform-nav-scrim:active {
+    transform: none;
+  }
+  .drawer-close,
+  .platform-mobile-menu {
+    display: inline-flex;
+  }
+  .brand-row {
+    min-height: 74px;
+  }
+  .platform-top {
+    min-height: 60px;
+    gap: 4px;
+  }
+  .portal-global-search {
+    margin-right: auto;
+  }
+}
+@media (max-width: 700px) {
+  :root {
+    --portal-gutter: 14px;
+    --portal-radius: 14px;
+  }
+  .platform-page {
+    padding: 8px var(--portal-gutter) 26px;
+  }
+  .platform-top {
+    padding: 5px var(--portal-gutter);
+    min-height: 52px;
+  }
+  .platform-page-title {
+    margin-bottom: 16px;
+    align-items: flex-start;
+  }
+  .platform-page-title h1 {
+    font-size: 25px;
+  }
+  .portal-user > span:last-child,
+  .portal-global-search kbd {
+    display: none;
+  }
+  .portal-session {
+    gap: 4px;
+  }
+  .portal-global-search {
+    width: auto;
+    flex: 1;
+    gap: 4px;
+    padding-inline: 0;
+  }
+  .portal-global-search select {
+    font-size: 12px;
+    max-width: 80px;
+  }
+  .portal-global-search input[type='search']:not([type='checkbox']):not([type='radio']):not([type='file']) {
+    font-size: 13px;
+    padding-left: 6px;
+  }
+  .portal-avatar {
+    width: 30px;
+    height: 30px;
+  }
+  .portal-config-link {
+    font-size: 12px;
+    padding: 7px 10px;
+    align-self: center;
+  }
+  .platform-toolbar {
+    max-width: 100%;
+  }
+  .portal-icon-button {
+    width: 34px;
+    height: 34px;
+  }
+  .catalog-pager,
+  .pagination {
+    justify-content: flex-start;
+  }
+  .data-platform .binding-workbench {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .data-platform .binding-scopes {
+    display: block;
+    max-height: 240px;
+  }
+  .data-platform .binding-scopes h2 {
+    display: block;
+  }
+  .data-platform .binding-scopes button {
+    width: 100%;
+    white-space: normal;
+  }
+  .data-platform .gov-split,
+  .data-platform .api-query {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .data-platform *,
+  .data-platform *::before,
+  .data-platform *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    transition-delay: 0s !important;
+    scroll-behavior: auto !important;
+  }
+}
+@media (prefers-reduced-transparency: reduce), (prefers-contrast: more) {
+  .platform-top,
+  .platform-sidebar,
+  .data-platform dialog,
+  .data-platform .admin-form,
+  .data-platform .gis-controls,
+  .data-platform .gis-identify,
+  .data-platform .gis-status,
+  .data-platform .gis-measure {
+    background: var(--platform-paper);
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+  .data-platform dialog::backdrop,
+  .data-platform .admin-overlay {
+    backdrop-filter: none;
+  }
+}

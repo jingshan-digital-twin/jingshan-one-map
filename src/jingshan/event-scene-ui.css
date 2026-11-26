@@ -1,0 +1,115 @@
+/* The same 1920 × 1080 V1.4 scaffold is used by all three event stages. */
+.event-map-frame { position:absolute; inset:0; pointer-events:none; }
+.jt-screen :is(.el-reopen-left,.er-reopen.left) { top:48px; }
+.map-scene:has(.event-map-controls :is(.home-region-popover,.event-tool-menu)) > .scene-assistant-trigger { visibility:hidden; }
+@media (min-width:961px) {
+  /* Match the panorama's full canvas and its usable map area above the footer. */
+  .jt-screen :is(.event-preassessment,.event-live,.er-review) > .jt-event-map {
+    position:fixed; inset:0; width:100%; height:100dvh;
+  }
+  .event-map-frame { bottom:max(0px,calc(var(--scene-footer-height) - var(--rail-bottom-inset))); }
+}
+@media (max-width:1000px) {
+  .event-preassessment .ep-ui { padding-top:56px; }
+  .event-map-frame {
+    top:calc(var(--event-inset) - 56px);
+    bottom:calc(var(--scene-footer-height) - var(--event-footer-room));
+  }
+}
+@media (max-width:960px) {
+  .jt-screen :is(.event-preassessment,.event-live,.er-review) > .jt-event-map {
+    height:calc(100% - var(--scene-footer-height) + var(--rail-bottom-inset));
+  }
+}
+.jt-screen:is(.v14-events,.v14-live-events,.v14-review) {
+  --event-rail-width: clamp(274px,24vw,440px);
+  --event-inset: clamp(8px,.625vw,12px);
+  --event-gap: var(--event-inset);
+  --event-ink: var(--v14-ink);
+  --event-muted: var(--v14-muted);
+  --event-accent: var(--v14-metric);
+  --event-edge: var(--v14-list-line);
+  --event-line: var(--v14-edge);
+  --event-mid: rgb(13 29 72 / .8);
+  --event-card: var(--v14-list);
+  --event-heading: var(--v14-heading-image);
+  --event-heading-color: var(--v14-heading-color);
+  --event-dialog: #102950;
+  --event-footer-room: clamp(84px,6.25vw,120px);
+  font-family: var(--v14-font);
+}
+.jt-screen.cockpit-light:is(.v14-events,.v14-live-events,.v14-review) {
+  --event-mid: rgb(226 242 255 / .7);
+  --event-dialog: #eaf6ff;
+}
+.jt-screen:is(.v14-events,.v14-live-events,.v14-review) .v14-overview-rail-shell {
+  padding: 12px;
+  overflow: hidden;
+  scrollbar-gutter: auto;
+}
+.event-rail-module.v14-overview-module {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  overflow: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--v14-scroll-thumb) transparent;
+}
+.cockpit-light .event-rail-module::after { filter: brightness(0) invert(1); opacity: .75; }
+.event-rail-module .v14-overview-heading:is(.el-heading,.er-heading,.ep-heading) {
+  flex: none;
+  min-height: 46px;
+  height: auto;
+  justify-content: flex-start;
+  gap: 8px;
+  padding: 4px 10px;
+  background: var(--v14-heading-image) center / 100% 100% no-repeat;
+}
+.event-rail-module .v14-overview-heading::before { width: 24px; height: 24px; }
+.event-rail-module .v14-overview-heading > h2 { margin: 0; font: 700 22px/30px var(--v14-font); white-space: normal; text-wrap: balance; }
+.event-rail-module .v14-overview-heading > :last-child:not(h2) { flex: none; margin-left: auto; }
+.jt-screen:is(.v14-events,.v14-live-events,.v14-review) .scene-assistant-trigger {
+  right: 8px;
+  bottom: calc(var(--scene-footer-height) - var(--rail-bottom-inset) + 8px);
+  min-height: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+}
+.jt-screen:is(.v14-events,.v14-live-events,.v14-review) :is(.scene-assistant-trigger span,.scene-assistant-panel small,.scene-assistant-panel .footnote,.scene-assistant-panel .footnote button,.scene-assistant-panel .byline,.scene-assistant-panel .reset,.scene-assistant-panel .more,.scene-assistant-panel .result em,.scene-assistant-panel select) { font-size: 16px; }
+@media(max-width:1000px) {
+  .jt-screen:is(.v14-events,.v14-live-events,.v14-review) .scene-assistant-trigger { bottom: 8px; }
+  .jt-screen:is(.v14-events,.v14-live-events,.v14-review) .v14-overview-rail-shell { padding: 6px; }
+}
+.jt-screen:is(.v14-events,.v14-live-events,.v14-review) :is(.ep-legend,.el-traffic,.el-legend,.el-point-list,.er-map-card) {
+  background: var(--event-mid);
+  backdrop-filter: blur(6px);
+}
+.jt-screen:is(.v14-events,.v14-live-events,.v14-review) .jt-header :is(button,time,.home-user-menu a) {
+  font-size: clamp(16px,1.041667vw,20px);
+  line-height: 1.5;
+}
+.jt-screen:is(.v14-events,.v14-live-events,.v14-review) .jt-footer.scene-footer {
+  position: absolute;
+  inset: auto 0 0;
+  pointer-events: none;
+}
+.jt-screen:is(.v14-events,.v14-live-events,.v14-review) .jt-footer .scene-subnav { pointer-events: auto; }
+.jt-screen:is(.v14-events,.v14-live-events,.v14-review) .jt-footer .map-caption { display: none; }
+.jt-screen:is(.v14-events,.v14-live-events,.v14-review) :is(.result-modal,.result-modal :is(button,p,small,span),.load-notice,.toast) {
+  font-size: 16px;
+  line-height: 24px;
+}
+@media (max-width: 960px) {
+  .jt-screen:is(.v14-events,.v14-live-events,.v14-review) .scene-footer .scene-subnav button { font-size: 16px; }
+  .jt-screen:is(.v14-events,.v14-live-events,.v14-review) .jt-header {
+    flex-basis: auto;
+    grid-template-columns: max-content minmax(0,1fr);
+  }
+  .jt-screen:is(.v14-events,.v14-live-events,.v14-review) .header-right { flex-wrap: nowrap; }
+  .jt-screen:is(.v14-events,.v14-live-events,.v14-review) .jt-header :is(.header-left,.header-right) button {
+    min-height:24px; padding-block:0; line-height:22px;
+  }
+}
