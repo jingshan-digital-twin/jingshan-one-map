@@ -4,9 +4,11 @@
 
 | 仓库 | 职责 | 状态 |
 |---|---|---|
-| `jingshan-one-map` | 一张图大屏 + **全组唯一后端** | 本仓库 |
-| `jingshan-portal` | 公众端：场馆预约、赛事资讯、产业招商 | 待创建 |
-| `jingshan-admin` | 管理后台：数据中台、发布与运营 | 待创建 |
+| [`jingshan-one-map`](https://github.com/jingshan-digital-twin/jingshan-one-map) | 一张图大屏 + **全组唯一后端** | 本仓库 |
+| [`jingshan-portal`](https://github.com/jingshan-digital-twin/jingshan-portal) | 公众端：场馆预约、赛事资讯、产业招商 | 骨架已就绪 |
+| [`jingshan-admin`](https://github.com/jingshan-digital-twin/jingshan-admin) | 管理后台：数据中台、发布与运营 | 骨架已就绪 |
+
+两个前端仓库都是独立的 Vue 3 + Vite 工程，开发端口分别为 5174 和 5175，各自通过 `API_TARGET` 代理 `/api` 到本仓库后端（默认 `127.0.0.1:3001`）。
 
 ## 为什么后端留在本仓库
 
